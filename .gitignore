@@ -1,0 +1,27 @@
+# Секреты и личные данные
+**/.env
+**/.env.local
+**/.env.*.local
+!**/.env.example
+Личное/
+.n8n/
+
+# Учебные материалы и пользовательские загрузки
+textbooks/
+uploads/
+*.pdf
+
+# Зависимости и сборки
+**/node_modules/
+**/.next/
+**/.vinext/
+**/dist/
+**/.wrangler/
+*.log
+*.tar.gz
+
+# Локальные программы и временные файлы
+cloudflared.exe
+assets/
+.DS_Store
+Thumbs.db
