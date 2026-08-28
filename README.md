@@ -1,5 +1,9 @@
 # SpiritJeronion
 
+## Запуск
+
+Двойной клик по `Start SpiritJeronion.cmd` запускает n8n, локальный AI Worker и Cloudflare Tunnel. Остановка выполняется через `Stop SpiritJeronion.cmd`. Подробности находятся в `launcher/README.md`.
+
 Личный школьный ИИ-ассистент с отдельным веб-интерфейсом. Объединяет расписание МЭШ, Google Calendar, почтовую выжимку, домашние задания и поиск по учебникам.
 
 ## Состав проекта
