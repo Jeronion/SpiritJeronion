@@ -3,22 +3,55 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="SpiritJeronion — личный школьный помощник">
-  <title>SpiritJeronion</title>
+  <meta name="description" content="SpiritJeronion — личное школьное хранилище и ИИ-помощник">
+  <meta name="theme-color" content="#1e1e1e">
+  <title>SpiritJeronion · School vault</title>
   <link rel="stylesheet" href="./styles.css">
   <link rel="stylesheet" href="./features.css">
 </head>
 <body>
   <div class="app-shell">
-    <aside class="sidebar">
-      <button class="brand" data-view="home"><span class="brand-mark">S</span><span>SpiritJeronion</span></button>
-      <nav id="navigation" aria-label="Основная навигация"></nav>
-      <button class="system-card" id="connection-settings"><span class="status-dot"></span><div><strong>Связь с n8n</strong><small id="sync-status">Загрузка данных…</small></div></button>
+    <aside class="ribbon" aria-label="Быстрые действия">
+      <button class="vault-glyph ribbon-button" data-view="home" aria-label="Главная">S</button>
+      <div class="ribbon-stack">
+        <button class="ribbon-button" data-view="home" title="Главная">⌂</button>
+        <button class="ribbon-button" data-view="approvals" title="Подтверждения">◎</button>
+        <button class="ribbon-button" data-view="tasks" title="Задачи">◇</button>
+        <button class="ribbon-button" data-view="schedule" title="Расписание">▦</button>
+        <button class="ribbon-button mobile-hide" data-view="files" title="Файлы">⌘</button>
+      </div>
+      <button class="ribbon-button ribbon-bottom" data-connection-settings title="Настройки подключения">⚙</button>
     </aside>
-    <main class="content">
-      <header class="topbar"><div><p class="eyebrow" id="today"></p><h1 id="page-title">Главная</h1></div><a class="github-link" href="https://github.com/Jeronion/SpiritJeronion" target="_blank" rel="noreferrer">GitHub ↗</a></header>
-      <div id="app" aria-live="polite"></div>
+    <aside class="sidebar">
+      <header class="vault-header">
+        <button class="brand" data-view="home"><span>SpiritJeronion</span><small>School vault</small></button>
+        <button class="pane-button" aria-label="Свернуть панель">‹</button>
+      </header>
+      <label class="search-box"><span>⌕</span><input type="search" placeholder="Поиск"><kbd>Ctrl K</kbd></label>
+      <div class="pane-title"><span>ФАЙЛЫ</span><div><button title="Новая заметка">＋</button><button title="Обновить">↻</button></div></div>
+      <nav id="navigation" aria-label="Разделы хранилища"></nav>
+      <button class="system-card" data-connection-settings><span class="status-dot"></span><div><strong>n8n gateway</strong><small id="sync-status">Загрузка данных…</small></div><span class="chevron">›</span></button>
+    </aside>
+    <main class="workspace">
+      <div class="tabbar">
+        <div class="tab active"><span class="tab-icon">◇</span><span id="tab-title">Главная.md</span><button aria-label="Закрыть">×</button></div>
+        <button class="new-tab" aria-label="Новая вкладка">＋</button>
+        <a class="github-link" href="https://github.com/Jeronion/SpiritJeronion" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </div>
+      <section class="content">
+        <header class="topbar"><div class="breadcrumbs"><span>SpiritJeronion</span><b>›</b><span id="crumb-title">Главная</span></div><div class="note-tools"><button title="Режим чтения">◫</button><button title="Ещё">•••</button></div></header>
+        <div class="note-heading"><p class="eyebrow" id="today"></p><h1 id="page-title">Главная</h1></div>
+        <div id="app" aria-live="polite"></div>
+      </section>
+      <footer class="statusbar"><span>◌ SpiritJeronion</span><span>UTF-8&nbsp;&nbsp; Markdown&nbsp;&nbsp; <b>Online</b></span></footer>
     </main>
+    <aside class="context-pane">
+      <div class="context-tabs"><button class="active">СВОЙСТВА</button><button>ССЫЛКИ</button></div>
+      <section class="property-block"><h3>Состояние заметки</h3><dl><div><dt>тип</dt><dd id="property-type">dashboard</dd></div><div><dt>статус</dt><dd><span class="inline-status"></span> активно</dd></div><div><dt>обновлено</dt><dd id="property-date">сейчас</dd></div></dl></section>
+      <section class="property-block"><h3>Очередь изменений</h3><button class="queue-link" data-view="approvals"><strong id="right-pending">0</strong><span>ожидают твоего решения</span><b>→</b></button></section>
+      <section class="property-block sources-block"><h3>Источники</h3><p><span>◉</span> n8n workflow</p><p><span>⌁</span> Локальный AI Worker</p><p><span>♢</span> Проверяемые ссылки</p></section>
+      <div class="context-hint"><kbd>Ctrl</kbd><kbd>P</kbd><span>Быстрая команда</span></div>
+    </aside>
   </div>
   <dialog id="connection-dialog">
     <form method="dialog" class="connection-form">
