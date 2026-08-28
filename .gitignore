@@ -21,6 +21,8 @@ uploads/
 **/.wrangler/
 *.log
 *.tar.gz
+**/__pycache__/
+*.py[cod]
 
 # Локальные программы и временные файлы
 cloudflared.exe
