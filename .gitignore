@@ -5,6 +5,8 @@
 !**/.env.example
 Личное/
 .n8n/
+.spirit-data/
+ai-worker/.env
 
 # Учебные материалы и пользовательские загрузки
 textbooks/

@@ -6,19 +6,29 @@
   <meta name="description" content="SpiritJeronion — личный школьный помощник">
   <title>SpiritJeronion</title>
   <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./features.css">
 </head>
 <body>
   <div class="app-shell">
     <aside class="sidebar">
       <button class="brand" data-view="home"><span class="brand-mark">S</span><span>SpiritJeronion</span></button>
       <nav id="navigation" aria-label="Основная навигация"></nav>
-      <div class="system-card"><span class="status-dot"></span><div><strong>GitHub Pages</strong><small id="sync-status">Загрузка данных…</small></div></div>
+      <button class="system-card" id="connection-settings"><span class="status-dot"></span><div><strong>Связь с n8n</strong><small id="sync-status">Загрузка данных…</small></div></button>
     </aside>
     <main class="content">
       <header class="topbar"><div><p class="eyebrow" id="today"></p><h1 id="page-title">Главная</h1></div><a class="github-link" href="https://github.com/Jeronion/SpiritJeronion" target="_blank" rel="noreferrer">GitHub ↗</a></header>
       <div id="app" aria-live="polite"></div>
     </main>
   </div>
+  <dialog id="connection-dialog">
+    <form method="dialog" class="connection-form">
+      <div class="panel-head"><div><span class="kicker">Локальная настройка</span><h3>Подключение к n8n</h3></div><button class="icon-button" value="cancel" aria-label="Закрыть">×</button></div>
+      <p>Адрес и секрет сохраняются только в этом браузере и не попадают в GitHub.</p>
+      <label>Адрес n8n<input id="api-base" type="url" placeholder="https://ваш-туннель.trycloudflare.com"></label>
+      <label>Секрет<input id="api-key" type="password" autocomplete="off" placeholder="Секрет Core workflow"></label>
+      <button class="primary" id="save-connection" value="default">Сохранить и проверить</button>
+    </form>
+  </dialog>
   <script src="./app.js" defer></script>
 </body>
 </html>
