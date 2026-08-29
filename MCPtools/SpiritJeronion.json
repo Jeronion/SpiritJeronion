@@ -96,7 +96,7 @@
     },
     {
       "parameters": {
-        "jsCode": "const root=$input.first().json; const items=Array.isArray(root.items)?root.items:[root]; return items.filter(x=>x&&typeof x==='object'&&!x.error).map(x=>({json:{source:{type:'mesh',external_id:String(x.id||x.external_id||''),title:String(x.subject||x.title||'МЭШ'),url:x.url||null,sender:'МЭШ'},text:String(x.text||x.homework||x.description||x.title||''),received_at:String(x.updated_at||new Date().toISOString()),attachments:Array.isArray(x.attachments)?x.attachments:[]}}));"
+        "jsCode": "const root=$input.first().json;if(root.error)throw new Error('MESH: '+String(root.message||root.error));const items=Array.isArray(root.items)?root.items:[];return items.filter(x=>x&&typeof x==='object').map(x=>{const payload=x.payload&&typeof x.payload==='object'?x.payload:{};const kind=String(x.kind||'unknown');const label=kind==='homework'?'Домашнее задание':kind==='event'?'Урок/событие':'Данные МЭШ';return {json:{source:{type:'mesh',kind,external_id:String(x.id||x.external_id||''),title:String(x.subject||x.title||'МЭШ'),url:x.url||null,sender:'МЭШ',cancelled:payload.cancelled===true,replaced:payload.replaced===true,payload},text:[`Тип: ${label}`,String(x.text||x.homework||x.description||x.title||'')].filter(Boolean).join('\\n'),received_at:String(x.updated_at||root.generated_at||new Date().toISOString()),attachments:Array.isArray(x.attachments)?x.attachments:[]}};});"
       },
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
