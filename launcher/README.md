@@ -1,10 +1,9 @@
 # Единый запуск SpiritJeronion
 
-- Двойной клик по `Start SpiritJeronion.cmd` запускает AI Worker, n8n и Cloudflare Tunnel, затем открывает сайт.
-- `Stop SpiritJeronion.cmd` останавливает компоненты SpiritJeronion, включая уже работавшие на его портах при запуске.
-- `Install-Autostart.ps1` включает автоматический запуск при входе в Windows.
-- `Uninstall-Autostart.ps1` удаляет автозапуск.
+Дважды щёлкни `Start SpiritJeronion.cmd` в корне проекта. Скрипт запускает n8n, МЭШ, content worker, Telegram-бота, локальный сайт и Cloudflare Quick Tunnel. После запуска он открывает GitHub Pages и автоматически сохраняет новый tunnel URL и `SPIRIT_QUEUE_SECRET` только в `localStorage` текущего браузера.
 
-Локальные параметры, PID и журналы находятся в `.spirit-data` и не попадают в GitHub.
+Секрет не записывается в GitHub Pages и не отправляется GitHub: конфигурация передаётся через URL fragment (`#setup=...`), который браузер не включает в HTTP-запрос, а затем сразу удаляет из адресной строки.
 
-Без токена именованного Cloudflare Tunnel используется быстрый туннель. Его адрес меняется после перезапуска, автоматически копируется в буфер обмена и передаётся сайту при открытии. Секрет сохраняется в браузере отдельно и в URL не попадает. Чтобы адрес был постоянным, укажите токен именованного туннеля в `.spirit-data/launcher.json` в поле `cloudflareTunnelToken`.
+Для остановки используй `Stop SpiritJeronion.cmd`.
+
+GitHub Pages публикуется автоматически workflow из `.github/workflows/pages.yml` после push в `main`; локальный launcher не создаёт автоматических Git-коммитов.

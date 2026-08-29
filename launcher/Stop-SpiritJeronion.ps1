@@ -1,23 +1,16 @@
-[CmdletBinding()]
-param()
-
-$ErrorActionPreference = 'Stop'
-$projectRoot = Split-Path -Parent $PSScriptRoot
-$statusPath = Join-Path $projectRoot '.spirit-data\launcher-status.json'
-if (-not (Test-Path -LiteralPath $statusPath)) {
-    Write-Host 'SpiritJeronion launcher status was not found.'
-    exit 0
+$ErrorActionPreference = "Stop"
+$projectRoot = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot "..")).Path
+$ports = @(4173, 5678, 8900, 8910)
+$ids = @()
+foreach ($port in $ports) {
+    $connections = Get-NetTCPConnection -LocalPort $port -State Listen -ErrorAction SilentlyContinue
+    foreach ($connection in $connections) { $ids += $connection.OwningProcess }
 }
-
-$status = Get-Content -LiteralPath $statusPath -Raw | ConvertFrom-Json
-foreach ($name in @('cloudflared', 'n8n', 'worker')) {
-    $entry = $status.$name
-    if (-not $entry -or -not $entry.pid) { continue }
-    $process = Get-Process -Id ([int]$entry.pid) -ErrorAction SilentlyContinue
-    if (-not $process) { continue }
-    Write-Host "Stopping $name..."
-    & taskkill.exe /PID ([int]$entry.pid) /T /F | Out-Null
+$cloudflared = Join-Path $projectRoot "MCPtools\cloudflare\cloudflared.exe"
+if (Test-Path -LiteralPath $cloudflared) {
+    $resolved = (Resolve-Path -LiteralPath $cloudflared).Path
+    Get-CimInstance Win32_Process | Where-Object { $_.Name -eq "cloudflared.exe" -and $_.ExecutablePath -eq $resolved } | ForEach-Object { $ids += $_.ProcessId }
 }
-Remove-Item -LiteralPath $statusPath -Force -ErrorAction SilentlyContinue
-Write-Host 'SpiritJeronion stopped.' -ForegroundColor Green
+foreach ($id in ($ids | Sort-Object -Unique)) { Stop-Process -Id $id -Force -ErrorAction SilentlyContinue }
+Write-Host "SpiritJeronion остановлен."
 
