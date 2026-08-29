@@ -1,0 +1,17 @@
+# Content worker
+
+Worker получает только уже подтверждённые предложения из n8n.
+
+- события записывает в `WebsiteHosting/data/calendar.json`;
+- задачи — в `WebsiteHosting/data/tasks.json`;
+- конспекты и решения создаёт через видимый Chrome с `ChatGPTAutomation`;
+- при наличии `GITHUB_TOKEN` обновляет те же файлы через GitHub Contents API.
+
+Для первого запуска:
+
+1. Запустить `setup.ps1`. Он учитывает несовместимый upstream-pin `pywin32==306` на Python 3.14.
+2. Перенести нужные имена из `.env.example` в локальный `secrets/keys.env`.
+3. Сначала оставить `CHATGPT_AUTOMATION_ENABLED=false` и проверить `/api/health`.
+4. Затем включить автоматизацию. При первом запуске Chrome может потребовать ручной вход и проверку Cloudflare.
+
+Библиотека использует Selenium и не поддерживает headless-режим, поэтому Chrome должен быть доступен в интерактивном сеансе Windows.

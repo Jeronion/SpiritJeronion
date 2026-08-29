@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#17151b">
+  <title>SpiritJeronion</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#queue"><span class="brand-mark">S</span><span><strong>SpiritJeronion</strong><small>school workspace</small></span></a>
+      <nav class="nav" aria-label="Навигация">
+        <button class="nav-item active" data-view="queue"><span>⌁</span> Очередь <b id="navPending">0</b></button>
+        <button class="nav-item" data-view="calendar"><span>◷</span> Календарь</button>
+        <button class="nav-item" data-view="tasks"><span>✓</span> Задачи</button>
+        <button class="nav-item" data-view="notes"><span>◫</span> Конспекты</button>
+        <button class="nav-item" data-view="homework"><span>H</span> Практическое ДЗ</button>
+        <button class="nav-item" data-view="chat"><span>✦</span> Чат</button>
+        <button class="nav-item" data-view="sources"><span>◉</span> Источники</button>
+      </nav>
+      <div class="sidebar-footer"><div class="connection-line"><i id="connectionDot"></i><span id="connectionText">Не настроено</span></div><button class="nav-item" id="openSettings"><span>⚙</span> Настройки</button></div>
+    </aside>
+    <main class="workspace">
+      <header class="topbar"><button class="icon-button mobile-only" id="menuButton" aria-label="Открыть меню">☰</button><div><p class="eyebrow">ЛИЧНЫЙ ЦЕНТР</p><h1 id="pageTitle">Очередь изменений</h1></div><div class="top-actions"><span class="sync-time" id="syncTime">Ещё не синхронизировано</span><button class="secondary-button" id="refreshButton">↻ Обновить</button></div></header>
+      <section class="view active" id="queueView">
+        <div class="stats"><article><span>Ожидают</span><strong id="pendingCount">0</strong><i class="purple"></i></article><article><span>Подтверждены</span><strong id="approvedCount">0</strong><i class="green"></i></article><article><span>Отклонены</span><strong id="rejectedCount">0</strong><i class="red"></i></article></div>
+        <div class="toolbar"><div class="segmented" id="statusFilters"><button class="active" data-status="pending">Ожидают</button><button data-status="all">Все</button><button data-status="approved">Приняты</button><button data-status="rejected">Отклонены</button></div><select id="kindFilter"><option value="all">Все типы</option><option value="event">События</option><option value="task">Задачи</option><option value="homework">Домашние задания</option><option value="news">Новости</option></select></div>
+        <div class="notice hidden" id="setupNotice"><div><strong>Подключи n8n</strong><p>Укажи публичный адрес туннеля и секрет очереди. Пока показан демонстрационный пример.</p></div><button class="primary-button" id="noticeSettings">Настроить</button></div>
+        <div class="queue-layout"><div class="queue-list" id="queueList" aria-live="polite"></div><aside class="details-panel" id="detailsPanel"><div class="empty-details"><span>⌁</span><h2>Выбери предложение</h2><p>Здесь появятся источник, причина и точные данные изменения.</p></div></aside></div>
+      </section>
+      <section class="view" id="calendarView">
+        <div class="section-heading"><div><p class="eyebrow">ИЗ GITHUB</p><h2>Календарь</h2></div><div class="calendar-nav"><button class="secondary-button" id="calendarPrev">←</button><strong id="calendarMonth"></strong><button class="secondary-button" id="calendarNext">→</button></div></div>
+        <div class="calendar-grid" id="calendarGrid"></div>
+        <div class="timeline" id="calendarTimeline"></div>
+      </section>
+      <section class="view" id="tasksView">
+        <div class="section-heading"><div><p class="eyebrow">МАТРИЦА ЭЙЗЕНХАУЭРА</p><h2>Сводка задач</h2></div><span class="data-updated" id="tasksUpdated"></span></div>
+        <div class="task-board" id="taskBoard"></div>
+      </section>
+      <section class="view" id="notesView">
+        <div class="section-heading"><div><p class="eyebrow">ТЕОРИЯ</p><h2>Конспекты</h2></div><button class="primary-button content-request" data-mode="note">+ Заказать конспект</button></div>
+        <div class="library-grid" id="notesGrid"></div>
+      </section>
+      <section class="view" id="homeworkView">
+        <div class="section-heading"><div><p class="eyebrow">ПРАКТИКА</p><h2>Решения домашних заданий</h2></div><button class="primary-button content-request" data-mode="homework">+ Решить задание</button></div>
+        <div class="library-grid" id="homeworkGrid"></div>
+      </section>
+      <section class="view" id="chatView"><div class="chat-card"><div class="chat-heading"><span class="assistant-avatar">✦</span><div><strong>Spirit</strong><small>Ничего не меняет без подтверждения</small></div></div><div class="messages" id="messages"><div class="message assistant">Привет. Напиши, что нужно запомнить: например, «в пятницу контрольная по физике в 10:30».</div></div><form class="composer" id="chatForm"><textarea id="chatInput" rows="1" placeholder="Напиши сообщение…"></textarea><button class="primary-button" type="submit">Отправить</button></form></div></section>
+      <section class="view" id="sourcesView"><div class="source-grid"><article><span class="source-icon">M</span><div><strong>МЭШ</strong><p>Расписание и ДЗ через schoolmospy</p></div><em>Подключено</em></article><article><span class="source-icon">G</span><div><strong>Gmail</strong><p>Личная и пересылаемая школьная почта</p></div><em class="warning">Требует запуска</em></article><article><span class="source-icon">T</span><div><strong>Telegram</strong><p>Сообщения через Telegram GramPro</p></div><em class="warning">Нужны credentials</em></article><article><span class="source-icon">✦</span><div><strong>Groq</strong><p>Распознавание событий, задач, ДЗ и новостей</p></div><em>Подключено</em></article></div></section>
+    </main>
+  </div>
+  <dialog id="settingsDialog"><form method="dialog" class="settings-card" id="settingsForm"><div class="dialog-heading"><div><p class="eyebrow">ПОДКЛЮЧЕНИЕ</p><h2>Настройки n8n</h2></div><button class="icon-button" value="cancel">×</button></div><label>Публичный адрес n8n<input id="n8nUrl" type="url" placeholder="https://example.trycloudflare.com"></label><label>Секрет очереди<input id="queueSecret" type="password" placeholder="SPIRIT_QUEUE_SECRET"></label><p class="privacy-note">Данные сохраняются только в localStorage этого браузера. Не вводи секрет на чужом компьютере.</p><div class="dialog-actions"><button class="danger-link" type="button" id="clearSettings">Очистить</button><button class="secondary-button" type="button" id="testConnection">Проверить</button><button class="primary-button" value="save">Сохранить</button></div></form></dialog>
+  <dialog id="contentDialog"><form method="dialog" class="settings-card" id="contentForm"><div class="dialog-heading"><div><p class="eyebrow" id="contentEyebrow">НОВАЯ ЗАЯВКА</p><h2 id="contentTitle">Заказать материал</h2></div><button class="icon-button" value="cancel">×</button></div><input type="hidden" id="contentMode"><label>Предмет<input id="contentSubject" required placeholder="Например, история"></label><label>Что нужно сделать<textarea id="contentPrompt" rows="5" required placeholder="Тема, параграфы, условия задания…"></textarea></label><label>Ссылки на источники или страницы<input id="contentSources" placeholder="Необязательно"></label><p class="privacy-note">Запрос сначала попадёт в очередь. ChatGPTAutomation запустится только после твоего подтверждения.</p><div class="dialog-actions"><button class="secondary-button" value="cancel">Отмена</button><button class="primary-button" value="submit">Добавить в очередь</button></div></form></dialog>
+  <dialog id="readerDialog"><article class="reader"><div class="dialog-heading"><div><p class="eyebrow" id="readerKind">МАТЕРИАЛ</p><h2 id="readerTitle"></h2></div><button class="icon-button" onclick="document.querySelector('#readerDialog').close()">×</button></div><div id="readerBody" class="markdown-body"></div></article></dialog>
+  <div class="toast" id="toast" role="status"></div><script src="app.js"></script>
+</body>
+</html>
