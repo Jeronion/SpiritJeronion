@@ -1,7 +1,7 @@
 param([switch]$NoBrowser)
 
 $ErrorActionPreference = "Stop"
-$projectRoot = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot "..")).Path
+$projectRoot = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot "..\..")).Path
 $cacheDir = Join-Path $projectRoot ".cache\launcher"
 $logDir = Join-Path $cacheDir "logs"
 New-Item -ItemType Directory -Path $logDir -Force | Out-Null

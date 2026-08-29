@@ -1,5 +1,5 @@
 $ErrorActionPreference = "Stop"
-$projectRoot = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot "..")).Path
+$projectRoot = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot "..\..")).Path
 $ports = @(4173, 5678, 8900, 8910)
 $ids = @()
 foreach ($port in $ports) {
@@ -13,4 +13,3 @@ if (Test-Path -LiteralPath $cloudflared) {
 }
 foreach ($id in ($ids | Sort-Object -Unique)) { Stop-Process -Id $id -Force -ErrorAction SilentlyContinue }
 Write-Host "SpiritJeronion остановлен."
-
