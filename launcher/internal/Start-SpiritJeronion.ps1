@@ -89,9 +89,14 @@ function New-BootstrapUrl([string]$TunnelUrl) {
 }
 
 Import-KeyStore
-Start-ScriptService "n8n" 5678 (Join-Path $projectRoot "MCPtools\n8n\start.ps1")
-Start-ScriptService "mesh" 8900 (Join-Path $projectRoot "MCPtools\mesh_service\start.ps1")
-Start-ScriptService "content-worker" 8910 (Join-Path $projectRoot "MCPtools\content_worker\start.ps1")
+$sharedPython = Join-Path $projectRoot ".venv\Scripts\python.exe"
+if (-not (Test-Path -LiteralPath $sharedPython)) {
+    Write-Host "Настраиваю единое Python-окружение..."
+    & (Join-Path $PSScriptRoot "Setup-Python.ps1")
+}
+Start-ScriptService "n8n" 5678 (Join-Path $PSScriptRoot "Start-n8n.ps1")
+Start-ScriptService "mesh" 8900 (Join-Path $PSScriptRoot "Start-Mesh.ps1")
+Start-ScriptService "content-worker" 8910 (Join-Path $PSScriptRoot "Start-ContentWorker.ps1")
 
 if (-not (Test-Port 4173)) {
     $python = (Get-Command python.exe -ErrorAction Stop).Source

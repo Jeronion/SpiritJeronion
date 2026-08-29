@@ -20,20 +20,21 @@ GitHub Pages публикуется автоматически workflow из `.g
 
 | Часть | Где | Зачем |
 |---|---|---|
-| Главная логика | `MCPtools/n8n/SpiritJeronion.json` | Сборщики, Groq, очередь, подтверждение и маршрутизация |
+| Главная логика | `MCPtools/SpiritJeronion.json` | Сборщики, Groq, очередь, подтверждение и маршрутизация |
 | МЭШ | `MCPtools/mesh_service` | Только адаптер `schoolmospy`; n8n вызывает его по HTTP |
 | Исполнение и память | `MCPtools/content_worker` | Локальные файлы, GitHub, Telegram, ChatGPTAutomation и уведомления |
 | Сайт | `WebsiteHosting` | Интерфейс и данные GitHub Pages |
 | Запуск | `launcher/SpiritJeronion.cmd` | Одна пользовательская кнопка запуска и остановки |
 | Локальное состояние | `.n8n`, `.cache`, `.env` | Не редактировать без необходимости; в GitHub не публикуется |
+| Python-окружение | `.venv`, `requirements.txt` | Одно общее окружение и один список зависимостей для всех Python-сервисов |
 
 Главный принцип: **n8n принимает решения и управляет маршрутом**, а Python выполняет только то, что технически невозможно или ненадёжно делать внутри n8n.
 
 ### Компоненты и локальные API
 
-Главный workflow импортируется из `MCPtools/n8n/SpiritJeronion.json`. Для Gmail в n8n выбирается Google credential. Для узла `Telegram — when message sent` создаётся обычный Telegram Bot credential из `TELEGRAM_BOT_TOKEN`; Telegram `api_id` и `api_hash` не используются.
+Главный workflow импортируется из `MCPtools/SpiritJeronion.json`. Для Gmail в n8n выбирается Google credential. Для узла `Telegram — when message sent` создаётся обычный Telegram Bot credential из `TELEGRAM_BOT_TOKEN`; Telegram `api_id` и `api_hash` не используются.
 
-Адаптер МЭШ находится в `MCPtools/mesh_service`. После установки зависимостей через `setup.ps1` он предоставляет:
+Адаптер МЭШ находится в `MCPtools/mesh_service`. Единый запуск автоматически создаёт корневое `.venv` через `launcher/internal/Setup-Python.ps1`. После запуска МЭШ предоставляет:
 
 - `GET http://127.0.0.1:8900/api/health`;
 - `GET http://127.0.0.1:8900/api/mesh/collect`;
@@ -50,7 +51,7 @@ Content worker находится в `MCPtools/content_worker`. Он обслу�
 - Календарь читается из `WebsiteHosting/data/calendar.json`.
 - Сводка задач читается из `WebsiteHosting/data/tasks.json` и отображается по четырём квадратам Эйзенхауэра.
 - Конспекты и решения ДЗ хранятся как Markdown в `WebsiteHosting/data/notes` и `WebsiteHosting/data/homework`.
-- Главный workflow: `MCPtools/n8n/SpiritJeronion.json` (`SpiritJeronion` в интерфейсе n8n).
+- Главный workflow: `MCPtools/SpiritJeronion.json` (`SpiritJeronion` в интерфейсе n8n).
 - API очереди: `POST /webhook/sj-queue`.
 - Решение пользователя: `POST /webhook/sj-queue-decision`.
 - Чат: `POST /webhook/sj-chat`.
