@@ -62,10 +62,10 @@ function Ensure-Cloudflared {
 function Start-QuickTunnel([string]$Binary) {
     $resolvedBinary = (Resolve-Path -LiteralPath $Binary).Path
     Get-CimInstance Win32_Process | Where-Object { $_.Name -eq "cloudflared.exe" -and $_.ExecutablePath -eq $resolvedBinary } | ForEach-Object { Stop-Process -Id $_.ProcessId -Force }
-    $log = Join-Path $logDir "cloudflared.log"
-    $stdout = Join-Path $logDir "cloudflared.out.log"
-    $stderr = Join-Path $logDir "cloudflared.err.log"
-    foreach ($path in @($log, $stdout, $stderr)) { if (Test-Path -LiteralPath $path) { Clear-Content -LiteralPath $path } }
+    $runId = Get-Date -Format "yyyyMMdd-HHmmss-fff"
+    $log = Join-Path $logDir "cloudflared-$runId.log"
+    $stdout = Join-Path $logDir "cloudflared-$runId.out.log"
+    $stderr = Join-Path $logDir "cloudflared-$runId.err.log"
     Start-Process -FilePath $resolvedBinary -ArgumentList @("tunnel", "--url", "http://127.0.0.1:5678", "--no-autoupdate", "--loglevel", "info", "--logfile", $log) -WorkingDirectory $projectRoot -WindowStyle Hidden -RedirectStandardOutput $stdout -RedirectStandardError $stderr | Out-Null
     $deadline = (Get-Date).AddSeconds(60)
     while ((Get-Date) -lt $deadline) {
