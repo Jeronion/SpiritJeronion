@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import os
 import threading
+import time
 from datetime import datetime, timezone
 from typing import Any
 from urllib.error import HTTPError, URLError
@@ -42,24 +43,28 @@ class TelegramBotCollector:
     def _run(self) -> None:
         self.running = True
         offset: int | None = None
-        try:
-            me = self._telegram("getMe", {})
-            self.bot_username = str((me.get("result") or {}).get("username") or "") or None
-            print(f"Telegram bot collector ready: @{self.bot_username or 'unknown'}", flush=True)
-            while True:
+        while True:
+            try:
+                if not self.bot_username:
+                    me = self._telegram("getMe", {})
+                    self.bot_username = str((me.get("result") or {}).get("username") or "") or None
+                    print(f"Telegram bot collector ready: @{self.bot_username or 'unknown'}", flush=True)
                 payload: dict[str, Any] = {"timeout": 25, "allowed_updates": ["message"]}
                 if offset is not None:
                     payload["offset"] = offset
                 result = self._telegram("getUpdates", payload)
                 for update in result.get("result") or []:
                     offset = int(update.get("update_id", 0)) + 1
-                    self._handle(update)
+                    try:
+                        self._handle(update)
+                    except Exception as exc:
+                        self.last_error = self._safe_error(exc)
+                        print(f"Telegram update failed: {self.last_error}", flush=True)
                 self.last_error = None
-        except Exception as exc:
-            self.last_error = self._safe_error(exc)
-            print(f"Telegram collector stopped: {self.last_error}", flush=True)
-        finally:
-            self.running = False
+            except Exception as exc:
+                self.last_error = self._safe_error(exc)
+                print(f"Telegram connection failed; retry in 5s: {self.last_error}", flush=True)
+                time.sleep(5)
 
     def _handle(self, update: dict[str, Any]) -> None:
         message = update.get("message") or {}
@@ -134,7 +139,10 @@ class TelegramBotCollector:
     def _post(url: str, payload: dict[str, Any]) -> dict[str, Any]:
         request = Request(url, data=json.dumps(payload, ensure_ascii=False).encode("utf-8"), headers={"Content-Type": "application/json"}, method="POST")
         with urlopen(request, timeout=40) as response:
-            value = json.loads(response.read().decode("utf-8"))
+            raw = response.read()
+        if not raw:
+            raise RuntimeError("empty_response")
+        value = json.loads(raw.decode("utf-8"))
         if not isinstance(value, dict) or value.get("ok") is False:
             raise RuntimeError(str(value.get("description") if isinstance(value, dict) else "invalid_response"))
         return value
@@ -146,4 +154,3 @@ class TelegramBotCollector:
         if isinstance(exc, (HTTPError, URLError)) and not value:
             value = type(exc).__name__
         return value[:500]
-
