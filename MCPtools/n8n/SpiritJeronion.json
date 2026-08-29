@@ -1,10 +1,10 @@
 {
   "id": "spiritJeronionVNext2026",
-  "name": "SpiritJeronion vNext — MESH + Groq",
+  "name": "SpiritJeronion",
   "nodes": [
     {
       "parameters": {
-        "content": "## 1. Сборщики\nВсе источники приводятся к единому объекту: `source`, `text`, `received_at`, `attachments`.\n\nGmail работает через Gmail Trigger. Telegram работает через установленный `n8n-nodes-telegram-grampro` 6.0.4: только новые входящие сообщения, группы и каналы, с binary-вложениями.",
+        "content": "## 1. Сборщики (n8n)\nВсе источники приводятся к единому объекту: `source`, `text`, `received_at`, `attachments`.\n\nGmail собирается Gmail Trigger. Сообщения Telegram поступают от локального бота через `POST /webhook/sj-chat`; GramPro оставлен как необязательная ветка на будущее.",
         "height": 330,
         "width": 610,
         "color": 5
@@ -73,7 +73,7 @@
     },
     {
       "parameters": {
-        "content": "## 2. Парсер МЭШ\nPython-сервис с `schoolmospy` должен вернуть массив `items`.\n\nОжидаемый endpoint: `GET http://127.0.0.1:8900/api/mesh/collect`.\nДо реализации ветку можно отключить.",
+        "content": "## 2. МЭШ (Python → n8n)\nНебольшой Python-сервис использует `schoolmospy`, потому что эта библиотека не запускается внутри n8n.\n\nn8n каждые 15 минут вызывает `GET http://127.0.0.1:8900/api/mesh/collect`, а дальше обрабатывает результат как обычный источник.",
         "height": 300,
         "width": 610,
         "color": 3
@@ -319,7 +319,7 @@
     },
     {
       "parameters": {
-        "content": "## 5. Исполнители\nВсе изменения применяются только после `approve`.\n\nЗдесь пока безопасные заглушки. Каждая возвращает, какой адаптер нужно реализовать. Позже заменить их на реальные узлы/API, не меняя схему очереди.",
+        "content": "## 5. Исполнители (n8n → Python/GitHub)\nВсе изменения применяются только после `approve`.\n\nКалендарь и задачи записываются в GitHub через content worker. Конспекты и практическое ДЗ отправляются в ChatGPTAutomation. Новостная сводка пока остаётся единственной заглушкой.",
         "height": 650,
         "width": 1160,
         "color": 2

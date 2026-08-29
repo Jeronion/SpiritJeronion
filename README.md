@@ -16,21 +16,34 @@ GitHub Pages публикуется автоматически workflow из `.g
 
 ## Текущая версия
 
+### Что где находится
+
+| Часть | Где | Зачем |
+|---|---|---|
+| Главная логика | `MCPtools/n8n/SpiritJeronion.json` | Сборщики, Groq, очередь, подтверждение и маршрутизация |
+| МЭШ | `MCPtools/mesh_service` | Только адаптер `schoolmospy`; n8n вызывает его по HTTP |
+| Исполнение и память | `MCPtools/content_worker` | Локальные файлы, GitHub, Telegram, ChatGPTAutomation и уведомления |
+| Сайт | `WebsiteHosting` | Интерфейс и данные GitHub Pages |
+| Запуск | `launcher/SpiritJeronion.cmd` | Одна пользовательская кнопка запуска и остановки |
+| Локальное состояние | `.n8n`, `.cache`, `.env` | Не редактировать без необходимости; в GitHub не публикуется |
+
+Главный принцип: **n8n принимает решения и управляет маршрутом**, а Python выполняет только то, что технически невозможно или ненадёжно делать внутри n8n.
+
 - Весь сайт находится в `WebsiteHosting`; GitHub Actions публикует эту папку в GitHub Pages.
 - Интерфейс показывает очередь, источник и доказательства, позволяет подтвердить или отклонить предложение и содержит чат с Groq.
 - Календарь читается из `WebsiteHosting/data/calendar.json`.
 - Сводка задач читается из `WebsiteHosting/data/tasks.json` и отображается по четырём квадратам Эйзенхауэра.
 - Конспекты и решения ДЗ хранятся как Markdown в `WebsiteHosting/data/notes` и `WebsiteHosting/data/homework`.
-- Workflow: `MCPtools/n8n/SpiritJeronion-vNext-skeleton.json`.
+- Главный workflow: `MCPtools/n8n/SpiritJeronion.json` (`SpiritJeronion` в интерфейсе n8n).
 - API очереди: `POST /webhook/sj-queue`.
 - Решение пользователя: `POST /webhook/sj-queue-decision`.
 - Чат: `POST /webhook/sj-chat`.
 - Во всех запросах сайта секрет передаётся полем `secret` и сравнивается с `SPIRIT_QUEUE_SECRET`.
 - Адрес n8n и секрет сохраняются только в localStorage браузера и не попадают в Git.
-- Gmail и Telegram collectors пока отключены в workflow. Их следует включить только после настройки credentials и отдельного решения об отправке содержимого сообщений в Groq.
+- Gmail собирается непосредственно в n8n. Telegram собирается локальным ботом и передаётся в общий webhook n8n.
 - После подтверждения календарь, задачи, конспекты и решения обрабатывает `MCPtools/content_worker`.
 - Для автоматической записи новых данных в GitHub worker использует отдельный fine-grained `GITHUB_TOKEN` с доступом Contents: Read and write только к репозиторию `Jeronion/SpiritJeronion`.
-- ChatGPTAutomation запускает видимый Chrome. Библиотека установлена, но до ручного входа должна оставаться с `CHATGPT_AUTOMATION_ENABLED=false`.
+- ChatGPTAutomation включается только для подтверждённых конспектов и практического ДЗ и запускает видимый Chrome.
 
 
 ---
@@ -38,7 +51,7 @@ GitHub Pages публикуется автоматически workflow из `.g
 
 ## Подключение сайта
 
-1. Запустить n8n и постоянный Cloudflare Tunnel.
+1. Запустить проект через `launcher/SpiritJeronion.cmd`; он поднимет n8n и бесплатный Cloudflare Quick Tunnel.
 2. Открыть сайт и перейти в «Настройки».
 3. Вставить публичный HTTPS-адрес n8n без `/webhook`.
 4. Вставить значение `SPIRIT_QUEUE_SECRET` из локального корневого `.env`.
