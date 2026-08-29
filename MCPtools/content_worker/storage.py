@@ -27,6 +27,7 @@ class SiteStore:
         self.project_root = project_root.resolve()
         self.site_root = (self.project_root / "WebsiteHosting").resolve()
         self.data_root = (self.site_root / "data").resolve()
+        self.school_root = (self.project_root / "SchoolFiles").resolve()
         self.github_token = os.getenv("GITHUB_TOKEN", "").strip()
         self.github_repo = os.getenv("GITHUB_REPOSITORY", "Jeronion/SpiritJeronion").strip()
         self.github_branch = os.getenv("GITHUB_BRANCH", "main").strip()
@@ -35,6 +36,12 @@ class SiteStore:
         target = (self.site_root / relative).resolve()
         if self.site_root not in target.parents:
             raise ValueError("path_outside_website")
+        return target
+
+    def _safe_school(self, relative: str) -> Path:
+        target = (self.school_root / relative).resolve()
+        if self.school_root not in target.parents:
+            raise ValueError("path_outside_school_files")
         return target
 
     def read_json(self, relative: str, fallback: dict[str, Any]) -> dict[str, Any]:
@@ -51,7 +58,17 @@ class SiteStore:
             temp_path = Path(handle.name)
         temp_path.replace(path)
         if self.github_token:
-            self._github_put(relative.replace("\\", "/"), content, message)
+            self._github_put_path(f"WebsiteHosting/{relative.replace(chr(92), '/')}", content, message)
+
+    def write_school(self, relative: str, content: str, message: str) -> None:
+        path = self._safe_school(relative)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with tempfile.NamedTemporaryFile("w", encoding="utf-8", delete=False, dir=path.parent) as handle:
+            handle.write(content)
+            temp_path = Path(handle.name)
+        temp_path.replace(path)
+        if self.github_token:
+            self._github_put_path(f"SchoolFiles/{relative.replace(chr(92), '/')}", content, message)
 
     def write_json(self, relative: str, payload: dict[str, Any], message: str) -> None:
         self.write(relative, json.dumps(payload, ensure_ascii=False, indent=2) + "\n", message)
@@ -107,7 +124,11 @@ class SiteStore:
         stamp = datetime.now().strftime("%Y%m%d-%H%M%S")
         filename = f"{stamp}-{slugify(title)}.md"
         relative_file = f"data/{folder}/{filename}"
-        self.write(relative_file, markdown.rstrip() + "\n", f"{folder}: {title}")
+        material = markdown.rstrip() + "\n"
+        self.write(relative_file, material, f"{folder}: {title}")
+        school_folder = "Notes" if kind == "note" else "CompletedHomework"
+        school_relative = f"{school_folder}/{filename}"
+        self.write_school(school_relative, material, f"school files: {title}")
         payload = proposal.get("payload") or {}
         record = {
             "id": proposal.get("id") or f"{folder}-{stamp}",
@@ -117,6 +138,7 @@ class SiteStore:
             "task": payload.get("task"),
             "created_at": now_iso(),
             "path": relative_file,
+            "school_path": f"SchoolFiles/{school_relative}",
             "source": proposal.get("source") or {},
         }
         index_path = f"data/{folder}/index.json"
@@ -127,8 +149,8 @@ class SiteStore:
         self.write_json(index_path, doc, f"{folder} index: {title}")
         return record
 
-    def _github_put(self, relative: str, content: str, message: str) -> None:
-        encoded_path = urllib.parse.quote(f"WebsiteHosting/{relative}", safe="/")
+    def _github_put_path(self, repository_path: str, content: str, message: str) -> None:
+        encoded_path = urllib.parse.quote(repository_path, safe="/")
         url = f"https://api.github.com/repos/{self.github_repo}/contents/{encoded_path}"
         headers = {
             "Authorization": f"Bearer {self.github_token}",

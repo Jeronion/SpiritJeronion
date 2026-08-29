@@ -48,14 +48,14 @@ Content worker находится в `MCPtools/content_worker`. Он обслу�
 > Для облачного n8n адреса `127.0.0.1:8900` и `127.0.0.1:8910` заработают только тогда, когда Python-сервисы развёрнуты в том же облачном окружении или имеют отдельные закрытые URL.
 
 - Весь сайт находится в `WebsiteHosting`; GitHub Actions публикует эту папку в GitHub Pages.
-- Интерфейс показывает очередь, источник и доказательства, позволяет подтвердить или отклонить предложение и содержит чат с Groq.
+- Интерфейс в стиле Obsidian показывает очередь, календарь, задачи и файловое дерево учебных материалов; чат на сайте удалён.
 - Календарь читается из `WebsiteHosting/data/calendar.json`.
 - Сводка задач читается из `WebsiteHosting/data/tasks.json` и отображается по четырём квадратам Эйзенхауэра.
-- Конспекты и решения ДЗ хранятся как Markdown в `WebsiteHosting/data/notes` и `WebsiteHosting/data/homework`.
+- Конспекты и решения ДЗ сохраняются как Markdown одновременно для GitHub Pages и в `SchoolFiles/Notes` или `SchoolFiles/CompletedHomework`, откуда сайт читает их через GitHub nodes n8n.
 - Главный workflow: `MCPtools/SpiritJeronion.json` (`SpiritJeronion` в интерфейсе n8n).
 - API очереди: `POST /webhook/sj-queue`.
 - Решение пользователя: `POST /webhook/sj-queue-decision`.
-- Чат: `POST /webhook/sj-chat`.
+- Внутренний `POST /webhook/sj-chat` используется только формами создания конспекта и решения ДЗ; отдельной вкладки чата на сайте нет.
 - Запись или перезапись учебного файла через GitHub node: `POST /webhook/sj-files-write`.
 - Чтение файла или списка папки через GitHub node: `POST /webhook/sj-files-read`.
 - Разрешённые категории: `textbooks`, `handouts`, `completed_homework`, `notes`, `mail`, `telegram`.
