@@ -10,11 +10,13 @@ from urllib.parse import urlparse
 
 from .chatgpt_client import ChatGPTAutomationClient
 from .storage import SiteStore, now_iso
+from .telegram_bot import TelegramBotCollector
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[4]
 STORE = SiteStore(PROJECT_ROOT)
 CHATGPT = ChatGPTAutomationClient(PROJECT_ROOT)
+TELEGRAM = TelegramBotCollector()
 
 
 def normalize_proposal(body: dict[str, Any]) -> dict[str, Any]:
@@ -38,7 +40,7 @@ class Handler(BaseHTTPRequestHandler):
         route = urlparse(self.path).path
         if route != "/api/health":
             return self._json(404, {"ok": False, "error": "not_found"})
-        self._json(200, {"ok": True, "service": "content-worker", "github_sync": bool(STORE.github_token), "chatgpt": CHATGPT.status()})
+        self._json(200, {"ok": True, "service": "content-worker", "github_sync": bool(STORE.github_token), "chatgpt": CHATGPT.status(), "telegram": TELEGRAM.status()})
 
     def do_POST(self) -> None:
         try:
@@ -109,5 +111,6 @@ def run() -> None:
     host = os.getenv("CONTENT_WORKER_HOST", "127.0.0.1")
     port = int(os.getenv("CONTENT_WORKER_PORT", "8910"))
     server = ThreadingHTTPServer((host, port), Handler)
+    TELEGRAM.start()
     print(f"Content worker ready on http://{host}:{port}", flush=True)
     server.serve_forever()
