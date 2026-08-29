@@ -179,13 +179,21 @@
     },
     {
       "parameters": {
-        "jsCode": "const raw=String($json.choices?.[0]?.message?.content||''); let parsed; try{parsed=JSON.parse(raw)}catch{throw new Error('Groq chat returned invalid JSON')} const reply=String(parsed.reply||'Не удалось сформировать ответ.').slice(0,12000); const allowedKinds=new Set(['event','task','homework']); const allowedActions=new Set(['calendar','task_summary','note','homework_solver']); const proposals=(Array.isArray(parsed.proposals)?parsed.proposals:[]).slice(0,10).filter(x=>x&&allowedKinds.has(x.kind)&&allowedActions.has(x.action)); const data=$getWorkflowStaticData('global'); data.queue=Array.isArray(data.queue)?data.queue:[]; const queued=[]; for(const proposal of proposals){const now=new Date().toISOString(); const item={id:'q_'+Date.now().toString(36)+'_'+Math.random().toString(36).slice(2,8),status:'pending',created_at:now,updated_at:now,resolved_at:null,kind:proposal.kind,subtype:String(proposal.subtype||'chat'),title:String(proposal.title||'Предложение из чата'),summary:String(proposal.summary||''),confidence:1,action:proposal.action,reason:String(proposal.reason||'Запрос пользователя в чате'),evidence:Array.isArray(proposal.evidence)?proposal.evidence.slice(0,10).map(String):[$json.text],payload:proposal.payload&&typeof proposal.payload==='object'?proposal.payload:{},source:$json.source,source_text:$json.text,received_at:$json.received_at}; data.queue.unshift(item); queued.push(item);} if(data.queue.length>500)data.queue=data.queue.slice(0,500); return [{json:{ok:true,reply,proposals:queued,queued:queued.map(x=>({id:x.id,status:x.status}))}}];"
+        "jsCode": "const raw=String($json.choices?.[0]?.message?.content||''); let parsed; try{parsed=JSON.parse(raw)}catch{throw new Error('Groq chat returned invalid JSON')} const reply=String(parsed.reply||'Не удалось сформировать ответ.').slice(0,12000); const allowedKinds=new Set(['event','task','homework']); const allowedActions=new Set(['calendar','task_summary','note','homework_solver']); const proposals=(Array.isArray(parsed.proposals)?parsed.proposals:[]).slice(0,10).filter(x=>x&&allowedKinds.has(x.kind)&&allowedActions.has(x.action)); const queued=proposals.map((proposal,index)=>{const now=new Date().toISOString(); return {id:'q_'+Date.now().toString(36)+'_'+index+'_'+Math.random().toString(36).slice(2,8),status:'pending',created_at:now,updated_at:now,resolved_at:null,kind:proposal.kind,subtype:String(proposal.subtype||'chat'),title:String(proposal.title||'Предложение из чата'),summary:String(proposal.summary||''),confidence:1,action:proposal.action,reason:String(proposal.reason||'Запрос пользователя в чате'),evidence:Array.isArray(proposal.evidence)?proposal.evidence.slice(0,10).map(String):[$json.text],payload:proposal.payload&&typeof proposal.payload==='object'?proposal.payload:{},source:$json.source,source_text:$json.text,received_at:$json.received_at};}); return [{json:{ok:true,reply,proposals:queued}}];"
       },
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [-620, 130],
       "id": "88dce3c7-1da9-4850-bd96-bfbf3882bdde",
       "name": "Chat — parse and queue"
+    },
+    {
+      "parameters": {"method":"POST","url":"={{ ($env.CONTENT_WORKER_URL || 'http://127.0.0.1:8910') + '/api/queue/enqueue' }}","sendHeaders":true,"headerParameters":{"parameters":[{"name":"Content-Type","value":"application/json"}]},"sendBody":true,"specifyBody":"json","jsonBody":"={{ {secret:$env.SPIRIT_QUEUE_SECRET,items:$json.proposals,reply:$json.reply} }}","options":{"timeout":60000}},
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [-500, 130],
+      "id": "b4f9a40c-b4c6-41c8-8e1b-38d9dcfe41da",
+      "name": "Queue — enqueue chat"
     },
     {
       "parameters": {"respondWith": "json", "responseBody": "={{ $json }}", "options": {"responseHeaders": {"entries": [{"name": "Access-Control-Allow-Origin", "value": "*"}]}}},
@@ -245,7 +253,7 @@
     },
     {
       "parameters": {
-        "content": "## 4. Очередь подтверждений\nХранит до 500 предложений в static data workflow. Изменения применяются только после решения пользователя.\n\nAPI сайта принимает JSON как text/plain и секрет в поле `secret`:\n- `POST /webhook/sj-queue`\n- `POST /webhook/sj-queue-decision`\n- `POST /webhook/sj-chat`",
+        "content": "## 4. Очередь подтверждений\nХранит до 500 предложений в файловом хранилище content worker. Изменения применяются только после решения пользователя.\n\nAPI сайта принимает JSON как text/plain и секрет в поле `secret`:\n- `POST /webhook/sj-queue`\n- `POST /webhook/sj-queue-decision`\n- `POST /webhook/sj-chat`",
         "height": 410,
         "width": 760,
         "color": 4
@@ -257,11 +265,9 @@
       "name": "NOTE — Approval Queue"
     },
     {
-      "parameters": {
-        "jsCode": "const state=$getWorkflowStaticData('global'); if(!Array.isArray(state.queue))state.queue=[]; const signature=(x)=>[x.source?.type||'',x.source?.external_id||'',x.kind||'',x.action||'',x.payload?.start_at||x.payload?.due_at||'',x.title||''].join('|').toLowerCase(); const existing=new Set(state.queue.map(x=>x.dedupe_key||signature(x))); const created=[]; for(const {json} of $input.all()){const key=signature(json); if(existing.has(key))continue; existing.add(key); created.push({id:`q_${Date.now()}_${created.length}_${Math.random().toString(36).slice(2,8)}`,dedupe_key:key,status:'pending',created_at:new Date().toISOString(),resolved_at:null,...json});} state.queue=[...created,...state.queue].slice(0,500); return created.map(json=>({json}));"
-      },
-      "type": "n8n-nodes-base.code",
-      "typeVersion": 2,
+      "parameters": {"method":"POST","url":"={{ ($env.CONTENT_WORKER_URL || 'http://127.0.0.1:8910') + '/api/queue/enqueue' }}","sendHeaders":true,"headerParameters":{"parameters":[{"name":"Content-Type","value":"application/json"}]},"sendBody":true,"specifyBody":"json","jsonBody":"={{ {secret:$env.SPIRIT_QUEUE_SECRET,items:[$json]} }}","options":{"timeout":60000}},
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
       "position": [100, -280],
       "id": "4801ac4c-a949-4c4b-a5a9-1bf5c019d497",
       "name": "Queue — store pending"
@@ -276,11 +282,9 @@
       "webhookId": "911af812-1161-4033-b86a-2ce71fededb8"
     },
     {
-      "parameters": {
-        "jsCode": "const input=$input.first().json; const raw=input.body??{}; let body=raw; if(typeof raw==='string'){try{body=JSON.parse(raw)}catch{body={}}} const supplied=String(body?.secret||''); const expected=String($env.SPIRIT_QUEUE_SECRET||''); if(!expected||supplied!==expected)return [{json:{error:'unauthorized_or_secret_not_configured',queue:[]}}]; const state=$getWorkflowStaticData('global'); const queue=Array.isArray(state.queue)?state.queue:[]; return [{json:{ok:true,queue,stats:{pending:queue.filter(x=>x.status==='pending').length,approved:queue.filter(x=>x.status==='approved').length,rejected:queue.filter(x=>x.status==='rejected').length},generated_at:new Date().toISOString()}}];"
-      },
-      "type": "n8n-nodes-base.code",
-      "typeVersion": 2,
+      "parameters": {"method":"POST","url":"={{ ($env.CONTENT_WORKER_URL || 'http://127.0.0.1:8910') + '/api/queue/list' }}","sendHeaders":true,"headerParameters":{"parameters":[{"name":"Content-Type","value":"application/json"}]},"sendBody":true,"specifyBody":"json","jsonBody":"={{ typeof $json.body === 'string' ? JSON.parse($json.body) : $json.body }}","options":{"timeout":60000}},
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
       "position": [350, -80],
       "id": "17f23917-ed31-4174-a0f0-f26b8f606149",
       "name": "Queue — read"
@@ -295,11 +299,9 @@
       "webhookId": "ef11806d-b62e-4ec3-a366-225938eb7bec"
     },
     {
-      "parameters": {
-        "jsCode": "const input=$input.first().json; const raw=input.body??{}; let body=raw; if(typeof raw==='string'){try{body=JSON.parse(raw)}catch{body={}}} const supplied=String(body?.secret||''); const expected=String($env.SPIRIT_QUEUE_SECRET||''); if(!expected||supplied!==expected)return [{json:{authorized:false,approved:false,error:'unauthorized_or_secret_not_configured'}}]; const id=String(body.id||''); const decision=String(body.decision||''); if(!['approve','reject'].includes(decision))return [{json:{authorized:true,approved:false,error:'invalid_decision'}}]; const state=$getWorkflowStaticData('global'); const queue=Array.isArray(state.queue)?state.queue:[]; const item=queue.find(x=>x.id===id); if(!item)return [{json:{authorized:true,approved:false,error:'queue_item_not_found'}}]; if(item.status!=='pending')return [{json:{authorized:true,approved:false,error:'already_resolved',item}}]; item.status=decision==='approve'?'approved':'rejected'; item.resolved_at=new Date().toISOString(); item.updated_at=item.resolved_at; return [{json:{authorized:true,approved:decision==='approve',decision,item}}];"
-      },
-      "type": "n8n-nodes-base.code",
-      "typeVersion": 2,
+      "parameters": {"method":"POST","url":"={{ ($env.CONTENT_WORKER_URL || 'http://127.0.0.1:8910') + '/api/queue/decision' }}","sendHeaders":true,"headerParameters":{"parameters":[{"name":"Content-Type","value":"application/json"}]},"sendBody":true,"specifyBody":"json","jsonBody":"={{ typeof $json.body === 'string' ? JSON.parse($json.body) : $json.body }}","options":{"timeout":60000}},
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
       "position": [350, 120],
       "id": "ee51224f-ff69-4be5-84b1-7a9a83bf26fa",
       "name": "Queue — resolve decision"
@@ -385,7 +387,8 @@
     "Normalize Website Chat": {"main": [[{"node": "Groq Chat — respond", "type": "main", "index": 0}, {"node": "Merge Chat Source + Groq", "type": "main", "index": 0}]]},
     "Groq Chat — respond": {"main": [[{"node": "Merge Chat Source + Groq", "type": "main", "index": 1}]]},
     "Merge Chat Source + Groq": {"main": [[{"node": "Chat — parse and queue", "type": "main", "index": 0}]]},
-    "Chat — parse and queue": {"main": [[{"node": "Chat — response", "type": "main", "index": 0}]]},
+    "Chat — parse and queue": {"main": [[{"node": "Queue — enqueue chat", "type": "main", "index": 0}]]},
+    "Queue — enqueue chat": {"main": [[{"node": "Chat — response", "type": "main", "index": 0}]]},
     "Groq — recognize": {"main": [[{"node": "Merge Source + Groq", "type": "main", "index": 1}]]},
     "Merge Source + Groq": {"main": [[{"node": "Validate Recognition JSON", "type": "main", "index": 0}]]},
     "Validate Recognition JSON": {"main": [[{"node": "Queue — store pending", "type": "main", "index": 0}]]},

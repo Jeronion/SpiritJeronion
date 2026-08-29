@@ -11,12 +11,14 @@ from urllib.parse import urlparse
 from .chatgpt_client import ChatGPTAutomationClient
 from .storage import SiteStore, now_iso
 from .telegram_bot import TelegramBotCollector
+from .queue_store import QueueStore
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[4]
 STORE = SiteStore(PROJECT_ROOT)
 CHATGPT = ChatGPTAutomationClient(PROJECT_ROOT)
 TELEGRAM = TelegramBotCollector()
+QUEUE = QueueStore(PROJECT_ROOT)
 
 
 def normalize_proposal(body: dict[str, Any]) -> dict[str, Any]:
@@ -50,6 +52,14 @@ class Handler(BaseHTTPRequestHandler):
             if not expected or supplied != expected:
                 return self._json(401, {"ok": False, "error": "unauthorized"})
             route = urlparse(self.path).path
+            if route == "/api/queue/list":
+                return self._json(200, QUEUE.list())
+            if route == "/api/queue/enqueue":
+                values = body.get("items") if isinstance(body.get("items"), list) else [body.get("item") or body]
+                created = QUEUE.enqueue(values)
+                return self._json(200, {"ok": True, "reply": body.get("reply"), "proposals": created, "queued": [{"id": item["id"], "status": item["status"]} for item in created]})
+            if route == "/api/queue/decision":
+                return self._json(200, QUEUE.decide(str(body.get("id") or ""), str(body.get("decision") or "")))
             proposal = normalize_proposal(body)
             if route == "/api/calendar/upsert":
                 result = STORE.upsert_event(proposal)
