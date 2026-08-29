@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import logging
 import os
 import traceback
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -16,6 +17,14 @@ from .memory import MemoryStore
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[4]
+AUTOMATION_LOG = PROJECT_ROOT / ".cache" / "chatgpt_automation.log"
+AUTOMATION_LOG.parent.mkdir(parents=True, exist_ok=True)
+logging.basicConfig(
+    filename=str(AUTOMATION_LOG),
+    level=logging.INFO,
+    format="%(asctime)s:%(levelname)s:%(message)s",
+    force=True,
+)
 STORE = SiteStore(PROJECT_ROOT)
 CHATGPT = ChatGPTAutomationClient(PROJECT_ROOT)
 MEMORY = MemoryStore(PROJECT_ROOT)
