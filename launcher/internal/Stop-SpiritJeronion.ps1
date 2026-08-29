@@ -6,7 +6,7 @@ foreach ($port in $ports) {
     $connections = Get-NetTCPConnection -LocalPort $port -State Listen -ErrorAction SilentlyContinue
     foreach ($connection in $connections) { $ids += $connection.OwningProcess }
 }
-$cloudflared = Join-Path $projectRoot "MCPtools\cloudflare\cloudflared.exe"
+$cloudflared = Join-Path $projectRoot "launcher\bin\cloudflared.exe"
 if (Test-Path -LiteralPath $cloudflared) {
     $resolved = (Resolve-Path -LiteralPath $cloudflared).Path
     Get-CimInstance Win32_Process | Where-Object { $_.Name -eq "cloudflared.exe" -and $_.ExecutablePath -eq $resolved } | ForEach-Object { $ids += $_.ProcessId }

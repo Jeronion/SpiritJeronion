@@ -12,7 +12,7 @@ secrets/
 __pycache__/
 *.py[cod]
 .venv/
-MCPtools/cloudflare/cloudflared.exe
+launcher/bin/cloudflared.exe
 
 # Пользовательские материалы
 inbox/

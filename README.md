@@ -24,6 +24,7 @@ GitHub Pages публикуется автоматически workflow из `.g
 | МЭШ | `MCPtools/mesh_service` | Только адаптер `schoolmospy`; n8n вызывает его по HTTP |
 | Исполнение и память | `MCPtools/content_worker` | Локальные файлы, GitHub и ChatGPTAutomation |
 | Сайт | `WebsiteHosting` | Интерфейс и данные GitHub Pages |
+| Учебные файлы | `SchoolFiles` | Учебники, распечатки, готовые ДЗ, конспекты и вложения |
 | Запуск | `launcher/SpiritJeronion.cmd` | Одна пользовательская кнопка запуска и остановки |
 | Локальное состояние | `.n8n`, `.cache`, `.env` | Не редактировать без необходимости; в GitHub не публикуется |
 | Python-окружение | `.venv`, `requirements.txt` | Одно общее окружение и один список зависимостей для всех Python-сервисов |
@@ -55,6 +56,10 @@ Content worker находится в `MCPtools/content_worker`. Он обслу�
 - API очереди: `POST /webhook/sj-queue`.
 - Решение пользователя: `POST /webhook/sj-queue-decision`.
 - Чат: `POST /webhook/sj-chat`.
+- Запись или перезапись учебного файла через GitHub node: `POST /webhook/sj-files-write`.
+- Чтение файла или списка папки через GitHub node: `POST /webhook/sj-files-read`.
+- Разрешённые категории: `textbooks`, `handouts`, `completed_homework`, `notes`, `mail`, `telegram`.
+- Вложения Gmail и Telegram автоматически сохраняются в `SchoolFiles/MailAttachments` и `SchoolFiles/TelegramAttachments`.
 - Во всех запросах сайта секрет передаётся полем `secret` и сравнивается с `SPIRIT_QUEUE_SECRET`.
 - Адрес n8n и секрет сохраняются только в localStorage браузера и не попадают в Git.
 - Gmail и Telegram собираются непосредственно в n8n. Telegram Trigger принимает сообщения через HTTPS webhook Cloudflare, а Telegram nodes отправляют подтверждения и уведомления очереди.

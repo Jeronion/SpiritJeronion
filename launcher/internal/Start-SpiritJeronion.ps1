@@ -43,7 +43,7 @@ function Start-ScriptService([string]$Name, [int]$Port, [string]$ScriptPath) {
 }
 
 function Ensure-Cloudflared {
-    $directory = Join-Path $projectRoot "MCPtools\cloudflare"
+    $directory = Join-Path $projectRoot "launcher\bin"
     $binary = Join-Path $directory "cloudflared.exe"
     New-Item -ItemType Directory -Path $directory -Force | Out-Null
     $valid = $false

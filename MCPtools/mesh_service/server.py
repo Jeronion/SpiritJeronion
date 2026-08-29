@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import parse_qs, urlparse
 
-from . import __version__
+__version__ = "0.2.0"
 from .adapter import build_client, collect
 
 

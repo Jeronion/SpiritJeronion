@@ -11,4 +11,4 @@ foreach ($rawLine in Get-Content -LiteralPath $envFile) {
 $python = Join-Path $projectRoot ".venv\Scripts\python.exe"
 if (-not (Test-Path -LiteralPath $python)) { throw "Не найдено единое .venv" }
 $env:PYTHONPATH = Join-Path $projectRoot "MCPtools"
-& $python -m content_worker
+& $python -c "from content_worker.server import run; run()"
