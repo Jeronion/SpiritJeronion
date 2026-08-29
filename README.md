@@ -29,6 +29,22 @@ GitHub Pages публикуется автоматически workflow из `.g
 
 Главный принцип: **n8n принимает решения и управляет маршрутом**, а Python выполняет только то, что технически невозможно или ненадёжно делать внутри n8n.
 
+### Компоненты и локальные API
+
+Главный workflow импортируется из `MCPtools/n8n/SpiritJeronion.json`. Для Gmail в n8n выбирается Google credential. Для узла `Telegram — when message sent` создаётся обычный Telegram Bot credential из `TELEGRAM_BOT_TOKEN`; Telegram `api_id` и `api_hash` не используются.
+
+Адаптер МЭШ находится в `MCPtools/mesh_service`. После установки зависимостей через `setup.ps1` он предоставляет:
+
+- `GET http://127.0.0.1:8900/api/health`;
+- `GET http://127.0.0.1:8900/api/mesh/collect`;
+- `GET /api/mesh/collect?from=YYYY-MM-DD&to=YYYY-MM-DD`.
+
+Content worker находится в `MCPtools/content_worker`. Он обслуживает очередь подтверждений, локальную память и ChatGPTAutomation. Локальная память хранится в `.cache/memory`, не публикуется в GitHub и передаёт файл во внешний ChatGPT только после явного выбора в подтверждённом запросе.
+
+Все настройки находятся в едином корневом `.env`. Секреты нельзя вставлять в workflow JSON или коммитить в GitHub.
+
+> Для облачного n8n адреса `127.0.0.1:8900` и `127.0.0.1:8910` заработают только тогда, когда Python-сервисы развёрнуты в том же облачном окружении или имеют отдельные закрытые URL.
+
 - Весь сайт находится в `WebsiteHosting`; GitHub Actions публикует эту папку в GitHub Pages.
 - Интерфейс показывает очередь, источник и доказательства, позволяет подтвердить или отклонить предложение и содержит чат с Groq.
 - Календарь читается из `WebsiteHosting/data/calendar.json`.

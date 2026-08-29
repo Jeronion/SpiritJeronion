@@ -4,7 +4,7 @@
   "nodes": [
     {
       "parameters": {
-        "content": "## 1. Сборщики (n8n)\nВсе источники приводятся к единому объекту: `source`, `text`, `received_at`, `attachments`.\n\nGmail собирается Gmail Trigger. Сообщения Telegram поступают от локального бота через `POST /webhook/sj-chat`; GramPro оставлен как необязательная ветка на будущее.",
+        "content": "## 1. Сборщики (n8n)\nВсе источники приводятся к единому объекту: `source`, `text`, `received_at`, `attachments`.\n\nGmail собирается Gmail Trigger. Для Telegram используется официальный Telegram Trigger с Bot Token — `api_id/api_hash` от my.telegram.org не нужны. До настройки credential продолжает работать локальный бот через `POST /webhook/sj-chat`.",
         "height": 330,
         "width": 610,
         "color": 5
@@ -41,29 +41,17 @@
       "name": "Normalize Gmail"
     },
     {
-      "parameters": {
-        "updates": ["message"],
-        "listeningMode": ["incoming"],
-        "disableBinary": false,
-        "allMessages": true,
-        "onlyUserMessages": false,
-        "onlyChannelMessages": false,
-        "onlyGroupMessages": false,
-        "selectedChatsOnly": false,
-        "exceptSelectedChatsOnly": false,
-        "selectedChats": "[]",
-        "exceptSelectedChats": "[]"
-      },
-      "type": "n8n-nodes-telegram-grampro.telegramGramProTrigger",
-      "typeVersion": 1,
+      "parameters": {"updates": ["message"], "additionalFields": {}},
+      "type": "n8n-nodes-base.telegramTrigger",
+      "typeVersion": 1.2,
       "position": [-1660, -410],
       "id": "6cb594ff-17c5-45f7-9aa5-25f7fa38ef81",
-      "name": "Telegram GramPro — collect incoming",
+      "name": "Telegram — when message sent",
       "disabled": true
     },
     {
       "parameters": {
-        "jsCode": "return $input.all().filter(item=>item.json?.isOutgoing!==true).map(item=>{const body=item.json||{}; const binary=item.binary||{}; const media=Array.isArray(body.mediaFiles)?body.mediaFiles:[]; const attachments=media.map((file,index)=>({property:String(file.binaryProperty||Object.keys(binary)[index]||''),message_id:String(file.messageId||body.messageId||''),kind:String(file.messageType||body.messageType||'document'),file_name:String(file.fileName||body.fileName||''),extension:String(file.fileExtension||body.fileExtension||''),mime_type:String(file.mimeType||body.mimeType||'application/octet-stream'),bytes:Number(file.bytes||body.bytes||0)||null,size:String(file.size||body.size||'')})); if(!attachments.length&&body.hasMedia)attachments.push({property:Object.keys(binary)[0]||'',message_id:String(body.messageId||''),kind:String(body.messageType||'other'),file_name:String(body.fileName||''),extension:String(body.fileExtension||''),mime_type:String(body.mimeType||'application/octet-stream'),bytes:Number(body.bytes||0)||null,size:String(body.size||'')}); const chatId=String(body.chatId||''); const messageId=String(body.messageId||''); const groupedId=String(body.groupedId||''); const rawText=String(body.rawMessage||body.message||'').trim(); const mediaDescription=attachments.length?'Вложения: '+attachments.map(x=>[x.kind,x.file_name,x.mime_type].filter(Boolean).join(' ')).join('; '):''; const text=[rawText,mediaDescription].filter(Boolean).join('\\n').slice(0,60000); const sender=[body.senderName,body.senderUsername?('@'+String(body.senderUsername).replace(/^@/,'')):null].filter(Boolean).join(' '); return {json:{source:{type:'telegram',external_id:[chatId,groupedId||messageId].join(':'),message_id:messageId,grouped_id:groupedId||null,chat_id:chatId,chat_type:String(body.chatType||'unknown'),title:String(body.chatName||'Telegram'),url:null,sender,sender_id:String(body.senderId||''),sender_is_bot:body.senderIsBot===true},text,received_at:String(body.date||new Date().toISOString()),attachments,telegram:{message_type:String(body.messageType||'text'),has_media:body.hasMedia===true,is_private:body.isPrivate===true,is_group:body.isGroup===true,is_channel:body.isChannel===true}},binary};});"
+        "jsCode": "return $input.all().map(item=>{const update=item.json||{};const message=update.message||update.channel_post||update.edited_message||{};const chat=message.chat||{};const from=message.from||{};const document=message.document||null;const photos=Array.isArray(message.photo)?message.photo:[];const attachments=[];if(document)attachments.push({file_id:String(document.file_id||''),kind:'document',file_name:String(document.file_name||''),mime_type:String(document.mime_type||'application/octet-stream'),bytes:Number(document.file_size||0)||null});if(photos.length){const photo=photos[photos.length-1];attachments.push({file_id:String(photo.file_id||''),kind:'photo',file_name:'telegram-photo.jpg',mime_type:'image/jpeg',bytes:Number(photo.file_size||0)||null});}const text=[String(message.text||message.caption||'').trim(),attachments.length?'Вложения: '+attachments.map(x=>[x.kind,x.file_name,x.mime_type].filter(Boolean).join(' ')).join('; '):''].filter(Boolean).join('\\n').slice(0,60000);const sender=[from.first_name,from.last_name,from.username?'@'+from.username:''].filter(Boolean).join(' ');return {json:{source:{type:'telegram',external_id:[chat.id,message.message_id].join(':'),message_id:String(message.message_id||''),chat_id:String(chat.id||''),chat_type:String(chat.type||'unknown'),title:String(chat.title||'Telegram'),url:null,sender,sender_id:String(from.id||''),sender_is_bot:from.is_bot===true},text,received_at:message.date?new Date(Number(message.date)*1000).toISOString():new Date().toISOString(),attachments,telegram:{message_type:document?'document':photos.length?'photo':'text',has_media:attachments.length>0,is_private:chat.type==='private',is_group:['group','supergroup'].includes(chat.type),is_channel:chat.type==='channel'}}};});"
       },
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
@@ -378,7 +366,7 @@
   "connections": {
     "Gmail — collect unread": {"main": [[{"node": "Normalize Gmail", "type": "main", "index": 0}]]},
     "Normalize Gmail": {"main": [[{"node": "Groq — recognize", "type": "main", "index": 0}, {"node": "Merge Source + Groq", "type": "main", "index": 0}]]},
-    "Telegram GramPro — collect incoming": {"main": [[{"node": "Normalize Telegram", "type": "main", "index": 0}]]},
+    "Telegram — when message sent": {"main": [[{"node": "Normalize Telegram", "type": "main", "index": 0}]]},
     "Normalize Telegram": {"main": [[{"node": "Groq — recognize", "type": "main", "index": 0}, {"node": "Merge Source + Groq", "type": "main", "index": 0}]]},
     "MESH — every 15 minutes": {"main": [[{"node": "MESH — schoolmospy API", "type": "main", "index": 0}]]},
     "MESH — schoolmospy API": {"main": [[{"node": "Normalize MESH", "type": "main", "index": 0}]]},
