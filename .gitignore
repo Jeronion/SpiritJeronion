@@ -17,5 +17,5 @@ launcher/bin/cloudflared.exe
 # Пользовательские материалы
 inbox/
 generated/
-textbooks/
+/textbooks/
 uploads/
