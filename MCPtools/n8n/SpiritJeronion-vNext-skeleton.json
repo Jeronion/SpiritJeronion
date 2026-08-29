@@ -27,7 +27,7 @@
       "position": [-1660, -590],
       "id": "40e6cbfb-e7ca-44de-a9a5-0d5e04ed9209",
       "name": "Gmail — collect unread",
-      "disabled": true,
+      "disabled": false,
       "credentials": {"gmailOAuth2": {"id": "lyFSveCOwTf3mGuK", "name": "Gmail account"}}
     },
     {
