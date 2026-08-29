@@ -15,7 +15,7 @@ function Import-KeyStore {
         $parts = $line.Split("=", 2)
         [Environment]::SetEnvironmentVariable($parts[0].Trim(), $parts[1].Trim(), "Process")
     }
-    foreach ($required in @("SPIRIT_QUEUE_SECRET", "GROQ_API_KEY", "TELEGRAM_BOT_TOKEN")) {
+    foreach ($required in @("SPIRIT_QUEUE_SECRET", "GROQ_API_KEY", "TELEGRAM_ALLOWED_USER_ID")) {
         if (-not [Environment]::GetEnvironmentVariable($required, "Process")) { throw "В .env отсутствует $required" }
     }
 }
@@ -89,6 +89,21 @@ function New-BootstrapUrl([string]$TunnelUrl) {
 }
 
 Import-KeyStore
+$cloudflared = Ensure-Cloudflared
+$tunnelStatePath = Join-Path $cacheDir "current-tunnel.json"
+$tunnelProcess = Get-CimInstance Win32_Process | Where-Object { $_.Name -eq "cloudflared.exe" -and $_.CommandLine -like "*C:\SpiritJeronion*" } | Select-Object -First 1
+$tunnelUrl = $null
+if ($tunnelProcess -and (Test-Path -LiteralPath $tunnelStatePath)) {
+    try {
+        $candidateUrl = (Get-Content -LiteralPath $tunnelStatePath -Raw | ConvertFrom-Json).url
+        [void][Net.Dns]::GetHostAddresses(([Uri]$candidateUrl).Host)
+        $tunnelUrl = $candidateUrl
+    } catch { $tunnelUrl = $null }
+}
+if (-not $tunnelUrl) { $tunnelUrl = Start-QuickTunnel $cloudflared }
+$env:N8N_WEBHOOK_URL = "$($tunnelUrl.TrimEnd('/'))/"
+$env:N8N_EDITOR_BASE_URL = $env:N8N_WEBHOOK_URL
+
 $sharedPython = Join-Path $projectRoot ".venv\Scripts\python.exe"
 if (-not (Test-Path -LiteralPath $sharedPython)) {
     Write-Host "Настраиваю единое Python-окружение..."
@@ -104,8 +119,6 @@ if (-not (Test-Port 4173)) {
     Wait-Port "website" 4173 30
 }
 
-$cloudflared = Ensure-Cloudflared
-$tunnelUrl = Start-QuickTunnel $cloudflared
 $bootstrapUrl = New-BootstrapUrl $tunnelUrl
 
 Write-Host ""

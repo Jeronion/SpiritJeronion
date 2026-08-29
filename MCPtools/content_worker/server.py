@@ -11,7 +11,6 @@ from urllib.parse import urlparse
 
 from .chatgpt_client import ChatGPTAutomationClient
 from .storage import SiteStore, now_iso
-from .telegram_bot import TelegramBotCollector
 from .queue_store import QueueStore
 from .memory import MemoryStore
 
@@ -28,7 +27,6 @@ logging.basicConfig(
 STORE = SiteStore(PROJECT_ROOT)
 CHATGPT = ChatGPTAutomationClient(PROJECT_ROOT)
 MEMORY = MemoryStore(PROJECT_ROOT)
-TELEGRAM = TelegramBotCollector(MEMORY, PROJECT_ROOT)
 QUEUE = QueueStore(PROJECT_ROOT)
 
 
@@ -53,7 +51,7 @@ class Handler(BaseHTTPRequestHandler):
         route = urlparse(self.path).path
         if route != "/api/health":
             return self._json(404, {"ok": False, "error": "not_found"})
-        self._json(200, {"ok": True, "service": "content-worker", "github_sync": bool(STORE.github_token), "chatgpt": CHATGPT.status(), "telegram": TELEGRAM.status(), "memory": MEMORY.status()})
+        self._json(200, {"ok": True, "service": "content-worker", "github_sync": bool(STORE.github_token), "chatgpt": CHATGPT.status(), "memory": MEMORY.status()})
 
     def do_POST(self) -> None:
         try:
@@ -68,10 +66,6 @@ class Handler(BaseHTTPRequestHandler):
             if route == "/api/queue/enqueue":
                 values = body.get("items") if isinstance(body.get("items"), list) else [body.get("item") or body]
                 created = QUEUE.enqueue(values)
-                try:
-                    TELEGRAM.notify_proposals(created)
-                except Exception as exc:
-                    print(f"Telegram notification failed: {exc}", flush=True)
                 return self._json(200, {"ok": True, "reply": body.get("reply"), "proposals": created, "queued": [{"id": item["id"], "status": item["status"]} for item in created]})
             if route == "/api/queue/decision":
                 if str(body.get("decision") or "") == "edit":
@@ -143,6 +137,5 @@ def run() -> None:
     host = os.getenv("CONTENT_WORKER_HOST", "127.0.0.1")
     port = int(os.getenv("CONTENT_WORKER_PORT", "8910"))
     server = ThreadingHTTPServer((host, port), Handler)
-    TELEGRAM.start()
     print(f"Content worker ready on http://{host}:{port}", flush=True)
     server.serve_forever()

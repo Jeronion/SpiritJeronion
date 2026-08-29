@@ -2,7 +2,7 @@ import unittest
 from datetime import datetime
 from types import SimpleNamespace
 
-from mesh_service.adapter import collect
+from adapter import collect
 
 
 class Endpoint:

@@ -2,7 +2,7 @@
 
 ## Единый запуск SpiritJeronion
 
-Для управления всем проектом используется один пользовательский файл: `launcher/SpiritJeronion.cmd`. Дважды щёлкни его и выбери `1` для запуска или `2` для остановки. При запуске включаются n8n, МЭШ, content worker, Telegram-бот, локальный сайт и Cloudflare Quick Tunnel. После запуска открывается GitHub Pages, а новый tunnel URL и `SPIRIT_QUEUE_SECRET` сохраняются только в `localStorage` текущего браузера.
+Для управления всем проектом используется один пользовательский файл: `launcher/SpiritJeronion.cmd`. Дважды щёлкни его и выбери `1` для запуска или `2` для остановки. При запуске включаются n8n, МЭШ, content worker, локальный сайт и Cloudflare Quick Tunnel. Telegram принимает и отправляет сообщения официальными nodes внутри n8n. После запуска открывается GitHub Pages, а новый tunnel URL и `SPIRIT_QUEUE_SECRET` сохраняются только в `localStorage` текущего браузера.
 
 Секрет не записывается в GitHub Pages и не отправляется GitHub: конфигурация передаётся через URL fragment (`#setup=...`), который браузер не включает в HTTP-запрос, а затем сразу удаляет из адресной строки.
 
@@ -22,7 +22,7 @@ GitHub Pages публикуется автоматически workflow из `.g
 |---|---|---|
 | Главная логика | `MCPtools/SpiritJeronion.json` | Сборщики, Groq, очередь, подтверждение и маршрутизация |
 | МЭШ | `MCPtools/mesh_service` | Только адаптер `schoolmospy`; n8n вызывает его по HTTP |
-| Исполнение и память | `MCPtools/content_worker` | Локальные файлы, GitHub, Telegram, ChatGPTAutomation и уведомления |
+| Исполнение и память | `MCPtools/content_worker` | Локальные файлы, GitHub и ChatGPTAutomation |
 | Сайт | `WebsiteHosting` | Интерфейс и данные GitHub Pages |
 | Запуск | `launcher/SpiritJeronion.cmd` | Одна пользовательская кнопка запуска и остановки |
 | Локальное состояние | `.n8n`, `.cache`, `.env` | Не редактировать без необходимости; в GitHub не публикуется |
@@ -32,7 +32,7 @@ GitHub Pages публикуется автоматически workflow из `.g
 
 ### Компоненты и локальные API
 
-Главный workflow импортируется из `MCPtools/SpiritJeronion.json`. Для Gmail в n8n выбирается Google credential. Для узла `Telegram — when message sent` создаётся обычный Telegram Bot credential из `TELEGRAM_BOT_TOKEN`; Telegram `api_id` и `api_hash` не используются.
+Главный workflow импортируется из `MCPtools/SpiritJeronion.json`. Для Gmail в n8n выбирается Google credential. Узлы `Telegram — when message sent` и `Telegram — send...` используют обычный Telegram Bot credential; Telegram `api_id` и `api_hash` не используются. Python polling полностью удалён.
 
 Адаптер МЭШ находится в `MCPtools/mesh_service`. Единый запуск автоматически создаёт корневое `.venv` через `launcher/internal/Setup-Python.ps1`. После запуска МЭШ предоставляет:
 
@@ -57,7 +57,7 @@ Content worker находится в `MCPtools/content_worker`. Он обслу�
 - Чат: `POST /webhook/sj-chat`.
 - Во всех запросах сайта секрет передаётся полем `secret` и сравнивается с `SPIRIT_QUEUE_SECRET`.
 - Адрес n8n и секрет сохраняются только в localStorage браузера и не попадают в Git.
-- Gmail собирается непосредственно в n8n. Telegram собирается локальным ботом и передаётся в общий webhook n8n.
+- Gmail и Telegram собираются непосредственно в n8n. Telegram Trigger принимает сообщения через HTTPS webhook Cloudflare, а Telegram nodes отправляют подтверждения и уведомления очереди.
 - После подтверждения календарь, задачи, конспекты и решения обрабатывает `MCPtools/content_worker`.
 - Для автоматической записи новых данных в GitHub worker использует отдельный fine-grained `GITHUB_TOKEN` с доступом Contents: Read and write только к репозиторию `Jeronion/SpiritJeronion`.
 - ChatGPTAutomation включается только для подтверждённых конспектов и практического ДЗ и запускает видимый Chrome.
