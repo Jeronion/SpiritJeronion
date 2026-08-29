@@ -371,7 +371,7 @@
       "type": "n8n-nodes-base.code", "typeVersion": 2, "position": [1190, 220], "id": "844beb29-a9ef-4d66-b8d5-af7e5bb35863", "name": "TODO News Digest"
     },
     {
-      "parameters": {"jsCode": "return $input.all().map(({json})=>({json:{...json,result:json.error?'error':'rejected_or_ignored'}}));"},
+      "parameters": {"jsCode": "return $input.all().map(({json})=>({json:{...json,result:json.result||(json.error?'error':'rejected_or_ignored')}}));"},
       "type": "n8n-nodes-base.code", "typeVersion": 2, "position": [850, 410], "id": "a684a7ca-a7f6-4d40-967f-2b6de2aff728", "name": "Decision result — not approved"
     }
   ],

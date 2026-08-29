@@ -12,12 +12,14 @@ from .chatgpt_client import ChatGPTAutomationClient
 from .storage import SiteStore, now_iso
 from .telegram_bot import TelegramBotCollector
 from .queue_store import QueueStore
+from .memory import MemoryStore
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[4]
 STORE = SiteStore(PROJECT_ROOT)
 CHATGPT = ChatGPTAutomationClient(PROJECT_ROOT)
-TELEGRAM = TelegramBotCollector()
+MEMORY = MemoryStore(PROJECT_ROOT)
+TELEGRAM = TelegramBotCollector(MEMORY, PROJECT_ROOT)
 QUEUE = QueueStore(PROJECT_ROOT)
 
 
@@ -42,7 +44,7 @@ class Handler(BaseHTTPRequestHandler):
         route = urlparse(self.path).path
         if route != "/api/health":
             return self._json(404, {"ok": False, "error": "not_found"})
-        self._json(200, {"ok": True, "service": "content-worker", "github_sync": bool(STORE.github_token), "chatgpt": CHATGPT.status(), "telegram": TELEGRAM.status()})
+        self._json(200, {"ok": True, "service": "content-worker", "github_sync": bool(STORE.github_token), "chatgpt": CHATGPT.status(), "telegram": TELEGRAM.status(), "memory": MEMORY.status()})
 
     def do_POST(self) -> None:
         try:
@@ -57,9 +59,20 @@ class Handler(BaseHTTPRequestHandler):
             if route == "/api/queue/enqueue":
                 values = body.get("items") if isinstance(body.get("items"), list) else [body.get("item") or body]
                 created = QUEUE.enqueue(values)
+                try:
+                    TELEGRAM.notify_proposals(created)
+                except Exception as exc:
+                    print(f"Telegram notification failed: {exc}", flush=True)
                 return self._json(200, {"ok": True, "reply": body.get("reply"), "proposals": created, "queued": [{"id": item["id"], "status": item["status"]} for item in created]})
             if route == "/api/queue/decision":
+                if str(body.get("decision") or "") == "edit":
+                    changes = body.get("changes") if isinstance(body.get("changes"), dict) else {}
+                    return self._json(200, QUEUE.edit(str(body.get("id") or ""), changes))
                 return self._json(200, QUEUE.decide(str(body.get("id") or ""), str(body.get("decision") or "")))
+            if route == "/api/memory/list":
+                return self._json(200, {"ok": True, "documents": MEMORY.list(int(body.get("limit") or 100))})
+            if route == "/api/memory/search":
+                return self._json(200, {"ok": True, "results": MEMORY.search(str(body.get("query") or ""), int(body.get("limit") or 5))})
             proposal = normalize_proposal(body)
             if route == "/api/calendar/upsert":
                 result = STORE.upsert_event(proposal)
