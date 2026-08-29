@@ -7,7 +7,7 @@ $logDir = Join-Path $cacheDir "logs"
 New-Item -ItemType Directory -Path $logDir -Force | Out-Null
 
 function Import-KeyStore {
-    $envFile = Join-Path $projectRoot "secrets\keys.env"
+    $envFile = Join-Path $projectRoot ".env"
     if (-not (Test-Path -LiteralPath $envFile)) { throw "Не найден $envFile" }
     foreach ($rawLine in Get-Content -LiteralPath $envFile) {
         $line = $rawLine.Trim()
@@ -16,7 +16,7 @@ function Import-KeyStore {
         [Environment]::SetEnvironmentVariable($parts[0].Trim(), $parts[1].Trim(), "Process")
     }
     foreach ($required in @("SPIRIT_QUEUE_SECRET", "GROQ_API_KEY", "TELEGRAM_BOT_TOKEN")) {
-        if (-not [Environment]::GetEnvironmentVariable($required, "Process")) { throw "В keys.env отсутствует $required" }
+        if (-not [Environment]::GetEnvironmentVariable($required, "Process")) { throw "В .env отсутствует $required" }
     }
 }
 

@@ -1,6 +1,6 @@
 $ErrorActionPreference = "Stop"
 $projectRoot = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot "..\..")).Path
-$envFile = Join-Path $projectRoot "secrets\keys.env"
+$envFile = Join-Path $projectRoot ".env"
 if (-not (Test-Path -LiteralPath $envFile)) { throw "Не найдено хранилище секретов: $envFile" }
 foreach ($rawLine in Get-Content -LiteralPath $envFile) {
     $line = $rawLine.Trim()

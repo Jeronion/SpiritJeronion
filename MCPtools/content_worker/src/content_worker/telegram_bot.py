@@ -155,7 +155,7 @@ class TelegramBotCollector:
         if not chat_id or not user_id:
             return
         if not self.allowed_user_id:
-            self._send(chat_id, f"Твой Telegram ID: {user_id}\nДобавь TELEGRAM_ALLOWED_USER_ID={user_id} в secrets/keys.env и перезапусти content worker.")
+            self._send(chat_id, f"Твой Telegram ID: {user_id}\nДобавь TELEGRAM_ALLOWED_USER_ID={user_id} в корневой .env и перезапусти content worker.")
             return
         if user_id != self.allowed_user_id:
             self._send(chat_id, "Этот бот привязан к другому пользователю.")
