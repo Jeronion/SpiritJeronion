@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-08-30T09:17:33.592986+00:00",
+  "updated_at": "2026-08-30T09:18:49.835497+00:00",
   "notes": [
+    {
+      "id": "q_e20f9145333a41e5",
+      "title": "Physics homework: read pages 42-48 and prepare summary on uniform motion",
+      "subject": "Physics",
+      "summary": "Read pages 42-48 of physics textbook and prepare a brief summary on 'Uniform motion'.",
+      "task": "Read pages 42-48 and prepare summary",
+      "created_at": "2026-08-30T09:18:49.835156+00:00",
+      "path": "data/notes/20260830-121846-physics-homework-read-pages-42-48-and-prepare-summary-on-uniform-motion.md",
+      "school_path": "SchoolFiles/Notes/20260830-121846-physics-homework-read-pages-42-48-and-prepare-summary-on-uniform-motion.md",
+      "source": {
+        "type": "gmail",
+        "external_id": "1a051df949366816",
+        "thread_id": "1a051df951f275bc",
+        "title": "Subject: ",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a051df949366816",
+        "sender": "jeronion2010@gmail.com",
+        "recipients": "jeronion2010@gmail.com",
+        "forwarded_school_mail": false,
+        "account": "jeronion2010@gmail.com"
+      }
+    },
     {
       "id": "notes-20260830-121730",
       "title": "Конспект",
