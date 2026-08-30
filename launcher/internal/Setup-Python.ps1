@@ -1,4 +1,4 @@
-$ErrorActionPreference = "Stop"
+﻿$ErrorActionPreference = "Stop"
 $projectRoot = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot "..\..")).Path
 $venv = Join-Path $projectRoot ".venv"
 $requirements = Join-Path $projectRoot "requirements.txt"

@@ -1,4 +1,5 @@
 @echo off
+chcp 65001 >nul
 title SpiritJeronion
 echo.
 echo [1] Start SpiritJeronion

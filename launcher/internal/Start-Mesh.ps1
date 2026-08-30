@@ -1,4 +1,4 @@
-$ErrorActionPreference = "Stop"
+﻿$ErrorActionPreference = "Stop"
 $projectRoot = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot "..\..")).Path
 $envFile = Join-Path $projectRoot ".env"
 if (-not (Test-Path -LiteralPath $envFile)) { throw "Не найден $envFile" }
