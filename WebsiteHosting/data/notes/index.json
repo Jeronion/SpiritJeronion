@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T09:18:49.835497+00:00",
+  "updated_at": "2026-08-30T09:19:48.424327+00:00",
   "notes": [
     {
       "id": "q_e20f9145333a41e5",
@@ -21,17 +21,6 @@
         "forwarded_school_mail": false,
         "account": "jeronion2010@gmail.com"
       }
-    },
-    {
-      "id": "notes-20260830-121730",
-      "title": "Конспект",
-      "subject": null,
-      "summary": "",
-      "task": null,
-      "created_at": "2026-08-30T09:17:33.592624+00:00",
-      "path": "data/notes/20260830-121730-конспект.md",
-      "school_path": "SchoolFiles/Notes/20260830-121730-конспект.md",
-      "source": {}
     }
   ]
 }
