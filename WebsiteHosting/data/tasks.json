@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:24:25.661713+00:00",
+  "updated_at": "2026-09-27T12:24:27.809999+00:00",
   "tasks": [
     {
       "id": "mail-1a0dd544efbcf044",
@@ -1004,27 +1004,6 @@
       },
       "received_at": "2026-09-06T11:59:30.000Z",
       "updated_at": "2026-09-27T12:15:00.446997+00:00"
-    },
-    {
-      "id": "mesh-homework-4346471",
-      "title": "Домашнее задание — Практикум по физике 10 В",
-      "description": "учить конспект",
-      "subject": "Практикум по физике 10 В",
-      "due_at": "2026-10-02T00:00:00",
-      "assigned_at": "2026-09-11T00:00:00",
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "homework",
-      "files": [],
-      "source": {
-        "type": "mesh",
-        "external_id": "mesh-homework-4346471",
-        "title": "Практикум по физике 10 В",
-        "sender": "МЭШ",
-        "url": null
-      },
-      "received_at": "2026-09-11T16:46:00",
-      "updated_at": "2026-09-27T12:15:15.131349+00:00"
     },
     {
       "id": "mesh-homework-4460993",
