@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:09:49.200629+00:00",
+  "updated_at": "2026-09-27T12:09:50.983964+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -540,6 +540,26 @@
       },
       "received_at": "2026-09-03T11:09:28.000Z",
       "updated_at": "2026-09-27T12:09:49.199798+00:00"
+    },
+    {
+      "id": "mail-1a061937681a4a28",
+      "title": "Fwd: Подготовка к олимпиадам: отбор в сборные Москвы",
+      "description": "От: petrov.da.p1@liceum1535.ru\nТема: Fwd: Подготовка к олимпиадам: отбор в сборные Москвы От: petrov.da.p1@liceum1535.ru Кому: petrov.da@liceum1535.ru ---------- Forwarded message --------- От: 1535olymp.ru, Участвуй и побеждай <olymp1535@liceum1535.ru> Date: ср, 2 сент. 2026 г. в 13:00 Subject: Подготовка к олимпиадам: отбор в сборные Москвы To: Родители учащихся 7 А класса <7a.parents@liceum1535.ru>, Родители учащихся 7 В кла",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "todo",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a061937681a4a28",
+        "title": "Fwd: Подготовка к олимпиадам: отбор в сборные Москвы",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a061937681a4a28",
+        "sender": "petrov.da.p1@liceum1535.ru"
+      },
+      "received_at": "2026-09-02T10:03:53.000Z",
+      "updated_at": "2026-09-27T12:09:50.983512+00:00"
     }
   ]
 }
