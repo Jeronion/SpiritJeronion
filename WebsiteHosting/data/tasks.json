@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:09:07.621017+00:00",
+  "updated_at": "2026-09-27T12:09:09.420125+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -340,6 +340,26 @@
       },
       "received_at": "2026-09-05T18:37:21.000Z",
       "updated_at": "2026-09-27T12:09:07.620710+00:00"
+    },
+    {
+      "id": "mail-1a06e6ae2df9f90a",
+      "title": "Рекомендуемые курсы на Stepik",
+      "description": "От: noreply@stepik.org\nТема: Рекомендуемые курсы на Stepik От: noreply@stepik.org Кому: jeronion2010@gmail.com | [ ![](https://stepik.org/static/emails/default/logo_black.png) ](https://stepik.org/?utm_source=newsletter&utm_medium=email&utm_campaign=monthly&utm_term=user-group4&utm_content=main-page) --- | | Здравствуйте, Даниил! Мы хотели бы порекомендовать вам некоторые курсы на Stepik. Для оплаты платных курсов испол",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "todo",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a06e6ae2df9f90a",
+        "title": "Рекомендуемые курсы на Stepik",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a06e6ae2df9f90a",
+        "sender": "noreply@stepik.org"
+      },
+      "received_at": "2026-09-04T21:54:53.000Z",
+      "updated_at": "2026-09-27T12:09:09.419572+00:00"
     }
   ]
 }
