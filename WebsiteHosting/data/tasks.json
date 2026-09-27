@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T10:42:07.093717+00:00",
+  "updated_at": "2026-09-27T10:42:09.259915+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -738,6 +738,24 @@
       },
       "received_at": "2026-09-12T18:19:41.000Z",
       "updated_at": "2026-09-27T10:42:07.089321+00:00"
+    },
+    {
+      "id": "mail-1a0948cb367b7749",
+      "title": "Скоро Олимпиада по английскому языку!",
+      "description": "От: pirozhnikova@liceum1535.ru\nТема: Скоро Олимпиада по английскому языку! От: pirozhnikova@liceum1535.ru Кому: alifirovets.p@liceum1535.ru, ananchenko.ea@liceum1535.ru, belikov.i@liceum1535.ru, darenskiy.a@liceum1535.ru, derugin.u@liceum1535.ru, gorshkov.n@liceum1535.ru, kanaeva.e@liceum1535.ru, kotlyachkov.n@liceum1535.ru, lykin.a@liceum1535.ru, boldyreva.s@liceum1535.ru, melynikov.a@liceum1535.ru, mizyurin.m@liceum1535.ru, m",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "source": {
+        "type": "gmail",
+        "external_id": "1a0948cb367b7749",
+        "title": "Скоро Олимпиада по английскому языку!",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a0948cb367b7749",
+        "sender": "pirozhnikova@liceum1535.ru"
+      },
+      "received_at": "2026-09-12T07:36:12.000Z",
+      "updated_at": "2026-09-27T10:42:09.254287+00:00"
     }
   ]
 }
