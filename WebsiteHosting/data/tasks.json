@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:09:44.297702+00:00",
+  "updated_at": "2026-09-27T12:09:45.816260+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -480,6 +480,26 @@
       },
       "received_at": "2026-09-21T12:30:51.000Z",
       "updated_at": "2026-09-27T12:09:44.296684+00:00"
+    },
+    {
+      "id": "mail-1a0b19d89f88969a",
+      "title": "Minecraft ведет трансляцию: A Massive Blue Creeper has appeared at Tokyo Game Show. Join forces with players around the world and take on this threat!",
+      "description": "От: no-reply@twitch.tv\nТема: Minecraft ведет трансляцию: A Massive Blue Creeper has appeared at Tokyo Game Show. Join forces with players around the world and take on this threat! От: no-reply@twitch.tv Кому: jeronion2010@gmail.com Minecraft ведет трансляцию! Twitch [https://static-cdn.jtvnw.net/growth-assets/email_twitch_logo_uv]https://www.twitch.tv/r/e/eyJsb2NhdGlvbiI6ImxvZ28iLCJlbWFpbF9pZCI6IjkzYzcxZTkxLWY1MzMtNGE4Z",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "todo",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a0b19d89f88969a",
+        "title": "Minecraft ведет трансляцию: A Massive Blue Creeper has appeared at Tokyo Game Show. Join forces with players around the world and take on this threat!",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a0b19d89f88969a",
+        "sender": "no-reply@twitch.tv"
+      },
+      "received_at": "2026-09-17T23:04:46.000Z",
+      "updated_at": "2026-09-27T12:09:45.815473+00:00"
     }
   ]
 }
