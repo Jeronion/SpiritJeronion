@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T16:00:48.409395+00:00",
+  "updated_at": "2026-09-27T16:15:43.286284+00:00",
   "tasks": [
     {
       "id": "mail-1a0d4525c54bfcdc",
@@ -22,126 +22,6 @@
       "updated_at": "2026-09-27T12:08:49.300252+00:00"
     },
     {
-      "id": "mail-1a0d709a148ac112",
-      "title": "Codeforces Round 1123 (Div. 2)",
-      "description": "От: noreply@codeforces.com\nТема: Codeforces Round 1123 (Div. 2) Добрый день, Jeronion. Рад пригласить вас принять участие в Codeforces Round 1123 (Div. 2). Начало запланировано на 25 сентября (пятница), 2026 17:35 (Московское время) 15 минут. Продолжительность соревнования — 2 часа. Допустимые языки C/C++, Python, Java, Kotlin, Rust, Go, C#, F#, Pascal/Delphi, JavaScri",
-      "subject": "",
-      "due_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a0d709a148ac112",
-        "title": "Codeforces Round 1123 (Div. 2)",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a0d709a148ac112",
-        "sender": "noreply@codeforces.com"
-      },
-      "received_at": "2026-09-24T01:13:25.000Z",
-      "updated_at": "2026-09-27T12:08:50.675750+00:00"
-    },
-    {
-      "id": "mail-1a0a9c3f1a56dc29",
-      "title": "Попробуй себя в «Высшей пробе»",
-      "description": "От: edu@academy.yandex.ru\nТема: Попробуй себя в «Высшей пробе» Олимпиада по промышленному программированию",
-      "subject": "",
-      "due_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "homework",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a0a9c3f1a56dc29",
-        "title": "Попробуй себя в «Высшей пробе»",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a0a9c3f1a56dc29",
-        "sender": "edu@academy.yandex.ru"
-      },
-      "received_at": "2026-09-16T10:29:44.000Z",
-      "updated_at": "2026-09-27T12:08:56.529729+00:00"
-    },
-    {
-      "id": "mail-1a090e30b8bb7674",
-      "title": "Codeforces Round 1120 (Div. 1, Div. 2)",
-      "description": "От: noreply@codeforces.com\nТема: Codeforces Round 1120 (Div. 1, Div. 2) Добрый день, Jeronion. Рад пригласить вас принять участие в Codeforces Round 1120 (Div. 1, Div. 2). Формально будет проведено два раунда: \"Codeforces Round #1120 (Div. 1)\" и \"Codeforces Round #1120 (Div. 2)\". Наборы задач в них будут во многом общие, но не полностью. Участники из первого дивизиона",
-      "subject": "",
-      "due_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a090e30b8bb7674",
-        "title": "Codeforces Round 1120 (Div. 1, Div. 2)",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a090e30b8bb7674",
-        "sender": "noreply@codeforces.com"
-      },
-      "received_at": "2026-09-11T03:51:36.000Z",
-      "updated_at": "2026-09-27T12:09:00.129994+00:00"
-    },
-    {
-      "id": "mail-1a0c3f29f5bf4bf4",
-      "title": "Готовимся к школьному этапу ВсОШ по информатике 2026-2027",
-      "description": "От: intern@academy.yandex.ru\nТема: Готовимся к школьному этапу ВсОШ по информатике 2026-2027 96 Начинаем 1 октября",
-      "subject": "",
-      "due_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a0c3f29f5bf4bf4",
-        "title": "Готовимся к школьному этапу ВсОШ по информатике 2026-2027",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a0c3f29f5bf4bf4",
-        "sender": "intern@academy.yandex.ru"
-      },
-      "received_at": "2026-09-21T12:30:51.000Z",
-      "updated_at": "2026-09-27T12:09:44.296684+00:00"
-    },
-    {
-      "id": "mail-1a06c296cb099f01",
-      "title": "Опубликован проект расписания 1 тура отборочного этапа «Высшей пробы»",
-      "description": "От: asav@hse.ru\nТема: Опубликован проект расписания 1 тура отборочного этапа «Высшей пробы» Добрый день! Информируем, что опубликован ПРОЕКТ расписания 1 тура отборочного этапа Всероссийской олимпиады школьников «Высшая проба», с ним можно ознакомиться на сайте: https://olymp.hse.ru/mmo/timetable. В расписании указано московское время (UTC +3), не забудьте сделать попр",
-      "subject": "",
-      "due_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a06c296cb099f01",
-        "title": "Опубликован проект расписания 1 тура отборочного этапа «Высшей пробы»",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a06c296cb099f01",
-        "sender": "asav@hse.ru"
-      },
-      "received_at": "2026-09-04T09:14:02.000Z",
-      "updated_at": "2026-09-27T12:09:47.670380+00:00"
-    },
-    {
-      "id": "mail-1a066f5a314bbd2a",
-      "title": "Как добавить предмет в ЗФТШ",
-      "description": "От: info@zftsh.online\nТема: Как добавить предмет в ЗФТШ [https://img.hiteml.com/en/v5/user-files?userId=7489182 =himg =inline =6bfzy1xwzz6e1fa1sgr6cbw7pimcgb8pigdd787j9eg645qyqfecks8fit7apx6iczsxitghmnjuofsetr7ieq5yw5whotc68bwwu4sa]https://zftsh.online Уважаемый ученик, с 25 августа по 10 сентября ЗФТШ проводит осенний набор учащихся на 2026 - 20",
-      "subject": "",
-      "due_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a066f5a314bbd2a",
-        "title": "Как добавить предмет в ЗФТШ",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a066f5a314bbd2a",
-        "sender": "info@zftsh.online"
-      },
-      "received_at": "2026-09-03T11:09:28.000Z",
-      "updated_at": "2026-09-27T12:09:49.199798+00:00"
-    },
-    {
       "id": "mail-1a061937681a4a28",
       "title": "Fwd: Подготовка к олимпиадам: отбор в сборные Москвы",
       "description": "От: petrov.da.p1@liceum1535.ru\nТема: Fwd: Подготовка к олимпиадам: отбор в сборные Москвы ---------- Forwarded message --------- От: 1535olymp.ru, Участвуй и побеждай <olymp1535@liceum1535.ru> Date: ср, 2 сент. 2026 г. в 13:00 Subject: Подготовка к олимпиадам: отбор в сборные Москвы Родители учащихся 7 В кла",
@@ -160,132 +40,6 @@
       },
       "received_at": "2026-09-02T10:03:53.000Z",
       "updated_at": "2026-09-27T12:09:50.983512+00:00"
-    },
-    {
-      "id": "mail-1a0be63a4b8df342",
-      "title": "Fwd: 🎓 Подводим итоги олимпиадного лета и планируем зимнюю смену на Физтехе",
-      "description": "От: elena19670610@mail.ru\nТема: Fwd: 🎓 Подводим итоги олимпиадного лета и планируем зимнюю смену на Физтехе Дата: Понедельник, 14 сентября 2026, 18:13 +03:00 Тема: 🎓 Подводим итоги олимпиадного лета и планируем зимнюю смену на Физтехе #ГЛАВНОЕ ЗА НЕДЕЛЮ",
-      "subject": "",
-      "due_at": null,
-      "assigned_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "homework",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a0be63a4b8df342",
-        "title": "Fwd: 🎓 Подводим итоги олимпиадного лета и планируем зимнюю смену на Физтехе",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a0be63a4b8df342",
-        "sender": "elena19670610@mail.ru"
-      },
-      "received_at": "2026-09-20T10:36:33.000Z",
-      "updated_at": "2026-09-27T12:11:44.114479+00:00"
-    },
-    {
-      "id": "mail-1a05e2b93feeffd7",
-      "title": "Заявка на регистрацию на олимпиады и конкурсы школьников подтверждена",
-      "description": "От: asav@hse.ru\nТема: Заявка на регистрацию на олимпиады и конкурсы школьников подтверждена Здравствуйте, Петров Даниил Артёмович! Вы зарегистрированы в качестве участника на следующие олимпиады и конкурсы школьников как участник 10 класса: Информатика, 10 класс Вам присвоен регистрационный номер 14158. Подписывайтесь на нашу группу в ВК: https://vk.com/hseolymp, там м",
-      "subject": "",
-      "due_at": null,
-      "assigned_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "homework",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a05e2b93feeffd7",
-        "title": "Заявка на регистрацию на олимпиады и конкурсы школьников подтверждена",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a05e2b93feeffd7",
-        "sender": "asav@hse.ru"
-      },
-      "received_at": "2026-09-01T18:10:30.000Z",
-      "updated_at": "2026-09-27T12:11:52.573004+00:00"
-    },
-    {
-      "id": "mail-1a0c9a17e2da6c2d",
-      "title": "Набор в Яндекс Лицей скоро закончится! Django, Go, ML или анализ данных?",
-      "description": "От: lyceum@academy.yandex.ru\nТема: Набор в Яндекс Лицей скоро закончится! Django, Go, ML или анализ данных? Успей подать заявку до 23 сентября",
-      "subject": "",
-      "due_at": null,
-      "assigned_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a0c9a17e2da6c2d",
-        "title": "Набор в Яндекс Лицей скоро закончится! Django, Go, ML или анализ данных?",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a0c9a17e2da6c2d",
-        "sender": "lyceum@academy.yandex.ru"
-      },
-      "received_at": "2026-09-22T14:59:57.000Z",
-      "updated_at": "2026-09-27T12:12:50.287796+00:00"
-    },
-    {
-      "id": "mail-1a0bfda235963cb1",
-      "title": "Codeforces Round 1122 (Div. 3)",
-      "description": "От: Codeforces@codeforces.com\nТема: Codeforces Round 1122 (Div. 3) Добрый день, Jeronion. Рад пригласить вас принять участие в Codeforces Round 1122 (Div. 3). Начало запланировано на 21 сентября (понедельник), 2026 17:35 (Московское время). Продолжительность соревнования — 2 часа 30 минут. Допустимые языки C/C++, Python, Java, Kotlin, Rust, Go, C#, F#, Pascal/Delphi, J",
-      "subject": "",
-      "due_at": null,
-      "assigned_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "homework",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a0bfda235963cb1",
-        "title": "Codeforces Round 1122 (Div. 3)",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a0bfda235963cb1",
-        "sender": "Codeforces@codeforces.com"
-      },
-      "received_at": "2026-09-20T16:30:26.000Z",
-      "updated_at": "2026-09-27T12:12:51.994439+00:00"
-    },
-    {
-      "id": "mail-1a096d9a03da3469",
-      "title": "Вы привязали учётную запись Google к своей учётной записи Epic Games.",
-      "description": "От: help@acct.epicgames.com\nТема: Вы привязали учётную запись Google к своей учётной записи Epic Games. Subject Line: Вы привязали учётную запись Google к своей учётной записи Epic Games. Subject Line: Вы привязали учётную запись Google к своей учётной записи Epic Games. It looks like your email client might not support HTML formatted email. Try opening this email in a",
-      "subject": "",
-      "due_at": null,
-      "assigned_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a096d9a03da3469",
-        "title": "Вы привязали учётную запись Google к своей учётной записи Epic Games.",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a096d9a03da3469",
-        "sender": "help@acct.epicgames.com"
-      },
-      "received_at": "2026-09-12T18:20:36.000Z",
-      "updated_at": "2026-09-27T12:12:53.722816+00:00"
-    },
-    {
-      "id": "mail-1a08c55776e79136",
-      "title": "Ihr Cashback-Update",
-      "description": "От: maccount@microsoft.com\nТема: Ihr Cashback-Update Ihr Cashback-Update - Willkommen Даниил! Microsoft Cashback [https://rewards.bing.com/rewardscdn/images/rewards/membercenter/missions/Rebates/email/microsoft_cashback_logo.png] Ihr Cashback-Update Fliegendes Geld [https://rewards.bing.com/rewardscdn/images/rewards/membercenter/missions/Rebates/email/welcome_email_ban",
-      "subject": "",
-      "due_at": null,
-      "assigned_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a08c55776e79136",
-        "title": "Ihr Cashback-Update",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a08c55776e79136",
-        "sender": "maccount@microsoft.com"
-      },
-      "received_at": "2026-09-10T17:20:04.000Z",
-      "updated_at": "2026-09-27T12:12:55.811701+00:00"
     },
     {
       "id": "mail-1a067866d454d132",
@@ -309,111 +63,6 @@
       "updated_at": "2026-09-27T12:12:59.745561+00:00"
     },
     {
-      "id": "mail-1a062a39adcd7a99",
-      "title": "Завершение регистрации аккаунта МТС Линк",
-      "description": "От: invitation@mts-link.ru\nТема: Завершение регистрации аккаунта МТС Линк To view this email message, open it in a program that understands HTML!",
-      "subject": "",
-      "due_at": null,
-      "assigned_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a062a39adcd7a99",
-        "title": "Завершение регистрации аккаунта МТС Линк",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a062a39adcd7a99",
-        "sender": "invitation@mts-link.ru"
-      },
-      "received_at": "2026-09-02T15:01:23.000Z",
-      "updated_at": "2026-09-27T12:13:01.939045+00:00"
-    },
-    {
-      "id": "mail-1a06230ec47233b8",
-      "title": "Запишитесь на экзамен",
-      "description": "От: best-talents@emails.tinkoff.ru\nТема: Запишитесь на экзамен Т-Банк Третья волна отбора в кружок Т-Поколения Чтобы попасть в кружок Т-Поколения по алгоритмам и структурам данных, пройдите экзамен. Если у вас есть автопроход — ознакомьтесь с условиями [\"https://link.emails.tbank.ru/tinkoff/pegate,lcUvQU9i46XSXtxZfDn4gQ/NC=6a981ce3053b31484185c2ab,jeronion2010%40gmail.",
-      "subject": "",
-      "due_at": null,
-      "assigned_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a06230ec47233b8",
-        "title": "Запишитесь на экзамен",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a06230ec47233b8",
-        "sender": "best-talents@emails.tinkoff.ru"
-      },
-      "received_at": "2026-09-02T12:56:04.000Z",
-      "updated_at": "2026-09-27T12:13:03.836456+00:00"
-    },
-    {
-      "id": "mail-1a0da2b52107a062",
-      "title": "Updates to our SpaceXAI Consumer Terms of Service",
-      "description": "От: updates@email.grok.com\nТема: Updates to our SpaceXAI Consumer Terms of Service We've updated our Consumer Terms of Service — please review the changes. SpaceXAI ( https://click.email.grok.com/f/a/xGywXT5CCWNmdWbR3KB7wg~~/AAQRxRA~/mbYdEugD7zUWRJgpjp5A7uT1hq_Pfy9CMW0fB0GxixAL3SQfz94l1F_urfQNkeXyfsB28MXR3aPEfKRyFmFypslM-dCmKNh2MMt7GW6jhceIqgWwTm1tK2UGUohP9AFk ) Hi Jer",
-      "subject": "",
-      "due_at": null,
-      "assigned_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a0da2b52107a062",
-        "title": "Updates to our SpaceXAI Consumer Terms of Service",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a0da2b52107a062",
-        "sender": "updates@email.grok.com"
-      },
-      "received_at": "2026-09-25T20:04:26.000Z",
-      "updated_at": "2026-09-27T12:14:47.500085+00:00"
-    },
-    {
-      "id": "mail-1a0b5126f376b0c6",
-      "title": "Попробуй «Для учёбы» в Алисе AI!",
-      "description": "От: edu@academy.yandex.ru\nТема: Попробуй «Для учёбы» в Алисе AI! Поможем понять тему любого урока и подготовиться к ЕГЭ",
-      "subject": "",
-      "due_at": null,
-      "assigned_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "homework",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a0b5126f376b0c6",
-        "title": "Попробуй «Для учёбы» в Алисе AI!",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a0b5126f376b0c6",
-        "sender": "edu@academy.yandex.ru"
-      },
-      "received_at": "2026-09-18T15:11:18.000Z",
-      "updated_at": "2026-09-27T12:14:53.042032+00:00"
-    },
-    {
-      "id": "mail-1a0a44e1b4fe1ce1",
-      "title": "Yandex Cup 2026 — присоединяйтесь к чемпионату",
-      "description": "От: intern@academy.yandex.ru\nТема: Yandex Cup 2026 — присоединяйтесь к чемпионату 96 Открыта регистрация",
-      "subject": "",
-      "due_at": null,
-      "assigned_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a0a44e1b4fe1ce1",
-        "title": "Yandex Cup 2026 — присоединяйтесь к чемпионату",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a0a44e1b4fe1ce1",
-        "sender": "intern@academy.yandex.ru"
-      },
-      "received_at": "2026-09-15T09:02:56.000Z",
-      "updated_at": "2026-09-27T12:14:54.856062+00:00"
-    },
-    {
       "id": "mail-1a07696e24ba463c",
       "title": "Письмо",
       "description": "От: holmanova@liceum1535.ru\nТема: Письмо",
@@ -435,46 +84,50 @@
       "updated_at": "2026-09-27T12:15:00.446997+00:00"
     },
     {
-      "id": "mail-1a07fe06756014e2",
-      "title": "Новые возможности сервисов",
-      "description": "От: info@site.hh.ru\nТема: Новые возможности сервисов [https://hhcdn.ru/file/18314013.png] За последний месяц",
-      "subject": "",
-      "due_at": null,
-      "assigned_at": null,
+      "id": "mesh-homework-4460978",
+      "title": "Домашнее задание — Практикум по математике 10В Кулагин",
+      "description": "Д/З выдано в виде раздаточных материалов и/или выложено в группе",
+      "subject": "Практикум по математике 10В Кулагин",
+      "due_at": "2026-09-22T00:00:00",
+      "assigned_at": "2026-09-22T00:00:00",
+      "lesson_start": null,
+      "lesson_end": null,
       "quadrant": "q2",
       "status": "todo",
-      "kind": "todo",
+      "kind": "homework",
       "files": [],
       "source": {
-        "type": "gmail",
-        "external_id": "1a07fe06756014e2",
-        "title": "Новые возможности сервисов",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a07fe06756014e2",
-        "sender": "info@site.hh.ru"
+        "type": "mesh",
+        "external_id": "mesh-homework-4460978",
+        "title": "Практикум по математике 10В Кулагин",
+        "sender": "МЭШ",
+        "url": null
       },
-      "received_at": "2026-09-08T07:16:46.000Z",
-      "updated_at": "2026-09-27T12:15:44.179201+00:00"
+      "received_at": "2026-09-21T17:23:00",
+      "updated_at": "2026-09-27T16:00:44.535198+00:00"
     },
     {
-      "id": "mail-1a05d7d70a6aeee2",
-      "title": "ссылка",
-      "description": "От: tvzaharova@mail.ru\nТема: ссылка https://us04web.zoom.us/j/77945695243?pwd=2Ix77MQHj0d46ds2av5m4SFvQ9nT9F.1",
-      "subject": "",
-      "due_at": null,
-      "assigned_at": null,
+      "id": "mesh-homework-4346468",
+      "title": "Домашнее задание — Практикум по физике 10 В",
+      "description": "учить конспект",
+      "subject": "Практикум по физике 10 В",
+      "due_at": "2026-09-25T00:00:00",
+      "assigned_at": "2026-09-11T00:00:00",
+      "lesson_start": null,
+      "lesson_end": null,
       "quadrant": "q2",
       "status": "todo",
-      "kind": "todo",
+      "kind": "homework",
       "files": [],
       "source": {
-        "type": "gmail",
-        "external_id": "1a05d7d70a6aeee2",
-        "title": "ссылка",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a05d7d70a6aeee2",
-        "sender": "tvzaharova@mail.ru"
+        "type": "mesh",
+        "external_id": "mesh-homework-4346468",
+        "title": "Практикум по физике 10 В",
+        "sender": "МЭШ",
+        "url": null
       },
-      "received_at": "2026-09-01T15:01:30.000Z",
-      "updated_at": "2026-09-27T12:15:46.136843+00:00"
+      "received_at": "2026-09-11T16:46:00",
+      "updated_at": "2026-09-27T16:00:44.535481+00:00"
     },
     {
       "id": "mesh-homework-4443586",
@@ -497,7 +150,7 @@
         "url": null
       },
       "received_at": "2026-09-20T15:39:00",
-      "updated_at": "2026-09-27T16:00:44.535064+00:00"
+      "updated_at": "2026-09-27T16:15:43.285683+00:00"
     },
     {
       "id": "mesh-lesson-622516806",
@@ -519,8 +172,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394211+00:00",
-      "updated_at": "2026-09-27T16:00:44.535089+00:00"
+      "received_at": "2026-09-27T16:15:15.121123+00:00",
+      "updated_at": "2026-09-27T16:15:43.285710+00:00"
     },
     {
       "id": "mesh-lesson-622516792",
@@ -547,8 +200,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394229+00:00",
-      "updated_at": "2026-09-27T16:00:44.535106+00:00"
+      "received_at": "2026-09-27T16:15:15.121142+00:00",
+      "updated_at": "2026-09-27T16:15:43.285725+00:00"
     },
     {
       "id": "mesh-lesson-622516790",
@@ -570,8 +223,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394242+00:00",
-      "updated_at": "2026-09-27T16:00:44.535121+00:00"
+      "received_at": "2026-09-27T16:15:15.121155+00:00",
+      "updated_at": "2026-09-27T16:15:43.285738+00:00"
     },
     {
       "id": "mesh-lesson-622516768",
@@ -593,8 +246,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394254+00:00",
-      "updated_at": "2026-09-27T16:00:44.535136+00:00"
+      "received_at": "2026-09-27T16:15:15.121168+00:00",
+      "updated_at": "2026-09-27T16:15:43.285751+00:00"
     },
     {
       "id": "mesh-lesson-622516769",
@@ -616,8 +269,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394266+00:00",
-      "updated_at": "2026-09-27T16:00:44.535150+00:00"
+      "received_at": "2026-09-27T16:15:15.121180+00:00",
+      "updated_at": "2026-09-27T16:15:43.285763+00:00"
     },
     {
       "id": "mesh-lesson-622516777",
@@ -639,8 +292,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394277+00:00",
-      "updated_at": "2026-09-27T16:00:44.535164+00:00"
+      "received_at": "2026-09-27T16:15:15.121192+00:00",
+      "updated_at": "2026-09-27T16:15:43.285774+00:00"
     },
     {
       "id": "mesh-lesson-622516786",
@@ -667,31 +320,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394289+00:00",
-      "updated_at": "2026-09-27T16:00:44.535178+00:00"
-    },
-    {
-      "id": "mesh-homework-4460978",
-      "title": "Домашнее задание — Практикум по математике 10В Кулагин",
-      "description": "Д/З выдано в виде раздаточных материалов и/или выложено в группе",
-      "subject": "Практикум по математике 10В Кулагин",
-      "due_at": "2026-09-22T00:00:00",
-      "assigned_at": "2026-09-22T00:00:00",
-      "lesson_start": null,
-      "lesson_end": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "homework",
-      "files": [],
-      "source": {
-        "type": "mesh",
-        "external_id": "mesh-homework-4460978",
-        "title": "Практикум по математике 10В Кулагин",
-        "sender": "МЭШ",
-        "url": null
-      },
-      "received_at": "2026-09-21T17:23:00",
-      "updated_at": "2026-09-27T16:00:44.535198+00:00"
+      "received_at": "2026-09-27T16:15:15.121203+00:00",
+      "updated_at": "2026-09-27T16:15:43.285785+00:00"
     },
     {
       "id": "mesh-lesson-622516807",
@@ -713,8 +343,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394300+00:00",
-      "updated_at": "2026-09-27T16:00:44.535213+00:00"
+      "received_at": "2026-09-27T16:15:15.121215+00:00",
+      "updated_at": "2026-09-27T16:15:43.285796+00:00"
     },
     {
       "id": "mesh-lesson-622516775",
@@ -749,8 +379,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394311+00:00",
-      "updated_at": "2026-09-27T16:00:44.535227+00:00"
+      "received_at": "2026-09-27T16:15:15.121226+00:00",
+      "updated_at": "2026-09-27T16:15:43.285807+00:00"
     },
     {
       "id": "mesh-lesson-622516781",
@@ -772,8 +402,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394322+00:00",
-      "updated_at": "2026-09-27T16:00:44.535242+00:00"
+      "received_at": "2026-09-27T16:15:15.121237+00:00",
+      "updated_at": "2026-09-27T16:15:43.285817+00:00"
     },
     {
       "id": "mesh-lesson-622516791",
@@ -795,8 +425,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394333+00:00",
-      "updated_at": "2026-09-27T16:00:44.535255+00:00"
+      "received_at": "2026-09-27T16:15:15.121249+00:00",
+      "updated_at": "2026-09-27T16:15:43.285828+00:00"
     },
     {
       "id": "mesh-lesson-622516776",
@@ -818,8 +448,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394343+00:00",
-      "updated_at": "2026-09-27T16:00:44.535269+00:00"
+      "received_at": "2026-09-27T16:15:15.121260+00:00",
+      "updated_at": "2026-09-27T16:15:43.285838+00:00"
     },
     {
       "id": "mesh-lesson-622516764",
@@ -841,8 +471,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394354+00:00",
-      "updated_at": "2026-09-27T16:00:44.535283+00:00"
+      "received_at": "2026-09-27T16:15:15.121270+00:00",
+      "updated_at": "2026-09-27T16:15:43.285848+00:00"
     },
     {
       "id": "mesh-lesson-622516779",
@@ -864,8 +494,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394364+00:00",
-      "updated_at": "2026-09-27T16:00:44.535297+00:00"
+      "received_at": "2026-09-27T16:15:15.121281+00:00",
+      "updated_at": "2026-09-27T16:15:43.285860+00:00"
     },
     {
       "id": "mesh-lesson-622516782",
@@ -887,8 +517,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394375+00:00",
-      "updated_at": "2026-09-27T16:00:44.535310+00:00"
+      "received_at": "2026-09-27T16:15:15.121291+00:00",
+      "updated_at": "2026-09-27T16:15:43.285870+00:00"
     },
     {
       "id": "mesh-lesson-622516783",
@@ -910,8 +540,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394385+00:00",
-      "updated_at": "2026-09-27T16:00:44.535324+00:00"
+      "received_at": "2026-09-27T16:15:15.121301+00:00",
+      "updated_at": "2026-09-27T16:15:43.285880+00:00"
     },
     {
       "id": "mesh-lesson-622516784",
@@ -933,8 +563,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394395+00:00",
-      "updated_at": "2026-09-27T16:00:44.535338+00:00"
+      "received_at": "2026-09-27T16:15:15.121311+00:00",
+      "updated_at": "2026-09-27T16:15:43.285892+00:00"
     },
     {
       "id": "mesh-lesson-622516794",
@@ -961,8 +591,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394407+00:00",
-      "updated_at": "2026-09-27T16:00:44.535352+00:00"
+      "received_at": "2026-09-27T16:15:15.121322+00:00",
+      "updated_at": "2026-09-27T16:15:43.285903+00:00"
     },
     {
       "id": "mesh-lesson-622516766",
@@ -984,8 +614,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394418+00:00",
-      "updated_at": "2026-09-27T16:00:44.535365+00:00"
+      "received_at": "2026-09-27T16:15:15.121333+00:00",
+      "updated_at": "2026-09-27T16:15:43.285913+00:00"
     },
     {
       "id": "mesh-homework-4478786",
@@ -1008,7 +638,7 @@
         "url": null
       },
       "received_at": "2026-09-23T15:53:00",
-      "updated_at": "2026-09-27T16:00:44.535379+00:00"
+      "updated_at": "2026-09-27T16:15:43.285923+00:00"
     },
     {
       "id": "mesh-lesson-622516762",
@@ -1030,8 +660,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394429+00:00",
-      "updated_at": "2026-09-27T16:00:44.535392+00:00"
+      "received_at": "2026-09-27T16:15:15.121343+00:00",
+      "updated_at": "2026-09-27T16:15:43.285933+00:00"
     },
     {
       "id": "mesh-lesson-622516770",
@@ -1053,8 +683,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394439+00:00",
-      "updated_at": "2026-09-27T16:00:44.535406+00:00"
+      "received_at": "2026-09-27T16:15:15.121353+00:00",
+      "updated_at": "2026-09-27T16:15:43.285943+00:00"
     },
     {
       "id": "mesh-lesson-622516774",
@@ -1076,8 +706,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394450+00:00",
-      "updated_at": "2026-09-27T16:00:44.535419+00:00"
+      "received_at": "2026-09-27T16:15:15.121363+00:00",
+      "updated_at": "2026-09-27T16:15:43.285953+00:00"
     },
     {
       "id": "mesh-lesson-622516763",
@@ -1099,8 +729,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394460+00:00",
-      "updated_at": "2026-09-27T16:00:44.535435+00:00"
+      "received_at": "2026-09-27T16:15:15.121373+00:00",
+      "updated_at": "2026-09-27T16:15:43.285965+00:00"
     },
     {
       "id": "mesh-lesson-622516805",
@@ -1127,8 +757,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394475+00:00",
-      "updated_at": "2026-09-27T16:00:44.535449+00:00"
+      "received_at": "2026-09-27T16:15:15.121385+00:00",
+      "updated_at": "2026-09-27T16:15:43.285975+00:00"
     },
     {
       "id": "mesh-lesson-622516780",
@@ -1150,31 +780,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394486+00:00",
-      "updated_at": "2026-09-27T16:00:44.535462+00:00"
-    },
-    {
-      "id": "mesh-homework-4346468",
-      "title": "Домашнее задание — Практикум по физике 10 В",
-      "description": "учить конспект",
-      "subject": "Практикум по физике 10 В",
-      "due_at": "2026-09-25T00:00:00",
-      "assigned_at": "2026-09-11T00:00:00",
-      "lesson_start": null,
-      "lesson_end": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "homework",
-      "files": [],
-      "source": {
-        "type": "mesh",
-        "external_id": "mesh-homework-4346468",
-        "title": "Практикум по физике 10 В",
-        "sender": "МЭШ",
-        "url": null
-      },
-      "received_at": "2026-09-11T16:46:00",
-      "updated_at": "2026-09-27T16:00:44.535481+00:00"
+      "received_at": "2026-09-27T16:15:15.121395+00:00",
+      "updated_at": "2026-09-27T16:15:43.285985+00:00"
     },
     {
       "id": "mesh-homework-4476959",
@@ -1197,7 +804,7 @@
         "url": null
       },
       "received_at": "2026-09-23T14:10:00",
-      "updated_at": "2026-09-27T16:00:44.535494+00:00"
+      "updated_at": "2026-09-27T16:15:43.285996+00:00"
     },
     {
       "id": "mesh-lesson-622516761",
@@ -1219,8 +826,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394496+00:00",
-      "updated_at": "2026-09-27T16:00:44.535508+00:00"
+      "received_at": "2026-09-27T16:15:15.121406+00:00",
+      "updated_at": "2026-09-27T16:15:43.286007+00:00"
     },
     {
       "id": "mesh-lesson-622516765",
@@ -1247,8 +854,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394507+00:00",
-      "updated_at": "2026-09-27T16:00:44.535521+00:00"
+      "received_at": "2026-09-27T16:15:15.121417+00:00",
+      "updated_at": "2026-09-27T16:15:43.286017+00:00"
     },
     {
       "id": "mesh-lesson-622516767",
@@ -1270,8 +877,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394517+00:00",
-      "updated_at": "2026-09-27T16:00:44.535534+00:00"
+      "received_at": "2026-09-27T16:15:15.121427+00:00",
+      "updated_at": "2026-09-27T16:15:43.286027+00:00"
     },
     {
       "id": "mesh-lesson-626404398",
@@ -1293,8 +900,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394528+00:00",
-      "updated_at": "2026-09-27T16:00:44.535547+00:00"
+      "received_at": "2026-09-27T16:15:15.121438+00:00",
+      "updated_at": "2026-09-27T16:15:43.286038+00:00"
     },
     {
       "id": "mesh-lesson-622516785",
@@ -1316,8 +923,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394538+00:00",
-      "updated_at": "2026-09-27T16:00:44.535561+00:00"
+      "received_at": "2026-09-27T16:15:15.121448+00:00",
+      "updated_at": "2026-09-27T16:15:43.286048+00:00"
     },
     {
       "id": "mesh-lesson-622516773",
@@ -1339,8 +946,31 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394548+00:00",
-      "updated_at": "2026-09-27T16:00:44.535576+00:00"
+      "received_at": "2026-09-27T16:15:15.121458+00:00",
+      "updated_at": "2026-09-27T16:15:43.286058+00:00"
+    },
+    {
+      "id": "mesh-homework-4507606",
+      "title": "Домашнее задание —  Разговоры о важном_10 В",
+      "description": "лекция ЭКСРО, актовый зал",
+      "subject": " Разговоры о важном_10 В",
+      "due_at": "2026-09-28T00:00:00",
+      "assigned_at": "2026-09-28T00:00:00",
+      "lesson_start": null,
+      "lesson_end": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "homework",
+      "files": [],
+      "source": {
+        "type": "mesh",
+        "external_id": "mesh-homework-4507606",
+        "title": " Разговоры о важном_10 В",
+        "sender": "МЭШ",
+        "url": null
+      },
+      "received_at": "2026-09-27T18:50:00",
+      "updated_at": "2026-09-27T16:15:43.286076+00:00"
     },
     {
       "id": "mesh-lesson-622516853",
@@ -1362,8 +992,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394558+00:00",
-      "updated_at": "2026-09-27T16:00:44.535590+00:00"
+      "received_at": "2026-09-27T16:15:15.121468+00:00",
+      "updated_at": "2026-09-27T16:15:43.286087+00:00"
     },
     {
       "id": "mesh-lesson-622516839",
@@ -1390,8 +1020,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394568+00:00",
-      "updated_at": "2026-09-27T16:00:44.535603+00:00"
+      "received_at": "2026-09-27T16:15:15.121478+00:00",
+      "updated_at": "2026-09-27T16:15:43.286098+00:00"
     },
     {
       "id": "mesh-lesson-622516837",
@@ -1413,8 +1043,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394578+00:00",
-      "updated_at": "2026-09-27T16:00:44.535617+00:00"
+      "received_at": "2026-09-27T16:15:15.121489+00:00",
+      "updated_at": "2026-09-27T16:15:43.286108+00:00"
     },
     {
       "id": "mesh-lesson-622516815",
@@ -1436,8 +1066,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394588+00:00",
-      "updated_at": "2026-09-27T16:00:44.535630+00:00"
+      "received_at": "2026-09-27T16:15:15.121499+00:00",
+      "updated_at": "2026-09-27T16:15:43.286118+00:00"
     },
     {
       "id": "mesh-lesson-622516816",
@@ -1459,8 +1089,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394599+00:00",
-      "updated_at": "2026-09-27T16:00:44.535643+00:00"
+      "received_at": "2026-09-27T16:15:15.121510+00:00",
+      "updated_at": "2026-09-27T16:15:43.286128+00:00"
     },
     {
       "id": "mesh-lesson-622516824",
@@ -1482,8 +1112,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394609+00:00",
-      "updated_at": "2026-09-27T16:00:44.535657+00:00"
+      "received_at": "2026-09-27T16:15:15.121520+00:00",
+      "updated_at": "2026-09-27T16:15:43.286138+00:00"
     },
     {
       "id": "mesh-lesson-622516833",
@@ -1505,8 +1135,31 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394619+00:00",
-      "updated_at": "2026-09-27T16:00:44.535670+00:00"
+      "received_at": "2026-09-27T16:15:15.121530+00:00",
+      "updated_at": "2026-09-27T16:15:43.286148+00:00"
+    },
+    {
+      "id": "mesh-homework-4460985",
+      "title": "Домашнее задание — Практикум по математике 10В Кулагин",
+      "description": "Д/З выдано в виде раздаточных материалов и/или выложено в группе",
+      "subject": "Практикум по математике 10В Кулагин",
+      "due_at": "2026-09-29T00:00:00",
+      "assigned_at": "2026-09-29T00:00:00",
+      "lesson_start": null,
+      "lesson_end": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "homework",
+      "files": [],
+      "source": {
+        "type": "mesh",
+        "external_id": "mesh-homework-4460985",
+        "title": "Практикум по математике 10В Кулагин",
+        "sender": "МЭШ",
+        "url": null
+      },
+      "received_at": "2026-09-21T17:23:00",
+      "updated_at": "2026-09-27T16:15:43.286162+00:00"
     },
     {
       "id": "mesh-lesson-622516854",
@@ -1528,8 +1181,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394629+00:00",
-      "updated_at": "2026-09-27T16:00:44.535683+00:00"
+      "received_at": "2026-09-27T16:15:15.121540+00:00",
+      "updated_at": "2026-09-27T16:15:43.286173+00:00"
     },
     {
       "id": "mesh-lesson-622516822",
@@ -1556,8 +1209,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394639+00:00",
-      "updated_at": "2026-09-27T16:00:44.535697+00:00"
+      "received_at": "2026-09-27T16:15:15.121550+00:00",
+      "updated_at": "2026-09-27T16:15:43.286184+00:00"
     },
     {
       "id": "mesh-lesson-622516828",
@@ -1579,8 +1232,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394650+00:00",
-      "updated_at": "2026-09-27T16:00:44.535711+00:00"
+      "received_at": "2026-09-27T16:15:15.121563+00:00",
+      "updated_at": "2026-09-27T16:15:43.286194+00:00"
     },
     {
       "id": "mesh-lesson-622516823",
@@ -1602,8 +1255,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394661+00:00",
-      "updated_at": "2026-09-27T16:00:44.535725+00:00"
+      "received_at": "2026-09-27T16:15:15.121576+00:00",
+      "updated_at": "2026-09-27T16:15:43.286205+00:00"
     },
     {
       "id": "mesh-lesson-622516811",
@@ -1625,8 +1278,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394672+00:00",
-      "updated_at": "2026-09-27T16:00:44.535738+00:00"
+      "received_at": "2026-09-27T16:15:15.121588+00:00",
+      "updated_at": "2026-09-27T16:15:43.286215+00:00"
     },
     {
       "id": "mesh-lesson-622516841",
@@ -1657,8 +1310,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394685+00:00",
-      "updated_at": "2026-09-27T16:00:44.535752+00:00"
+      "received_at": "2026-09-27T16:15:15.121602+00:00",
+      "updated_at": "2026-09-27T16:15:43.286225+00:00"
     },
     {
       "id": "mesh-lesson-622516813",
@@ -1680,8 +1333,54 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394698+00:00",
-      "updated_at": "2026-09-27T16:00:44.535765+00:00"
+      "received_at": "2026-09-27T16:15:15.121613+00:00",
+      "updated_at": "2026-09-27T16:15:43.286235+00:00"
+    },
+    {
+      "id": "mesh-homework-4346471",
+      "title": "Домашнее задание — Практикум по физике 10 В",
+      "description": "учить конспект",
+      "subject": "Практикум по физике 10 В",
+      "due_at": "2026-10-02T00:00:00",
+      "assigned_at": "2026-09-11T00:00:00",
+      "lesson_start": null,
+      "lesson_end": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "homework",
+      "files": [],
+      "source": {
+        "type": "mesh",
+        "external_id": "mesh-homework-4346471",
+        "title": "Практикум по физике 10 В",
+        "sender": "МЭШ",
+        "url": null
+      },
+      "received_at": "2026-09-11T16:46:00",
+      "updated_at": "2026-09-27T16:15:43.286249+00:00"
+    },
+    {
+      "id": "mesh-homework-4507763",
+      "title": "Домашнее задание — Введение в ИТ специальность 10В",
+      "description": "читать учебник первого урока numpy, пытаться решать задачи",
+      "subject": "Введение в ИТ специальность 10В",
+      "due_at": "2026-10-02T00:00:00",
+      "assigned_at": "2026-10-02T00:00:00",
+      "lesson_start": null,
+      "lesson_end": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "homework",
+      "files": [],
+      "source": {
+        "type": "mesh",
+        "external_id": "mesh-homework-4507763",
+        "title": "Введение в ИТ специальность 10В",
+        "sender": "МЭШ",
+        "url": null
+      },
+      "received_at": "2026-09-27T19:11:00",
+      "updated_at": "2026-09-27T16:15:43.286264+00:00"
     },
     {
       "id": "mesh-lesson-622516808",
@@ -1703,8 +1402,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T16:00:15.394711+00:00",
-      "updated_at": "2026-09-27T16:00:44.535779+00:00"
+      "received_at": "2026-09-27T16:15:15.121627+00:00",
+      "updated_at": "2026-09-27T16:15:43.286275+00:00"
     }
   ]
 }
