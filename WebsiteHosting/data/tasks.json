@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:07:10.543579+00:00",
+  "updated_at": "2026-09-27T12:08:46.363084+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -80,6 +80,26 @@
       },
       "received_at": "2026-09-11T16:47:00",
       "updated_at": "2026-09-27T12:07:10.543577+00:00"
+    },
+    {
+      "id": "mail-1a0dd544efbcf044",
+      "title": "Запрос на восстановление аккаунта Google",
+      "description": "От: no-reply@accounts.google.com\nТема: Запрос на восстановление аккаунта Google От: no-reply@accounts.google.com Кому: jeronion2010@gmail.com [image: Google] Запрос на восстановление аккаунта Google jeronion2010@gmail.com Благодарим Вас за заполнение формы восстановления доступа к аккаунту. Мы очень хотим Вам помочь. Мы очень серьезно относимся к вопросам конфиденциальности и безопасности Ваших данных. Мы возвращаем аккаунты лишь",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "todo",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a0dd544efbcf044",
+        "title": "Запрос на восстановление аккаунта Google",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a0dd544efbcf044",
+        "sender": "no-reply@accounts.google.com"
+      },
+      "received_at": "2026-09-26T10:48:04.000Z",
+      "updated_at": "2026-09-27T12:08:46.362631+00:00"
     }
   ]
 }
