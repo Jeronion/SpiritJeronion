@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:14:58.492327+00:00",
+  "updated_at": "2026-09-27T12:15:00.448088+00:00",
   "tasks": [
     {
       "id": "mail-1a0dd544efbcf044",
@@ -1256,6 +1256,27 @@
       },
       "received_at": "2026-09-08T18:27:50.000Z",
       "updated_at": "2026-09-27T12:14:58.491225+00:00"
+    },
+    {
+      "id": "mail-1a07696e24ba463c",
+      "title": "Письмо",
+      "description": "От: holmanova@liceum1535.ru\nТема: Письмо От: holmanova@liceum1535.ru Кому: kirsanov.m@liceum1535.ru, petrov.da@liceum1535.ru",
+      "subject": "",
+      "due_at": null,
+      "assigned_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "todo",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a07696e24ba463c",
+        "title": "Письмо",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a07696e24ba463c",
+        "sender": "holmanova@liceum1535.ru"
+      },
+      "received_at": "2026-09-06T11:59:30.000Z",
+      "updated_at": "2026-09-27T12:15:00.446997+00:00"
     }
   ]
 }
