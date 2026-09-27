@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T10:39:01.110867+00:00",
+  "updated_at": "2026-09-27T10:39:02.560364+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -180,6 +180,24 @@
       },
       "received_at": "2026-09-26T16:39:33.000Z",
       "updated_at": "2026-09-27T10:39:01.105282+00:00"
+    },
+    {
+      "id": "mail-1a0daceb1b0aeda4",
+      "title": "Поддержите сборную России по футболу",
+      "description": "От: no-reply@gosuslugi.ru\nТема: Поддержите сборную России по футболу От: no-reply@gosuslugi.ru Кому: jeronion2010@gmail.com Отправьте своё послание ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ [https://gu-st.ru/content/mail/set_of_recommendations.png] Поддержите сборную России по футболу Здравствуйте Скоро сборна",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "source": {
+        "type": "gmail",
+        "external_id": "1a0daceb1b0aeda4",
+        "title": "Поддержите сборную России по футболу",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a0daceb1b0aeda4",
+        "sender": "no-reply@gosuslugi.ru"
+      },
+      "received_at": "2026-09-25T23:02:51.000Z",
+      "updated_at": "2026-09-27T10:39:02.554942+00:00"
     }
   ]
 }
