@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:15:44.180396+00:00",
+  "updated_at": "2026-09-27T12:15:46.137984+00:00",
   "tasks": [
     {
       "id": "mail-1a0dd544efbcf044",
@@ -1298,6 +1298,27 @@
       },
       "received_at": "2026-09-08T07:16:46.000Z",
       "updated_at": "2026-09-27T12:15:44.179201+00:00"
+    },
+    {
+      "id": "mail-1a05d7d70a6aeee2",
+      "title": "ссылка",
+      "description": "От: tvzaharova@mail.ru\nТема: ссылка От: tvzaharova@mail.ru Кому: jeronion2010@gmail.com https://us04web.zoom.us/j/77945695243?pwd=2Ix77MQHj0d46ds2av5m4SFvQ9nT9F.1",
+      "subject": "",
+      "due_at": null,
+      "assigned_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "todo",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a05d7d70a6aeee2",
+        "title": "ссылка",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a05d7d70a6aeee2",
+        "sender": "tvzaharova@mail.ru"
+      },
+      "received_at": "2026-09-01T15:01:30.000Z",
+      "updated_at": "2026-09-27T12:15:46.136843+00:00"
     }
   ]
 }
