@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T10:39:12.268859+00:00",
+  "updated_at": "2026-09-27T10:39:14.013170+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -306,6 +306,24 @@
       },
       "received_at": "2026-09-14T15:05:09.000Z",
       "updated_at": "2026-09-27T10:39:12.264271+00:00"
+    },
+    {
+      "id": "mail-1a0a02dde625faf5",
+      "title": "🐍 Python теперь даже плавит сталь",
+      "description": "От: noreply@stepik.org\nТема: 🐍 Python теперь даже плавит сталь От: noreply@stepik.org Кому: jeronion2010@gmail.com А ещё новые курсы по AI, данным, разработке и подготовке к экзаменам Привет! Программисты шутят, что на Python можно написать что угодно. И это почти правда: теперь на нём даже плавят сталь. В современной металлургии Python используют для расчёта теплопотерь печей, горения топлива и усилия прокатки металла.",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "source": {
+        "type": "gmail",
+        "external_id": "1a0a02dde625faf5",
+        "title": "🐍 Python теперь даже плавит сталь",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a0a02dde625faf5",
+        "sender": "noreply@stepik.org"
+      },
+      "received_at": "2026-09-14T13:05:31.000Z",
+      "updated_at": "2026-09-27T10:39:14.006598+00:00"
     }
   ]
 }
