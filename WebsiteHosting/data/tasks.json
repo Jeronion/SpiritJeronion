@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:14:49.325977+00:00",
+  "updated_at": "2026-09-27T12:14:51.276424+00:00",
   "tasks": [
     {
       "id": "mail-1a0dd544efbcf044",
@@ -1151,6 +1151,27 @@
       },
       "received_at": "2026-09-25T06:32:45.000Z",
       "updated_at": "2026-09-27T12:14:49.324991+00:00"
+    },
+    {
+      "id": "mail-1a0b9c1c9e6e4953",
+      "title": "Оповещение системы безопасности",
+      "description": "От: no-reply@accounts.google.com\nТема: Оповещение системы безопасности От: no-reply@accounts.google.com Кому: jeronion2010@gmail.com [image: Google] У приложения \"OpenAI\" есть доступ к некоторым данным вашего аккаунта Google jeronion2010@gmail.com Если вы не разрешали приложению \"OpenAI\" использовать данные вашего аккаунта Google, возможно, кто-то ещё пытается получить к ним доступ. Проверьте историю действий в аккаунте и защитит",
+      "subject": "",
+      "due_at": null,
+      "assigned_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "todo",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a0b9c1c9e6e4953",
+        "title": "Оповещение системы безопасности",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a0b9c1c9e6e4953",
+        "sender": "no-reply@accounts.google.com"
+      },
+      "received_at": "2026-09-19T13:01:18.000Z",
+      "updated_at": "2026-09-27T12:14:51.275445+00:00"
     }
   ]
 }
