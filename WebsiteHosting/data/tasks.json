@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:12:53.723729+00:00",
+  "updated_at": "2026-09-27T12:12:55.812594+00:00",
   "tasks": [
     {
       "id": "mail-1a0dd544efbcf044",
@@ -794,6 +794,27 @@
       },
       "received_at": "2026-09-12T18:20:36.000Z",
       "updated_at": "2026-09-27T12:12:53.722816+00:00"
+    },
+    {
+      "id": "mail-1a08c55776e79136",
+      "title": "Ihr Cashback-Update",
+      "description": "От: maccount@microsoft.com\nТема: Ihr Cashback-Update От: maccount@microsoft.com Кому: jeronion2010@gmail.com Ihr Cashback-Update - Willkommen Даниил! Microsoft Cashback [https://rewards.bing.com/rewardscdn/images/rewards/membercenter/missions/Rebates/email/microsoft_cashback_logo.png] Ihr Cashback-Update Fliegendes Geld [https://rewards.bing.com/rewardscdn/images/rewards/membercenter/missions/Rebates/email/welcome_email_ban",
+      "subject": "",
+      "due_at": null,
+      "assigned_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "todo",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a08c55776e79136",
+        "title": "Ihr Cashback-Update",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a08c55776e79136",
+        "sender": "maccount@microsoft.com"
+      },
+      "received_at": "2026-09-10T17:20:04.000Z",
+      "updated_at": "2026-09-27T12:12:55.811701+00:00"
     }
   ]
 }
