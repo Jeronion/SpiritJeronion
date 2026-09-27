@@ -1,50 +1,10 @@
 {
-  "updated_at": "2026-09-27T15:15:49.346600+00:00",
+  "updated_at": "2026-09-27T15:30:44.665048+00:00",
   "tasks": [
-    {
-      "id": "mail-1a0dd544efbcf044",
-      "title": "Запрос на восстановление аккаунта Google",
-      "description": "От: no-reply@accounts.google.com\nТема: Запрос на восстановление аккаунта Google От: no-reply@accounts.google.com Кому: jeronion2010@gmail.com [image: Google] Запрос на восстановление аккаунта Google jeronion2010@gmail.com Благодарим Вас за заполнение формы восстановления доступа к аккаунту. Мы очень хотим Вам помочь. Мы очень серьезно относимся к вопросам конфиденциальности и безопасности Ваших данных. Мы возвращаем аккаунты лишь",
-      "subject": "",
-      "due_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a0dd544efbcf044",
-        "title": "Запрос на восстановление аккаунта Google",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a0dd544efbcf044",
-        "sender": "no-reply@accounts.google.com"
-      },
-      "received_at": "2026-09-26T10:48:04.000Z",
-      "updated_at": "2026-09-27T12:08:46.362631+00:00"
-    },
-    {
-      "id": "mail-1a0d99b0d3c9aeb3",
-      "title": "You’re officially a Kaggler. Now what?",
-      "description": "От: noreply@kaggle.com\nТема: You’re officially a Kaggler. Now what? От: noreply@kaggle.com Кому: jeronion2010@gmail.com Kaggle Hi jeronion, You're now part of the world's largest data science community. Welcome, we're glad you're here! Whether you're new to machine learning or a renowned expert, we want to support you with powerful tools and resources to help you grow as a data scientist. So, where's the best place to s",
-      "subject": "",
-      "due_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a0d99b0d3c9aeb3",
-        "title": "You’re officially a Kaggler. Now what?",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a0d99b0d3c9aeb3",
-        "sender": "noreply@kaggle.com"
-      },
-      "received_at": "2026-09-25T17:26:50.000Z",
-      "updated_at": "2026-09-27T12:08:47.887622+00:00"
-    },
     {
       "id": "mail-1a0d4525c54bfcdc",
       "title": "прилагательные - ЧЕРТЫ ХАРАКТЕРА",
-      "description": "От: pirozhnikova@liceum1535.ru\nТема: прилагательные - ЧЕРТЫ ХАРАКТЕРА От: pirozhnikova@liceum1535.ru Кому: gladkov.a@liceum1535.ru, kopelychuk.e@liceum1535.ru, manturova.a@liceum1535.ru, pshenitsin.f@liceum1535.ru, belikov.i@liceum1535.ru, darenskiy.a@liceum1535.ru, derugin.u@liceum1535.ru, melynikov.a@liceum1535.ru, osipov.i@liceum1535.ru, petrov.da@liceum1535.ru, rekunov.e@liceum1535.ru, rybakov.d@liceum1535.ru, sakhno.ya@lic",
+      "description": "От: pirozhnikova@liceum1535.ru\nТема: прилагательные - ЧЕРТЫ ХАРАКТЕРА От: pirozhnikova@liceum1535.ru",
       "subject": "",
       "due_at": null,
       "quadrant": "q2",
@@ -64,7 +24,7 @@
     {
       "id": "mail-1a0d709a148ac112",
       "title": "Codeforces Round 1123 (Div. 2)",
-      "description": "От: noreply@codeforces.com\nТема: Codeforces Round 1123 (Div. 2) От: noreply@codeforces.com Кому: jeronion2010@gmail.com Добрый день, Jeronion. Рад пригласить вас принять участие в Codeforces Round 1123 (Div. 2). Начало запланировано на 25 сентября (пятница), 2026 17:35 (Московское время) 15 минут. Продолжительность соревнования — 2 часа. Допустимые языки C/C++, Python, Java, Kotlin, Rust, Go, C#, F#, Pascal/Delphi, JavaScri",
+      "description": "От: noreply@codeforces.com\nТема: Codeforces Round 1123 (Div. 2) От: noreply@codeforces.com Добрый день, Jeronion. Рад пригласить вас принять участие в Codeforces Round 1123 (Div. 2). Начало запланировано на 25 сентября (пятница), 2026 17:35 (Московское время) 15 минут. Продолжительность соревнования — 2 часа. Допустимые языки C/C++, Python, Java, Kotlin, Rust, Go, C#, F#, Pascal/Delphi, JavaScri",
       "subject": "",
       "due_at": null,
       "quadrant": "q2",
@@ -82,49 +42,9 @@
       "updated_at": "2026-09-27T12:08:50.675750+00:00"
     },
     {
-      "id": "mail-1a0c85cfb0f17717",
-      "title": "What happens when intelligence becomes cheap?",
-      "description": "От: newsletter@email.roadmap.sh\nТема: What happens when intelligence becomes cheap? От: newsletter@email.roadmap.sh Кому: jeronion2010@gmail.com Falling inference costs are changing what's worth building — and who gets to build it. View in browser (https://updates.roadmap.sh/e3t/Ctc/L2+113/d5qLSh04/VWHYMT672rRNW3RflXF3LvLd7W824bMN5VdQBJN4vJDL85m_5PW6N1X8z6lZ3krVVN8KW5T_ljSW6pG6Wk4P0BvPW908mcl4dJ2bDW3S3HXy5Mgj0NW8bLh0q2Yw_8qW3HKT",
-      "subject": "",
-      "due_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a0c85cfb0f17717",
-        "title": "What happens when intelligence becomes cheap?",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a0c85cfb0f17717",
-        "sender": "newsletter@email.roadmap.sh"
-      },
-      "received_at": "2026-09-22T09:05:30.000Z",
-      "updated_at": "2026-09-27T12:08:53.101646+00:00"
-    },
-    {
-      "id": "mail-1a0b601e7f70f312",
-      "title": "Your Roblox One-Time Login Code",
-      "description": "От: accounts@roblox.com\nТема: Your Roblox One-Time Login Code От: accounts@roblox.com Кому: jeronion2010@gmail.com Do not share this code. We will never contact you to ask for it. If you did not request this code, there is no further action you need to take. If you receive numerous codes you did not request, we strongly encourage you to link a different email to your account(s) and set up 2-Step Verification by Authentic",
-      "subject": "",
-      "due_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a0b601e7f70f312",
-        "title": "Your Roblox One-Time Login Code",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a0b601e7f70f312",
-        "sender": "accounts@roblox.com"
-      },
-      "received_at": "2026-09-18T19:32:52.000Z",
-      "updated_at": "2026-09-27T12:08:54.618621+00:00"
-    },
-    {
       "id": "mail-1a0a9c3f1a56dc29",
       "title": "Попробуй себя в «Высшей пробе»",
-      "description": "От: edu@academy.yandex.ru\nТема: Попробуй себя в «Высшей пробе» От: edu@academy.yandex.ru Кому: jeronion2010@gmail.com Олимпиада по промышленному программированию ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌",
+      "description": "От: edu@academy.yandex.ru\nТема: Попробуй себя в «Высшей пробе» От: edu@academy.yandex.ru Олимпиада по промышленному программированию ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌",
       "subject": "",
       "due_at": null,
       "quadrant": "q2",
@@ -142,29 +62,9 @@
       "updated_at": "2026-09-27T12:08:56.529729+00:00"
     },
     {
-      "id": "mail-1a09698ad80060f8",
-      "title": "Important: Transactions with Certain Crypto Platforms",
-      "description": "От: do_not_reply@smailer1.binance.com\nТема: Important: Transactions with Certain Crypto Platforms От: do_not_reply@smailer1.binance.com Кому: jeronion2010@gmail.com [https://public.bnbstatic.com/image/ufo/20250318/3a5c7b84-527b-4dc3-9cb6-36bd37fa7b82.png] Dear Binancians, Following recent regulatory developments, Binance will no longer be processing transactions involving certain crypto-asset service providers/platforms, as set out be",
-      "subject": "",
-      "due_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a09698ad80060f8",
-        "title": "Important: Transactions with Certain Crypto Platforms",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a09698ad80060f8",
-        "sender": "do_not_reply@smailer1.binance.com"
-      },
-      "received_at": "2026-09-12T17:09:42.000Z",
-      "updated_at": "2026-09-27T12:08:58.347332+00:00"
-    },
-    {
       "id": "mail-1a090e30b8bb7674",
       "title": "Codeforces Round 1120 (Div. 1, Div. 2)",
-      "description": "От: noreply@codeforces.com\nТема: Codeforces Round 1120 (Div. 1, Div. 2) От: noreply@codeforces.com Кому: jeronion2010@gmail.com Добрый день, Jeronion. Рад пригласить вас принять участие в Codeforces Round 1120 (Div. 1, Div. 2). Формально будет проведено два раунда: \"Codeforces Round #1120 (Div. 1)\" и \"Codeforces Round #1120 (Div. 2)\". Наборы задач в них будут во многом общие, но не полностью. Участники из первого дивизиона",
+      "description": "От: noreply@codeforces.com\nТема: Codeforces Round 1120 (Div. 1, Div. 2) От: noreply@codeforces.com Добрый день, Jeronion. Рад пригласить вас принять участие в Codeforces Round 1120 (Div. 1, Div. 2). Формально будет проведено два раунда: \"Codeforces Round #1120 (Div. 1)\" и \"Codeforces Round #1120 (Div. 2)\". Наборы задач в них будут во многом общие, но не полностью. Участники из первого дивизиона",
       "subject": "",
       "due_at": null,
       "quadrant": "q2",
@@ -182,209 +82,9 @@
       "updated_at": "2026-09-27T12:09:00.129994+00:00"
     },
     {
-      "id": "mail-1a08247773e81103",
-      "title": "Roblox: New login for Jeronion52",
-      "description": "От: no-reply@roblox.com\nТема: Roblox: New login for Jeronion52 От: no-reply@roblox.com Кому: jeronion2010@gmail.com <strong style='font-size:1.2rem;'>We noticed a login from a new device or location for Jeronion52 and want to make sure it was you.</strong><br /><br /><ul style='font-size:1rem;'><li>Regional Location: Falkenstein, Germany</li><li>IP Address: 144.31.136.31</li><li>Device: Computer (Windows)</li><li>Time: T",
-      "subject": "",
-      "due_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a08247773e81103",
-        "title": "Roblox: New login for Jeronion52",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a08247773e81103",
-        "sender": "no-reply@roblox.com"
-      },
-      "received_at": "2026-09-08T18:28:35.000Z",
-      "updated_at": "2026-09-27T12:09:02.139136+00:00"
-    },
-    {
-      "id": "mail-1a080463e0e01e37",
-      "title": "Developer experience is no longer enough",
-      "description": "От: newsletter@email.roadmap.sh\nТема: Developer experience is no longer enough От: newsletter@email.roadmap.sh Кому: jeronion2010@gmail.com Agents are now the ones choosing your libraries. Here's what that means for yours. View in browser (https://updates.roadmap.sh/e3t/Ctc/L2+113/d5qLSh04/VXfswH6VnjJXW5W-GS06BMb49W2nfwL35THQmxN50kgP25m_5PW7lCGcx6lZ3q5W18vwV46brSpfW6kqlB63cMSJYW84DLwC53rbXmW7gnWsj3VLxwtW7fDm_72804vlW6YNbvg6dYC0L",
-      "subject": "",
-      "due_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a080463e0e01e37",
-        "title": "Developer experience is no longer enough",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a080463e0e01e37",
-        "sender": "newsletter@email.roadmap.sh"
-      },
-      "received_at": "2026-09-08T09:08:01.000Z",
-      "updated_at": "2026-09-27T12:09:04.045098+00:00"
-    },
-    {
-      "id": "mail-1a07d0f4dcbc0007",
-      "title": "Five places to go after the first request",
-      "description": "От: welcome@openrouter.ai\nТема: Five places to go after the first request От: welcome@openrouter.ai Кому: jeronion2010@gmail.com Newest models, Discover, rankings, Activity, and the two routing controls. OpenRouter ( https://openrouter.ai?utm_medium=email&utm_source=customerio ) Hi Jeronion, ************************************************* Five surfaces, and the question each one answers. *********************************",
-      "subject": "",
-      "due_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a07d0f4dcbc0007",
-        "title": "Five places to go after the first request",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a07d0f4dcbc0007",
-        "sender": "welcome@openrouter.ai"
-      },
-      "received_at": "2026-09-07T18:09:08.000Z",
-      "updated_at": "2026-09-27T12:09:05.740741+00:00"
-    },
-    {
-      "id": "mail-1a072dc660c62321",
-      "title": "Minecraft ведет трансляцию: Join your hosts Couriway and jojosolos for a very special MC Championship, based on the upcoming Minecraft Fall Game drop!",
-      "description": "От: no-reply@twitch.tv\nТема: Minecraft ведет трансляцию: Join your hosts Couriway and jojosolos for a very special MC Championship, based on the upcoming Minecraft Fall Game drop! От: no-reply@twitch.tv Кому: jeronion2010@gmail.com Minecraft ведет трансляцию! Twitch [https://static-cdn.jtvnw.net/growth-assets/email_twitch_logo_uv]https://www.twitch.tv/r/e/eyJsb2NhdGlvbiI6ImxvZ28iLCJlbWFpbF9pZCI6ImJhNGJkOWMwLTcyMDgtNDY2Z",
-      "subject": "",
-      "due_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a072dc660c62321",
-        "title": "Minecraft ведет трансляцию: Join your hosts Couriway and jojosolos for a very special MC Championship, based on the upcoming Minecraft Fall Game drop!",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a072dc660c62321",
-        "sender": "no-reply@twitch.tv"
-      },
-      "received_at": "2026-09-05T18:37:21.000Z",
-      "updated_at": "2026-09-27T12:09:07.620710+00:00"
-    },
-    {
-      "id": "mail-1a06e6ae2df9f90a",
-      "title": "Рекомендуемые курсы на Stepik",
-      "description": "От: noreply@stepik.org\nТема: Рекомендуемые курсы на Stepik От: noreply@stepik.org Кому: jeronion2010@gmail.com | [ ![](https://stepik.org/static/emails/default/logo_black.png) ](https://stepik.org/?utm_source=newsletter&utm_medium=email&utm_campaign=monthly&utm_term=user-group4&utm_content=main-page) --- | | Здравствуйте, Даниил! Мы хотели бы порекомендовать вам некоторые курсы на Stepik. Для оплаты платных курсов испол",
-      "subject": "",
-      "due_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a06e6ae2df9f90a",
-        "title": "Рекомендуемые курсы на Stepik",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a06e6ae2df9f90a",
-        "sender": "noreply@stepik.org"
-      },
-      "received_at": "2026-09-04T21:54:53.000Z",
-      "updated_at": "2026-09-27T12:09:09.419572+00:00"
-    },
-    {
-      "id": "mail-1a060b3f2a7ba7fe",
-      "title": "🐝 С ДНЕМ ЗНАНИЙ 🔔",
-      "description": "От: noreply@stepik.org\nТема: 🐝 С ДНЕМ ЗНАНИЙ 🔔 От: noreply@stepik.org Кому: jeronion2010@gmail.com | [ ![](https://stepik.org/static/emails/default/logo_black.png) ](https://stepik.org/?utm_source=announcement&utm_medium=email&utm_campaign=announcement&utm_term=user-group4&utm_content=main-page&etk=WzEyNSwzNTQ2NzAxOTZd.1x1e0u.-ZBB8w3XjEBKWNS5T_OD5F_b_Qk) --- | ![](https://ucarecdn.stepik.net/0ec74f53-433d-49b1-945c-bb8f",
-      "subject": "",
-      "due_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a060b3f2a7ba7fe",
-        "title": "🐝 С ДНЕМ ЗНАНИЙ 🔔",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a060b3f2a7ba7fe",
-        "sender": "noreply@stepik.org"
-      },
-      "received_at": "2026-09-02T06:00:00.000Z",
-      "updated_at": "2026-09-27T12:09:11.265370+00:00"
-    },
-    {
-      "id": "mail-1a05c327a3f66cad",
-      "title": "Code reviews are no longer enough",
-      "description": "От: newsletter@email.roadmap.sh\nТема: Code reviews are no longer enough От: newsletter@email.roadmap.sh Кому: jeronion2010@gmail.com AI is writing more code than you can read line by line. The checks around it are what you actually trust now. View in browser (https://updates.roadmap.sh/e3t/Ctc/L2+113/d5qLSh04/VWjv6965mg2jVPDCSy57FX_nW2bnPc75TpPF0N74Pqtj5m_5PW6N1X8z6lZ3lZW5LQ8vg8Zq153W8rZmPm9jD3wjMn9TtW_D38-W8Q_WGS7WsXz6W2Qr3v06Y",
-      "subject": "",
-      "due_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a05c327a3f66cad",
-        "title": "Code reviews are no longer enough",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a05c327a3f66cad",
-        "sender": "newsletter@email.roadmap.sh"
-      },
-      "received_at": "2026-09-01T09:00:04.000Z",
-      "updated_at": "2026-09-27T12:09:12.915625+00:00"
-    },
-    {
-      "id": "mail-1a0586292fcb141c",
-      "title": "📜 Weekly Guild Letter",
-      "description": "От: news@quantguild.com\nТема: 📜 Weekly Guild Letter От: news@quantguild.com Кому: jeronion2010@gmail.com 📜 A Note from the Guild Leader ------------------------------ *How do I make a profitable trade or select a company to invest in?* *How do I know if I'm working out too hard or if I need to push through?* *How do I know if he is a moment away from submitting or I'm to gas out?* Talking to 10 different experienced trad",
-      "subject": "",
-      "due_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a0586292fcb141c",
-        "title": "📜 Weekly Guild Letter",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a0586292fcb141c",
-        "sender": "news@quantguild.com"
-      },
-      "received_at": "2026-08-31T15:13:49.000Z",
-      "updated_at": "2026-09-27T12:09:14.835818+00:00"
-    },
-    {
-      "id": "mail-1a05251c0e5e58ef",
-      "title": "[GitHub] Sudo email verification code",
-      "description": "От: noreply@github.com\nТема: [GitHub] Sudo email verification code От: noreply@github.com Кому: jeronion2010@gmail.com Hey, Jeronion! Here is your GitHub sudo authentication code: 40573134 This code is valid for 15 minutes and can only be used once. Please don't share this code with anyone: we'll never ask for it on the phone or via email. Thanks, The GitHub Team",
-      "subject": "",
-      "due_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a05251c0e5e58ef",
-        "title": "[GitHub] Sudo email verification code",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a05251c0e5e58ef",
-        "sender": "noreply@github.com"
-      },
-      "received_at": "2026-08-30T10:58:04.000Z",
-      "updated_at": "2026-09-27T12:09:16.486358+00:00"
-    },
-    {
-      "id": "mail-1a051eebc2d0f608",
-      "title": "Оповещение системы безопасности",
-      "description": "От: no-reply@accounts.google.com\nТема: Оповещение системы безопасности От: no-reply@accounts.google.com Кому: jeronion2010@gmail.com [image: Google] Вход в аккаунт на устройстве Windows jeronion2010@gmail.com Мы заметили, что в ваш аккаунт Google выполнен вход на устройстве Windows. Если это вы, ничего делать не нужно. А если нет, то мы поможем вам защитить аккаунт. Посмотреть действия <https://accounts.google.com/AccountChooser?",
-      "subject": "",
-      "due_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a051eebc2d0f608",
-        "title": "Оповещение системы безопасности",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a051eebc2d0f608",
-        "sender": "no-reply@accounts.google.com"
-      },
-      "received_at": "2026-08-30T09:09:54.000Z",
-      "updated_at": "2026-09-27T12:09:18.493308+00:00"
-    },
-    {
       "id": "mail-1a0c3f29f5bf4bf4",
       "title": "Готовимся к школьному этапу ВсОШ по информатике 2026-2027",
-      "description": "От: intern@academy.yandex.ru\nТема: Готовимся к школьному этапу ВсОШ по информатике 2026-2027 От: intern@academy.yandex.ru Кому: jeronion2010@gmail.com 96 Начинаем 1 октября &zwnj; &#8195;&#8195;&#8195;&#8195;&#8195;&zwnj; &#8195;&#8195;&#8195;&#8195;&#8195;&zwnj; &#8195;&#8195;&#8195;&#8195;&#8195;&zwnj; &#8195;&#8195;&#8195;&#8195;&#8195; &zwnj; &#8195;&#8195;&#8195;&#8195;&#8195;&zwnj; &#8195;&#8195;&#8195;&#8195;&#8195;&zw",
+      "description": "От: intern@academy.yandex.ru\nТема: Готовимся к школьному этапу ВсОШ по информатике 2026-2027 От: intern@academy.yandex.ru 96 Начинаем 1 октября &zwnj; &#8195;&#8195;&#8195;&#8195;&#8195;&zwnj; &#8195;&#8195;&#8195;&#8195;&#8195;&zwnj; &#8195;&#8195;&#8195;&#8195;&#8195;&zwnj; &#8195;&#8195;&#8195;&#8195;&#8195; &zwnj; &#8195;&#8195;&#8195;&#8195;&#8195;&zwnj; &#8195;&#8195;&#8195;&#8195;&#8195;&zw",
       "subject": "",
       "due_at": null,
       "quadrant": "q2",
@@ -402,29 +102,9 @@
       "updated_at": "2026-09-27T12:09:44.296684+00:00"
     },
     {
-      "id": "mail-1a0b19d89f88969a",
-      "title": "Minecraft ведет трансляцию: A Massive Blue Creeper has appeared at Tokyo Game Show. Join forces with players around the world and take on this threat!",
-      "description": "От: no-reply@twitch.tv\nТема: Minecraft ведет трансляцию: A Massive Blue Creeper has appeared at Tokyo Game Show. Join forces with players around the world and take on this threat! От: no-reply@twitch.tv Кому: jeronion2010@gmail.com Minecraft ведет трансляцию! Twitch [https://static-cdn.jtvnw.net/growth-assets/email_twitch_logo_uv]https://www.twitch.tv/r/e/eyJsb2NhdGlvbiI6ImxvZ28iLCJlbWFpbF9pZCI6IjkzYzcxZTkxLWY1MzMtNGE4Z",
-      "subject": "",
-      "due_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a0b19d89f88969a",
-        "title": "Minecraft ведет трансляцию: A Massive Blue Creeper has appeared at Tokyo Game Show. Join forces with players around the world and take on this threat!",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a0b19d89f88969a",
-        "sender": "no-reply@twitch.tv"
-      },
-      "received_at": "2026-09-17T23:04:46.000Z",
-      "updated_at": "2026-09-27T12:09:45.815473+00:00"
-    },
-    {
       "id": "mail-1a06c296cb099f01",
       "title": "Опубликован проект расписания 1 тура отборочного этапа «Высшей пробы»",
-      "description": "От: asav@hse.ru\nТема: Опубликован проект расписания 1 тура отборочного этапа «Высшей пробы» От: asav@hse.ru Кому: jeronion2010@gmail.com Добрый день! Информируем, что опубликован ПРОЕКТ расписания 1 тура отборочного этапа Всероссийской олимпиады школьников «Высшая проба», с ним можно ознакомиться на сайте: https://olymp.hse.ru/mmo/timetable. В расписании указано московское время (UTC +3), не забудьте сделать попр",
+      "description": "От: asav@hse.ru\nТема: Опубликован проект расписания 1 тура отборочного этапа «Высшей пробы» От: asav@hse.ru Добрый день! Информируем, что опубликован ПРОЕКТ расписания 1 тура отборочного этапа Всероссийской олимпиады школьников «Высшая проба», с ним можно ознакомиться на сайте: https://olymp.hse.ru/mmo/timetable. В расписании указано московское время (UTC +3), не забудьте сделать попр",
       "subject": "",
       "due_at": null,
       "quadrant": "q2",
@@ -444,7 +124,7 @@
     {
       "id": "mail-1a066f5a314bbd2a",
       "title": "Как добавить предмет в ЗФТШ",
-      "description": "От: info@zftsh.online\nТема: Как добавить предмет в ЗФТШ От: info@zftsh.online Кому: jeronion2010@gmail.com [https://img.hiteml.com/en/v5/user-files?userId=7489182&resource=himg&disposition=inline&name=6bfzy1xwzz6e1fa1sgr6cbw7pimcgb8pigdd787j9eg645qyqfecks8fit7apx6iczsxitghmnjuofsetr7ieq5yw5whotc68bwwu4sa]https://zftsh.online Уважаемый ученик, с 25 августа по 10 сентября ЗФТШ проводит осенний набор учащихся на 2026 - 20",
+      "description": "От: info@zftsh.online\nТема: Как добавить предмет в ЗФТШ От: info@zftsh.online [https://img.hiteml.com/en/v5/user-files?userId=7489182&resource=himg&disposition=inline&name=6bfzy1xwzz6e1fa1sgr6cbw7pimcgb8pigdd787j9eg645qyqfecks8fit7apx6iczsxitghmnjuofsetr7ieq5yw5whotc68bwwu4sa]https://zftsh.online Уважаемый ученик, с 25 августа по 10 сентября ЗФТШ проводит осенний набор учащихся на 2026 - 20",
       "subject": "",
       "due_at": null,
       "quadrant": "q2",
@@ -464,7 +144,7 @@
     {
       "id": "mail-1a061937681a4a28",
       "title": "Fwd: Подготовка к олимпиадам: отбор в сборные Москвы",
-      "description": "От: petrov.da.p1@liceum1535.ru\nТема: Fwd: Подготовка к олимпиадам: отбор в сборные Москвы От: petrov.da.p1@liceum1535.ru Кому: petrov.da@liceum1535.ru ---------- Forwarded message --------- От: 1535olymp.ru, Участвуй и побеждай <olymp1535@liceum1535.ru> Date: ср, 2 сент. 2026 г. в 13:00 Subject: Подготовка к олимпиадам: отбор в сборные Москвы To: Родители учащихся 7 А класса <7a.parents@liceum1535.ru>, Родители учащихся 7 В кла",
+      "description": "От: petrov.da.p1@liceum1535.ru\nТема: Fwd: Подготовка к олимпиадам: отбор в сборные Москвы От: petrov.da.p1@liceum1535.ru ---------- Forwarded message --------- От: 1535olymp.ru, Участвуй и побеждай <olymp1535@liceum1535.ru> Date: ср, 2 сент. 2026 г. в 13:00 Subject: Подготовка к олимпиадам: отбор в сборные Москвы Родители учащихся 7 В кла",
       "subject": "",
       "due_at": null,
       "quadrant": "q2",
@@ -482,29 +162,9 @@
       "updated_at": "2026-09-27T12:09:50.983512+00:00"
     },
     {
-      "id": "mail-1a051eec9a286b34",
-      "title": "New sign-in to your OpenAI account",
-      "description": "От: noreply@tm.openai.com\nТема: New sign-in to your OpenAI account От: noreply@tm.openai.com Кому: jeronion2010@gmail.com New sign-in details for your OpenAI account. [https://cdn.openai.com/API/logo-assets/openai-logo-email-header-1.png] Hello, We noticed a new sign-in to your OpenAI account. App: ChatGPT Web Time: August 30, 2026 at 11:09 AM (CEST) Approximate location: Falkenstein, DE Device: Chrome on Windows If this w",
-      "subject": "",
-      "due_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a051eec9a286b34",
-        "title": "New sign-in to your OpenAI account",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a051eec9a286b34",
-        "sender": "noreply@tm.openai.com"
-      },
-      "received_at": "2026-08-30T09:09:58.000Z",
-      "updated_at": "2026-09-27T12:09:52.977455+00:00"
-    },
-    {
       "id": "mail-1a0be63a4b8df342",
       "title": "Fwd: 🎓 Подводим итоги олимпиадного лета и планируем зимнюю смену на Физтехе",
-      "description": "От: elena19670610@mail.ru\nТема: Fwd: 🎓 Подводим итоги олимпиадного лета и планируем зимнюю смену на Физтехе От: elena19670610@mail.ru Кому: jeronion2010@gmail.com -------- Пересылаемое сообщение -------- От кого: Олимпиадные школы МФТИ <osh@it-edu.com> Кому: elena19670610@mail.ru Дата: Понедельник, 14 сентября 2026, 18:13 +03:00 Тема: 🎓 Подводим итоги олимпиадного лета и планируем зимнюю смену на Физтехе #ГЛАВНОЕ ЗА НЕДЕЛЮ",
+      "description": "От: elena19670610@mail.ru\nТема: Fwd: 🎓 Подводим итоги олимпиадного лета и планируем зимнюю смену на Физтехе От: elena19670610@mail.ru Дата: Понедельник, 14 сентября 2026, 18:13 +03:00 Тема: 🎓 Подводим итоги олимпиадного лета и планируем зимнюю смену на Физтехе #ГЛАВНОЕ ЗА НЕДЕЛЮ",
       "subject": "",
       "due_at": null,
       "assigned_at": null,
@@ -523,72 +183,9 @@
       "updated_at": "2026-09-27T12:11:44.114479+00:00"
     },
     {
-      "id": "mail-1a0ba7bf6bee8806",
-      "title": "Ресурсы конференции Моя конференция готовы!",
-      "description": "От: no-reply@zoom.us\nТема: Ресурсы конференции Моя конференция готовы! От: no-reply@zoom.us Кому: jeronion2010@gmail.com [https://us04st1.zoom.us/static/26.9.67043/image/new/ZoomLogo6.png] https://zoom.com Ресурсы конференции Моя конференция готовы! Ресурсы, которыми поделились на конференции [https://us04st3.zoom.us/static/26.9.67043/image/new/email/whiteboard-icon.png] Моя конференция 2026-09-19 06:44 PM [https://us",
-      "subject": "",
-      "due_at": null,
-      "assigned_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a0ba7bf6bee8806",
-        "title": "Ресурсы конференции Моя конференция готовы!",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a0ba7bf6bee8806",
-        "sender": "no-reply@zoom.us"
-      },
-      "received_at": "2026-09-19T16:24:40.000Z",
-      "updated_at": "2026-09-27T12:11:45.921108+00:00"
-    },
-    {
-      "id": "mail-1a0908ff8cc43c1b",
-      "title": "+100K new signups, and we're just getting started",
-      "description": "От: newsletter@email.roadmap.sh\nТема: +100K new signups, and we're just getting started От: newsletter@email.roadmap.sh Кому: jeronion2010@gmail.com New R programming roadmap is live. Solid foundations and a fall season full of surprises View in browser (https://updates.roadmap.sh/e3t/Ctc/L2+113/d5qLSh04/VX2-L05Z496gW3-n5nc1v41pwW91lZlN5TQBxFN1h3yr85m_5PW7lCGcx6lZ3pxW74HSP_8xxZplW5DQfwy3dgKKFN4V72dkLyX-0W5LBcty5YLj6WVRLSHJ7w7fzH",
-      "subject": "",
-      "due_at": null,
-      "assigned_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a0908ff8cc43c1b",
-        "title": "+100K new signups, and we're just getting started",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a0908ff8cc43c1b",
-        "sender": "newsletter@email.roadmap.sh"
-      },
-      "received_at": "2026-09-11T13:02:27.000Z",
-      "updated_at": "2026-09-27T12:11:48.021942+00:00"
-    },
-    {
-      "id": "mail-1a08bc7b06e119aa",
-      "title": "Сохраните доступ к важным сайтам и сервисам",
-      "description": "От: no-reply@gosuslugi.ru\nТема: Сохраните доступ к важным сайтам и сервисам От: no-reply@gosuslugi.ru Кому: jeronion2010@gmail.com Установите сертификаты безопасности Минцифры ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ [https://gu-st.ru/content/mail/Access_to_important_sites_3.svg] Сохраните доступ к важным сай",
-      "subject": "",
-      "due_at": null,
-      "assigned_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a08bc7b06e119aa",
-        "title": "Сохраните доступ к важным сайтам и сервисам",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a08bc7b06e119aa",
-        "sender": "no-reply@gosuslugi.ru"
-      },
-      "received_at": "2026-09-10T14:45:13.000Z",
-      "updated_at": "2026-09-27T12:11:50.336941+00:00"
-    },
-    {
       "id": "mail-1a05e2b93feeffd7",
       "title": "Заявка на регистрацию на олимпиады и конкурсы школьников подтверждена",
-      "description": "От: asav@hse.ru\nТема: Заявка на регистрацию на олимпиады и конкурсы школьников подтверждена От: asav@hse.ru Кому: jeronion2010@gmail.com Здравствуйте, Петров Даниил Артёмович! Вы зарегистрированы в качестве участника на следующие олимпиады и конкурсы школьников как участник 10 класса: Информатика, 10 класс Вам присвоен регистрационный номер 14158. Подписывайтесь на нашу группу в ВК: https://vk.com/hseolymp, там м",
+      "description": "От: asav@hse.ru\nТема: Заявка на регистрацию на олимпиады и конкурсы школьников подтверждена От: asav@hse.ru Здравствуйте, Петров Даниил Артёмович! Вы зарегистрированы в качестве участника на следующие олимпиады и конкурсы школьников как участник 10 класса: Информатика, 10 класс Вам присвоен регистрационный номер 14158. Подписывайтесь на нашу группу в ВК: https://vk.com/hseolymp, там м",
       "subject": "",
       "due_at": null,
       "assigned_at": null,
@@ -607,51 +204,9 @@
       "updated_at": "2026-09-27T12:11:52.573004+00:00"
     },
     {
-      "id": "mail-1a0d8a94a0fdb0ba",
-      "title": "Оповещение системы безопасности",
-      "description": "От: no-reply@accounts.google.com\nТема: Оповещение системы безопасности От: no-reply@accounts.google.com Кому: jeronion2010@gmail.com [image: Google] Вход в аккаунт на устройстве Linux jeronion2010@gmail.com Мы заметили, что в ваш аккаунт Google выполнен вход на устройстве Linux. Если это вы, ничего делать не нужно. А если нет, то мы поможем вам защитить аккаунт. Посмотреть действия <https://accounts.google.com/AccountChooser?Emai",
-      "subject": "",
-      "due_at": null,
-      "assigned_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a0d8a94a0fdb0ba",
-        "title": "Оповещение системы безопасности",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a0d8a94a0fdb0ba",
-        "sender": "no-reply@accounts.google.com"
-      },
-      "received_at": "2026-09-25T13:02:46.000Z",
-      "updated_at": "2026-09-27T12:12:46.758335+00:00"
-    },
-    {
-      "id": "mail-1a0d41cb2a4c7c91",
-      "title": "Ваш заказ Подписка Cursor Pro 1 месяц",
-      "description": "От: no-reply@ggsel.com\nТема: Ваш заказ Подписка Cursor Pro 1 месяц От: no-reply@ggsel.com Кому: jeronion2010@gmail.com Ваш заказ успешно оформлен Спасибо за покупку на ggsel.net. Мы всё оформили, продавец уже в курсе и готов передать товар. Заказ №51779054 от 2026.09.24 Подписка Cursor Pro 1 месяц Продавец: profession digital goods Перейти к заказу [https://payment.ggsel.com/ru/order/54745ce9-a9c2-40f9-87c9-566ca794634d",
-      "subject": "",
-      "due_at": null,
-      "assigned_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a0d41cb2a4c7c91",
-        "title": "Ваш заказ Подписка Cursor Pro 1 месяц",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a0d41cb2a4c7c91",
-        "sender": "no-reply@ggsel.com"
-      },
-      "received_at": "2026-09-24T15:50:44.000Z",
-      "updated_at": "2026-09-27T12:12:48.369363+00:00"
-    },
-    {
       "id": "mail-1a0c9a17e2da6c2d",
       "title": "Набор в Яндекс Лицей скоро закончится! Django, Go, ML или анализ данных?",
-      "description": "От: lyceum@academy.yandex.ru\nТема: Набор в Яндекс Лицей скоро закончится! Django, Go, ML или анализ данных? От: lyceum@academy.yandex.ru Кому: jeronion2010@gmail.com Успей подать заявку до 23 сентября ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌",
+      "description": "От: lyceum@academy.yandex.ru\nТема: Набор в Яндекс Лицей скоро закончится! Django, Go, ML или анализ данных? От: lyceum@academy.yandex.ru Успей подать заявку до 23 сентября ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌",
       "subject": "",
       "due_at": null,
       "assigned_at": null,
@@ -672,7 +227,7 @@
     {
       "id": "mail-1a0bfda235963cb1",
       "title": "Codeforces Round 1122 (Div. 3)",
-      "description": "От: Codeforces@codeforces.com\nТема: Codeforces Round 1122 (Div. 3) От: Codeforces@codeforces.com Кому: jeronion2010@gmail.com Добрый день, Jeronion. Рад пригласить вас принять участие в Codeforces Round 1122 (Div. 3). Начало запланировано на 21 сентября (понедельник), 2026 17:35 (Московское время). Продолжительность соревнования — 2 часа 30 минут. Допустимые языки C/C++, Python, Java, Kotlin, Rust, Go, C#, F#, Pascal/Delphi, J",
+      "description": "От: Codeforces@codeforces.com\nТема: Codeforces Round 1122 (Div. 3) От: Codeforces@codeforces.com Добрый день, Jeronion. Рад пригласить вас принять участие в Codeforces Round 1122 (Div. 3). Начало запланировано на 21 сентября (понедельник), 2026 17:35 (Московское время). Продолжительность соревнования — 2 часа 30 минут. Допустимые языки C/C++, Python, Java, Kotlin, Rust, Go, C#, F#, Pascal/Delphi, J",
       "subject": "",
       "due_at": null,
       "assigned_at": null,
@@ -693,7 +248,7 @@
     {
       "id": "mail-1a096d9a03da3469",
       "title": "Вы привязали учётную запись Google к своей учётной записи Epic Games.",
-      "description": "От: help@acct.epicgames.com\nТема: Вы привязали учётную запись Google к своей учётной записи Epic Games. От: help@acct.epicgames.com Кому: jeronion2010@gmail.com Subject Line: Вы привязали учётную запись Google к своей учётной записи Epic Games. Subject Line: Вы привязали учётную запись Google к своей учётной записи Epic Games. It looks like your email client might not support HTML formatted email. Try opening this email in a",
+      "description": "От: help@acct.epicgames.com\nТема: Вы привязали учётную запись Google к своей учётной записи Epic Games. От: help@acct.epicgames.com Subject Line: Вы привязали учётную запись Google к своей учётной записи Epic Games. Subject Line: Вы привязали учётную запись Google к своей учётной записи Epic Games. It looks like your email client might not support HTML formatted email. Try opening this email in a",
       "subject": "",
       "due_at": null,
       "assigned_at": null,
@@ -714,7 +269,7 @@
     {
       "id": "mail-1a08c55776e79136",
       "title": "Ihr Cashback-Update",
-      "description": "От: maccount@microsoft.com\nТема: Ihr Cashback-Update От: maccount@microsoft.com Кому: jeronion2010@gmail.com Ihr Cashback-Update - Willkommen Даниил! Microsoft Cashback [https://rewards.bing.com/rewardscdn/images/rewards/membercenter/missions/Rebates/email/microsoft_cashback_logo.png] Ihr Cashback-Update Fliegendes Geld [https://rewards.bing.com/rewardscdn/images/rewards/membercenter/missions/Rebates/email/welcome_email_ban",
+      "description": "От: maccount@microsoft.com\nТема: Ihr Cashback-Update От: maccount@microsoft.com Ihr Cashback-Update - Willkommen Даниил! Microsoft Cashback [https://rewards.bing.com/rewardscdn/images/rewards/membercenter/missions/Rebates/email/microsoft_cashback_logo.png] Ihr Cashback-Update Fliegendes Geld [https://rewards.bing.com/rewardscdn/images/rewards/membercenter/missions/Rebates/email/welcome_email_ban",
       "subject": "",
       "due_at": null,
       "assigned_at": null,
@@ -733,30 +288,9 @@
       "updated_at": "2026-09-27T12:12:55.811701+00:00"
     },
     {
-      "id": "mail-1a08247226bd3cfe",
-      "title": "Roblox Login Request: Jeronion52",
-      "description": "От: accounts@roblox.com\nТема: Roblox Login Request: Jeronion52 От: accounts@roblox.com Кому: jeronion2010@gmail.com Do not reply to this email directly. You are receiving this email because there was a Roblox login attempt from a new browser or device. If you did not make this request, you are strongly advised to change your password. 2-Step Verification Code: 321701 <p>Hello,</p><p><strong>321701</strong> is your Roblox",
-      "subject": "",
-      "due_at": null,
-      "assigned_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a08247226bd3cfe",
-        "title": "Roblox Login Request: Jeronion52",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a08247226bd3cfe",
-        "sender": "accounts@roblox.com"
-      },
-      "received_at": "2026-09-08T18:28:14.000Z",
-      "updated_at": "2026-09-27T12:12:57.584949+00:00"
-    },
-    {
       "id": "mail-1a067866d454d132",
       "title": "Добавление",
-      "description": "От: pirozhnikova@liceum1535.ru\nТема: Добавление От: pirozhnikova@liceum1535.ru Кому: belikov.i@liceum1535.ru, darenskiy.a@liceum1535.ru, alifirovets.p@liceum1535.ru, derugin.u@liceum1535.ru, gorshkov.n@liceum1535.ru, kanaeva.e@liceum1535.ru, kotlyachkov.n@liceum1535.ru, lykin.a@liceum1535.ru, boldyreva.s@liceum1535.ru, ananchenko.ea@liceum1535.ru, melynikov.a@liceum1535.ru, mizyurin.m@liceum1535.ru, morozov.d@liceum1535.ru, osi",
+      "description": "От: pirozhnikova@liceum1535.ru\nТема: Добавление От: pirozhnikova@liceum1535.ru osi",
       "subject": "",
       "due_at": null,
       "assigned_at": null,
@@ -777,7 +311,7 @@
     {
       "id": "mail-1a062a39adcd7a99",
       "title": "Завершение регистрации аккаунта МТС Линк",
-      "description": "От: invitation@mts-link.ru\nТема: Завершение регистрации аккаунта МТС Линк От: invitation@mts-link.ru Кому: jeronion2010@gmail.com To view this email message, open it in a program that understands HTML!",
+      "description": "От: invitation@mts-link.ru\nТема: Завершение регистрации аккаунта МТС Линк От: invitation@mts-link.ru To view this email message, open it in a program that understands HTML!",
       "subject": "",
       "due_at": null,
       "assigned_at": null,
@@ -798,7 +332,7 @@
     {
       "id": "mail-1a06230ec47233b8",
       "title": "Запишитесь на экзамен",
-      "description": "От: best-talents@emails.tinkoff.ru\nТема: Запишитесь на экзамен От: best-talents@emails.tinkoff.ru Кому: jeronion2010@gmail.com Т-Банк Третья волна отбора в кружок Т-Поколения Чтобы попасть в кружок Т-Поколения по алгоритмам и структурам данных, пройдите экзамен. Если у вас есть автопроход — ознакомьтесь с условиями [\"https://link.emails.tbank.ru/tinkoff/pegate,lcUvQU9i46XSXtxZfDn4gQ/NC=6a981ce3053b31484185c2ab,jeronion2010%40gmail.",
+      "description": "От: best-talents@emails.tinkoff.ru\nТема: Запишитесь на экзамен От: best-talents@emails.tinkoff.ru Т-Банк Третья волна отбора в кружок Т-Поколения Чтобы попасть в кружок Т-Поколения по алгоритмам и структурам данных, пройдите экзамен. Если у вас есть автопроход — ознакомьтесь с условиями [\"https://link.emails.tbank.ru/tinkoff/pegate,lcUvQU9i46XSXtxZfDn4gQ/NC=6a981ce3053b31484185c2ab,jeronion2010%40gmail.",
       "subject": "",
       "due_at": null,
       "assigned_at": null,
@@ -817,30 +351,9 @@
       "updated_at": "2026-09-27T12:13:03.836456+00:00"
     },
     {
-      "id": "mail-1a0dd52c52515fbf",
-      "title": "Важное оповещение системы безопасности",
-      "description": "От: no-reply@accounts.google.com\nТема: Важное оповещение системы безопасности От: no-reply@accounts.google.com Кому: jeronion2010@gmail.com [image: Google] Вам нужна была помощь с входом? jeronion2010@gmail.com Здравствуйте, Jeronion! Мы получили уведомление, что вы просите помочь вам войти в аккаунт *jeronion2010@gmail.com*. Если вы не отправляли этот запрос, проверьте и отмените его. Подробнее о подозрительных запросах на восст",
-      "subject": "",
-      "due_at": null,
-      "assigned_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a0dd52c52515fbf",
-        "title": "Важное оповещение системы безопасности",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a0dd52c52515fbf",
-        "sender": "no-reply@accounts.google.com"
-      },
-      "received_at": "2026-09-26T10:46:23.000Z",
-      "updated_at": "2026-09-27T12:14:45.739736+00:00"
-    },
-    {
       "id": "mail-1a0da2b52107a062",
       "title": "Updates to our SpaceXAI Consumer Terms of Service",
-      "description": "От: updates@email.grok.com\nТема: Updates to our SpaceXAI Consumer Terms of Service От: updates@email.grok.com Кому: jeronion2010@gmail.com We've updated our Consumer Terms of Service — please review the changes. SpaceXAI ( https://click.email.grok.com/f/a/xGywXT5CCWNmdWbR3KB7wg~~/AAQRxRA~/mbYdEugD7zUWRJgpjp5A7uT1hq_Pfy9CMW0fB0GxixAL3SQfz94l1F_urfQNkeXyfsB28MXR3aPEfKRyFmFypslM-dCmKNh2MMt7GW6jhceIqgWwTm1tK2UGUohP9AFk ) Hi Jer",
+      "description": "От: updates@email.grok.com\nТема: Updates to our SpaceXAI Consumer Terms of Service От: updates@email.grok.com We've updated our Consumer Terms of Service — please review the changes. SpaceXAI ( https://click.email.grok.com/f/a/xGywXT5CCWNmdWbR3KB7wg~~/AAQRxRA~/mbYdEugD7zUWRJgpjp5A7uT1hq_Pfy9CMW0fB0GxixAL3SQfz94l1F_urfQNkeXyfsB28MXR3aPEfKRyFmFypslM-dCmKNh2MMt7GW6jhceIqgWwTm1tK2UGUohP9AFk ) Hi Jer",
       "subject": "",
       "due_at": null,
       "assigned_at": null,
@@ -859,51 +372,9 @@
       "updated_at": "2026-09-27T12:14:47.500085+00:00"
     },
     {
-      "id": "mail-1a0d74437ddf38b3",
-      "title": "Оповещение системы безопасности",
-      "description": "От: no-reply@accounts.google.com\nТема: Оповещение системы безопасности От: no-reply@accounts.google.com Кому: jeronion2010@gmail.com [image: Google] Вход в аккаунт на устройстве Linux jeronion2010@gmail.com Мы заметили, что в ваш аккаунт Google выполнен вход на устройстве Linux. Если это вы, ничего делать не нужно. А если нет, то мы поможем вам защитить аккаунт. Посмотреть действия <https://accounts.google.com/AccountChooser?Emai",
-      "subject": "",
-      "due_at": null,
-      "assigned_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a0d74437ddf38b3",
-        "title": "Оповещение системы безопасности",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a0d74437ddf38b3",
-        "sender": "no-reply@accounts.google.com"
-      },
-      "received_at": "2026-09-25T06:32:45.000Z",
-      "updated_at": "2026-09-27T12:14:49.324991+00:00"
-    },
-    {
-      "id": "mail-1a0b9c1c9e6e4953",
-      "title": "Оповещение системы безопасности",
-      "description": "От: no-reply@accounts.google.com\nТема: Оповещение системы безопасности От: no-reply@accounts.google.com Кому: jeronion2010@gmail.com [image: Google] У приложения \"OpenAI\" есть доступ к некоторым данным вашего аккаунта Google jeronion2010@gmail.com Если вы не разрешали приложению \"OpenAI\" использовать данные вашего аккаунта Google, возможно, кто-то ещё пытается получить к ним доступ. Проверьте историю действий в аккаунте и защитит",
-      "subject": "",
-      "due_at": null,
-      "assigned_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a0b9c1c9e6e4953",
-        "title": "Оповещение системы безопасности",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a0b9c1c9e6e4953",
-        "sender": "no-reply@accounts.google.com"
-      },
-      "received_at": "2026-09-19T13:01:18.000Z",
-      "updated_at": "2026-09-27T12:14:51.275445+00:00"
-    },
-    {
       "id": "mail-1a0b5126f376b0c6",
       "title": "Попробуй «Для учёбы» в Алисе AI!",
-      "description": "От: edu@academy.yandex.ru\nТема: Попробуй «Для учёбы» в Алисе AI! От: edu@academy.yandex.ru Кому: jeronion2010@gmail.com Поможем понять тему любого урока и подготовиться к ЕГЭ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌",
+      "description": "От: edu@academy.yandex.ru\nТема: Попробуй «Для учёбы» в Алисе AI! От: edu@academy.yandex.ru Поможем понять тему любого урока и подготовиться к ЕГЭ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌",
       "subject": "",
       "due_at": null,
       "assigned_at": null,
@@ -924,7 +395,7 @@
     {
       "id": "mail-1a0a44e1b4fe1ce1",
       "title": "Yandex Cup 2026 — присоединяйтесь к чемпионату",
-      "description": "От: intern@academy.yandex.ru\nТема: Yandex Cup 2026 — присоединяйтесь к чемпионату От: intern@academy.yandex.ru Кому: jeronion2010@gmail.com 96 Открыта регистрация &zwnj; &#8195;&#8195;&#8195;&#8195;&#8195;&zwnj; &#8195;&#8195;&#8195;&#8195;&#8195;&zwnj; &#8195;&#8195;&#8195;&#8195;&#8195;&zwnj; &#8195;&#8195;&#8195;&#8195;&#8195; &zwnj; &#8195;&#8195;&#8195;&#8195;&#8195;&zwnj; &#8195;&#8195;&#8195;&#8195;&#8195;&zwnj; &#8195",
+      "description": "От: intern@academy.yandex.ru\nТема: Yandex Cup 2026 — присоединяйтесь к чемпионату От: intern@academy.yandex.ru 96 Открыта регистрация &zwnj; &#8195;&#8195;&#8195;&#8195;&#8195;&zwnj; &#8195;&#8195;&#8195;&#8195;&#8195;&zwnj; &#8195;&#8195;&#8195;&#8195;&#8195;&zwnj; &#8195;&#8195;&#8195;&#8195;&#8195; &zwnj; &#8195;&#8195;&#8195;&#8195;&#8195;&zwnj; &#8195;&#8195;&#8195;&#8195;&#8195;&zwnj; &#8195",
       "subject": "",
       "due_at": null,
       "assigned_at": null,
@@ -943,51 +414,9 @@
       "updated_at": "2026-09-27T12:14:54.856062+00:00"
     },
     {
-      "id": "mail-1a0a3182fd961aad",
-      "title": "Кто хочет бесплатный ChatGPT на год? Поднимите руку",
-      "description": "От: marketing@m.paydigital.shop\nТема: Кто хочет бесплатный ChatGPT на год? Поднимите руку От: marketing@m.paydigital.shop Кому: jeronion2010@gmail.com МТС × Pay Digital [https://s3.api.foreignpay.ru/logo_big.png] Век живи, век учись — вместе с ChatGPT Робот и школьник занимаются за столом [https://s3.api.foreignpay.ru/hero.png] Новые задачи появляются каждый день. Хорошо, когда рядом есть помощник, который доступен 24/7: объясни",
-      "subject": "",
-      "due_at": null,
-      "assigned_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a0a3182fd961aad",
-        "title": "Кто хочет бесплатный ChatGPT на год? Поднимите руку",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a0a3182fd961aad",
-        "sender": "marketing@m.paydigital.shop"
-      },
-      "received_at": "2026-09-15T03:24:25.000Z",
-      "updated_at": "2026-09-27T12:14:56.622857+00:00"
-    },
-    {
-      "id": "mail-1a08246c2c987a81",
-      "title": "Your Roblox One-Time Login Code",
-      "description": "От: accounts@roblox.com\nТема: Your Roblox One-Time Login Code От: accounts@roblox.com Кому: jeronion2010@gmail.com Do not share this code. We will never contact you to ask for it. If you did not request this code, there is no further action you need to take. If you receive numerous codes you did not request, we strongly encourage you to link a different email to your account(s) and set up 2-Step Verification by Authentic",
-      "subject": "",
-      "due_at": null,
-      "assigned_at": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "todo",
-      "files": [],
-      "source": {
-        "type": "gmail",
-        "external_id": "1a08246c2c987a81",
-        "title": "Your Roblox One-Time Login Code",
-        "url": "https://mail.google.com/mail/u/0/#inbox/1a08246c2c987a81",
-        "sender": "accounts@roblox.com"
-      },
-      "received_at": "2026-09-08T18:27:50.000Z",
-      "updated_at": "2026-09-27T12:14:58.491225+00:00"
-    },
-    {
       "id": "mail-1a07696e24ba463c",
       "title": "Письмо",
-      "description": "От: holmanova@liceum1535.ru\nТема: Письмо От: holmanova@liceum1535.ru Кому: kirsanov.m@liceum1535.ru, petrov.da@liceum1535.ru",
+      "description": "От: holmanova@liceum1535.ru\nТема: Письмо От: holmanova@liceum1535.ru",
       "subject": "",
       "due_at": null,
       "assigned_at": null,
@@ -1008,7 +437,7 @@
     {
       "id": "mail-1a07fe06756014e2",
       "title": "Новые возможности сервисов",
-      "description": "От: info@site.hh.ru\nТема: Новые возможности сервисов От: info@site.hh.ru Кому: jeronion2010@gmail.com [https://hhcdn.ru/file/18314013.png] За последний месяц ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌",
+      "description": "От: info@site.hh.ru\nТема: Новые возможности сервисов От: info@site.hh.ru [https://hhcdn.ru/file/18314013.png] За последний месяц ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌",
       "subject": "",
       "due_at": null,
       "assigned_at": null,
@@ -1029,7 +458,7 @@
     {
       "id": "mail-1a05d7d70a6aeee2",
       "title": "ссылка",
-      "description": "От: tvzaharova@mail.ru\nТема: ссылка От: tvzaharova@mail.ru Кому: jeronion2010@gmail.com https://us04web.zoom.us/j/77945695243?pwd=2Ix77MQHj0d46ds2av5m4SFvQ9nT9F.1",
+      "description": "От: tvzaharova@mail.ru\nТема: ссылка От: tvzaharova@mail.ru https://us04web.zoom.us/j/77945695243?pwd=2Ix77MQHj0d46ds2av5m4SFvQ9nT9F.1",
       "subject": "",
       "due_at": null,
       "assigned_at": null,
@@ -1046,6 +475,52 @@
       },
       "received_at": "2026-09-01T15:01:30.000Z",
       "updated_at": "2026-09-27T12:15:46.136843+00:00"
+    },
+    {
+      "id": "mesh-homework-4460985",
+      "title": "Домашнее задание — Практикум по математике 10В Кулагин",
+      "description": "Д/З выдано в виде раздаточных материалов и/или выложено в группе",
+      "subject": "Практикум по математике 10В Кулагин",
+      "due_at": "2026-09-29T00:00:00",
+      "assigned_at": "2026-09-29T00:00:00",
+      "lesson_start": null,
+      "lesson_end": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "homework",
+      "files": [],
+      "source": {
+        "type": "mesh",
+        "external_id": "mesh-homework-4460985",
+        "title": "Практикум по математике 10В Кулагин",
+        "sender": "МЭШ",
+        "url": null
+      },
+      "received_at": "2026-09-21T17:23:00",
+      "updated_at": "2026-09-27T15:15:45.243827+00:00"
+    },
+    {
+      "id": "mesh-homework-4346471",
+      "title": "Домашнее задание — Практикум по физике 10 В",
+      "description": "учить конспект",
+      "subject": "Практикум по физике 10 В",
+      "due_at": "2026-10-02T00:00:00",
+      "assigned_at": "2026-09-11T00:00:00",
+      "lesson_start": null,
+      "lesson_end": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "homework",
+      "files": [],
+      "source": {
+        "type": "mesh",
+        "external_id": "mesh-homework-4346471",
+        "title": "Практикум по физике 10 В",
+        "sender": "МЭШ",
+        "url": null
+      },
+      "received_at": "2026-09-11T16:46:00",
+      "updated_at": "2026-09-27T15:15:45.243978+00:00"
     },
     {
       "id": "mesh-homework-4443586",
@@ -1068,7 +543,7 @@
         "url": null
       },
       "received_at": "2026-09-20T15:39:00",
-      "updated_at": "2026-09-27T15:15:45.243037+00:00"
+      "updated_at": "2026-09-27T15:30:44.664609+00:00"
     },
     {
       "id": "mesh-lesson-622516806",
@@ -1090,8 +565,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.118896+00:00",
-      "updated_at": "2026-09-27T15:15:45.243069+00:00"
+      "received_at": "2026-09-27T15:30:15.452655+00:00",
+      "updated_at": "2026-09-27T15:30:44.664630+00:00"
     },
     {
       "id": "mesh-lesson-622516792",
@@ -1118,8 +593,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.118913+00:00",
-      "updated_at": "2026-09-27T15:15:45.243094+00:00"
+      "received_at": "2026-09-27T15:30:15.452665+00:00",
+      "updated_at": "2026-09-27T15:30:44.664640+00:00"
     },
     {
       "id": "mesh-lesson-622516790",
@@ -1141,8 +616,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.118927+00:00",
-      "updated_at": "2026-09-27T15:15:45.243114+00:00"
+      "received_at": "2026-09-27T15:30:15.452671+00:00",
+      "updated_at": "2026-09-27T15:30:44.664649+00:00"
     },
     {
       "id": "mesh-lesson-622516768",
@@ -1164,8 +639,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.118939+00:00",
-      "updated_at": "2026-09-27T15:15:45.243134+00:00"
+      "received_at": "2026-09-27T15:30:15.452677+00:00",
+      "updated_at": "2026-09-27T15:30:44.664657+00:00"
     },
     {
       "id": "mesh-lesson-622516769",
@@ -1187,8 +662,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.118950+00:00",
-      "updated_at": "2026-09-27T15:15:45.243157+00:00"
+      "received_at": "2026-09-27T15:30:15.452683+00:00",
+      "updated_at": "2026-09-27T15:30:44.664665+00:00"
     },
     {
       "id": "mesh-lesson-622516777",
@@ -1210,8 +685,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.118962+00:00",
-      "updated_at": "2026-09-27T15:15:45.243176+00:00"
+      "received_at": "2026-09-27T15:30:15.452689+00:00",
+      "updated_at": "2026-09-27T15:30:44.664673+00:00"
     },
     {
       "id": "mesh-lesson-622516786",
@@ -1238,8 +713,31 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.118972+00:00",
-      "updated_at": "2026-09-27T15:15:45.243196+00:00"
+      "received_at": "2026-09-27T15:30:15.452695+00:00",
+      "updated_at": "2026-09-27T15:30:44.664681+00:00"
+    },
+    {
+      "id": "mesh-homework-4460978",
+      "title": "Домашнее задание — Практикум по математике 10В Кулагин",
+      "description": "Д/З выдано в виде раздаточных материалов и/или выложено в группе",
+      "subject": "Практикум по математике 10В Кулагин",
+      "due_at": "2026-09-22T00:00:00",
+      "assigned_at": "2026-09-22T00:00:00",
+      "lesson_start": null,
+      "lesson_end": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "homework",
+      "files": [],
+      "source": {
+        "type": "mesh",
+        "external_id": "mesh-homework-4460978",
+        "title": "Практикум по математике 10В Кулагин",
+        "sender": "МЭШ",
+        "url": null
+      },
+      "received_at": "2026-09-21T17:23:00",
+      "updated_at": "2026-09-27T15:30:44.664691+00:00"
     },
     {
       "id": "mesh-lesson-622516807",
@@ -1261,8 +759,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.118984+00:00",
-      "updated_at": "2026-09-27T15:15:45.243215+00:00"
+      "received_at": "2026-09-27T15:30:15.452701+00:00",
+      "updated_at": "2026-09-27T15:30:44.664699+00:00"
     },
     {
       "id": "mesh-lesson-622516775",
@@ -1297,8 +795,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.118994+00:00",
-      "updated_at": "2026-09-27T15:15:45.243234+00:00"
+      "received_at": "2026-09-27T15:30:15.452706+00:00",
+      "updated_at": "2026-09-27T15:30:44.664706+00:00"
     },
     {
       "id": "mesh-lesson-622516781",
@@ -1320,8 +818,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119005+00:00",
-      "updated_at": "2026-09-27T15:15:45.243253+00:00"
+      "received_at": "2026-09-27T15:30:15.452712+00:00",
+      "updated_at": "2026-09-27T15:30:44.664714+00:00"
     },
     {
       "id": "mesh-lesson-622516791",
@@ -1343,8 +841,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119016+00:00",
-      "updated_at": "2026-09-27T15:15:45.243271+00:00"
+      "received_at": "2026-09-27T15:30:15.452717+00:00",
+      "updated_at": "2026-09-27T15:30:44.664721+00:00"
     },
     {
       "id": "mesh-lesson-622516776",
@@ -1366,8 +864,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119026+00:00",
-      "updated_at": "2026-09-27T15:15:45.243290+00:00"
+      "received_at": "2026-09-27T15:30:15.452723+00:00",
+      "updated_at": "2026-09-27T15:30:44.664729+00:00"
     },
     {
       "id": "mesh-lesson-622516764",
@@ -1389,8 +887,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119037+00:00",
-      "updated_at": "2026-09-27T15:15:45.243309+00:00"
+      "received_at": "2026-09-27T15:30:15.452728+00:00",
+      "updated_at": "2026-09-27T15:30:44.664736+00:00"
     },
     {
       "id": "mesh-lesson-622516779",
@@ -1412,8 +910,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119047+00:00",
-      "updated_at": "2026-09-27T15:15:45.243328+00:00"
+      "received_at": "2026-09-27T15:30:15.452734+00:00",
+      "updated_at": "2026-09-27T15:30:44.664744+00:00"
     },
     {
       "id": "mesh-lesson-622516782",
@@ -1435,8 +933,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119057+00:00",
-      "updated_at": "2026-09-27T15:15:45.243347+00:00"
+      "received_at": "2026-09-27T15:30:15.452739+00:00",
+      "updated_at": "2026-09-27T15:30:44.664752+00:00"
     },
     {
       "id": "mesh-lesson-622516783",
@@ -1458,8 +956,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119068+00:00",
-      "updated_at": "2026-09-27T15:15:45.243365+00:00"
+      "received_at": "2026-09-27T15:30:15.452744+00:00",
+      "updated_at": "2026-09-27T15:30:44.664760+00:00"
     },
     {
       "id": "mesh-lesson-622516784",
@@ -1481,8 +979,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119078+00:00",
-      "updated_at": "2026-09-27T15:15:45.243383+00:00"
+      "received_at": "2026-09-27T15:30:15.452750+00:00",
+      "updated_at": "2026-09-27T15:30:44.664768+00:00"
     },
     {
       "id": "mesh-lesson-622516794",
@@ -1509,8 +1007,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119090+00:00",
-      "updated_at": "2026-09-27T15:15:45.243402+00:00"
+      "received_at": "2026-09-27T15:30:15.452757+00:00",
+      "updated_at": "2026-09-27T15:30:44.664775+00:00"
     },
     {
       "id": "mesh-lesson-622516766",
@@ -1532,8 +1030,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119100+00:00",
-      "updated_at": "2026-09-27T15:15:45.243420+00:00"
+      "received_at": "2026-09-27T15:30:15.452763+00:00",
+      "updated_at": "2026-09-27T15:30:44.664782+00:00"
     },
     {
       "id": "mesh-homework-4478786",
@@ -1556,7 +1054,7 @@
         "url": null
       },
       "received_at": "2026-09-23T15:53:00",
-      "updated_at": "2026-09-27T15:15:45.243438+00:00"
+      "updated_at": "2026-09-27T15:30:44.664790+00:00"
     },
     {
       "id": "mesh-lesson-622516762",
@@ -1578,8 +1076,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119110+00:00",
-      "updated_at": "2026-09-27T15:15:45.243456+00:00"
+      "received_at": "2026-09-27T15:30:15.452768+00:00",
+      "updated_at": "2026-09-27T15:30:44.664797+00:00"
     },
     {
       "id": "mesh-lesson-622516770",
@@ -1601,8 +1099,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119120+00:00",
-      "updated_at": "2026-09-27T15:15:45.243475+00:00"
+      "received_at": "2026-09-27T15:30:15.452773+00:00",
+      "updated_at": "2026-09-27T15:30:44.664804+00:00"
     },
     {
       "id": "mesh-lesson-622516774",
@@ -1624,8 +1122,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119131+00:00",
-      "updated_at": "2026-09-27T15:15:45.243493+00:00"
+      "received_at": "2026-09-27T15:30:15.452778+00:00",
+      "updated_at": "2026-09-27T15:30:44.664812+00:00"
     },
     {
       "id": "mesh-lesson-622516763",
@@ -1647,8 +1145,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119141+00:00",
-      "updated_at": "2026-09-27T15:15:45.243511+00:00"
+      "received_at": "2026-09-27T15:30:15.452783+00:00",
+      "updated_at": "2026-09-27T15:30:44.664820+00:00"
     },
     {
       "id": "mesh-lesson-622516805",
@@ -1675,8 +1173,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119152+00:00",
-      "updated_at": "2026-09-27T15:15:45.243530+00:00"
+      "received_at": "2026-09-27T15:30:15.452789+00:00",
+      "updated_at": "2026-09-27T15:30:44.664828+00:00"
     },
     {
       "id": "mesh-lesson-622516780",
@@ -1698,8 +1196,31 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119162+00:00",
-      "updated_at": "2026-09-27T15:15:45.243548+00:00"
+      "received_at": "2026-09-27T15:30:15.452794+00:00",
+      "updated_at": "2026-09-27T15:30:44.664835+00:00"
+    },
+    {
+      "id": "mesh-homework-4346468",
+      "title": "Домашнее задание — Практикум по физике 10 В",
+      "description": "учить конспект",
+      "subject": "Практикум по физике 10 В",
+      "due_at": "2026-09-25T00:00:00",
+      "assigned_at": "2026-09-11T00:00:00",
+      "lesson_start": null,
+      "lesson_end": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "homework",
+      "files": [],
+      "source": {
+        "type": "mesh",
+        "external_id": "mesh-homework-4346468",
+        "title": "Практикум по физике 10 В",
+        "sender": "МЭШ",
+        "url": null
+      },
+      "received_at": "2026-09-11T16:46:00",
+      "updated_at": "2026-09-27T15:30:44.664845+00:00"
     },
     {
       "id": "mesh-homework-4476959",
@@ -1722,7 +1243,7 @@
         "url": null
       },
       "received_at": "2026-09-23T14:10:00",
-      "updated_at": "2026-09-27T15:15:45.243566+00:00"
+      "updated_at": "2026-09-27T15:30:44.664852+00:00"
     },
     {
       "id": "mesh-lesson-622516761",
@@ -1744,8 +1265,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119172+00:00",
-      "updated_at": "2026-09-27T15:15:45.243584+00:00"
+      "received_at": "2026-09-27T15:30:15.452800+00:00",
+      "updated_at": "2026-09-27T15:30:44.664859+00:00"
     },
     {
       "id": "mesh-lesson-622516765",
@@ -1772,8 +1293,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119182+00:00",
-      "updated_at": "2026-09-27T15:15:45.243602+00:00"
+      "received_at": "2026-09-27T15:30:15.452805+00:00",
+      "updated_at": "2026-09-27T15:30:44.664867+00:00"
     },
     {
       "id": "mesh-lesson-622516767",
@@ -1795,8 +1316,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119192+00:00",
-      "updated_at": "2026-09-27T15:15:45.243620+00:00"
+      "received_at": "2026-09-27T15:30:15.452810+00:00",
+      "updated_at": "2026-09-27T15:30:44.664893+00:00"
     },
     {
       "id": "mesh-lesson-626404398",
@@ -1818,8 +1339,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119202+00:00",
-      "updated_at": "2026-09-27T15:15:45.243639+00:00"
+      "received_at": "2026-09-27T15:30:15.452815+00:00",
+      "updated_at": "2026-09-27T15:30:44.664901+00:00"
     },
     {
       "id": "mesh-lesson-622516785",
@@ -1841,8 +1362,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119215+00:00",
-      "updated_at": "2026-09-27T15:15:45.243659+00:00"
+      "received_at": "2026-09-27T15:30:15.452821+00:00",
+      "updated_at": "2026-09-27T15:30:44.664908+00:00"
     },
     {
       "id": "mesh-lesson-622516773",
@@ -1864,8 +1385,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119225+00:00",
-      "updated_at": "2026-09-27T15:15:45.243677+00:00"
+      "received_at": "2026-09-27T15:30:15.452826+00:00",
+      "updated_at": "2026-09-27T15:30:44.664916+00:00"
     },
     {
       "id": "mesh-lesson-622516853",
@@ -1887,8 +1408,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119235+00:00",
-      "updated_at": "2026-09-27T15:15:45.243695+00:00"
+      "received_at": "2026-09-27T15:30:15.452832+00:00",
+      "updated_at": "2026-09-27T15:30:44.664923+00:00"
     },
     {
       "id": "mesh-lesson-622516839",
@@ -1915,8 +1436,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119245+00:00",
-      "updated_at": "2026-09-27T15:15:45.243714+00:00"
+      "received_at": "2026-09-27T15:30:15.452838+00:00",
+      "updated_at": "2026-09-27T15:30:44.664945+00:00"
     },
     {
       "id": "mesh-lesson-622516837",
@@ -1938,8 +1459,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119255+00:00",
-      "updated_at": "2026-09-27T15:15:45.243732+00:00"
+      "received_at": "2026-09-27T15:30:15.452843+00:00",
+      "updated_at": "2026-09-27T15:30:44.664953+00:00"
     },
     {
       "id": "mesh-lesson-622516815",
@@ -1961,8 +1482,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119265+00:00",
-      "updated_at": "2026-09-27T15:15:45.243750+00:00"
+      "received_at": "2026-09-27T15:30:15.452848+00:00",
+      "updated_at": "2026-09-27T15:30:44.664960+00:00"
     },
     {
       "id": "mesh-lesson-622516816",
@@ -1984,8 +1505,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119275+00:00",
-      "updated_at": "2026-09-27T15:15:45.243768+00:00"
+      "received_at": "2026-09-27T15:30:15.452854+00:00",
+      "updated_at": "2026-09-27T15:30:44.664967+00:00"
     },
     {
       "id": "mesh-lesson-622516824",
@@ -2007,8 +1528,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119284+00:00",
-      "updated_at": "2026-09-27T15:15:45.243786+00:00"
+      "received_at": "2026-09-27T15:30:15.452859+00:00",
+      "updated_at": "2026-09-27T15:30:44.664974+00:00"
     },
     {
       "id": "mesh-lesson-622516833",
@@ -2030,31 +1551,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119294+00:00",
-      "updated_at": "2026-09-27T15:15:45.243804+00:00"
-    },
-    {
-      "id": "mesh-homework-4460985",
-      "title": "Домашнее задание — Практикум по математике 10В Кулагин",
-      "description": "Д/З выдано в виде раздаточных материалов и/или выложено в группе",
-      "subject": "Практикум по математике 10В Кулагин",
-      "due_at": "2026-09-29T00:00:00",
-      "assigned_at": "2026-09-29T00:00:00",
-      "lesson_start": null,
-      "lesson_end": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "homework",
-      "files": [],
-      "source": {
-        "type": "mesh",
-        "external_id": "mesh-homework-4460985",
-        "title": "Практикум по математике 10В Кулагин",
-        "sender": "МЭШ",
-        "url": null
-      },
-      "received_at": "2026-09-21T17:23:00",
-      "updated_at": "2026-09-27T15:15:45.243827+00:00"
+      "received_at": "2026-09-27T15:30:15.452865+00:00",
+      "updated_at": "2026-09-27T15:30:44.664981+00:00"
     },
     {
       "id": "mesh-lesson-622516854",
@@ -2076,8 +1574,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119304+00:00",
-      "updated_at": "2026-09-27T15:15:45.243846+00:00"
+      "received_at": "2026-09-27T15:30:15.452870+00:00",
+      "updated_at": "2026-09-27T15:30:44.664989+00:00"
     },
     {
       "id": "mesh-lesson-622516822",
@@ -2104,8 +1602,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119313+00:00",
-      "updated_at": "2026-09-27T15:15:45.243864+00:00"
+      "received_at": "2026-09-27T15:30:15.452875+00:00",
+      "updated_at": "2026-09-27T15:30:44.664996+00:00"
     },
     {
       "id": "mesh-lesson-622516828",
@@ -2127,8 +1625,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119323+00:00",
-      "updated_at": "2026-09-27T15:15:45.243882+00:00"
+      "received_at": "2026-09-27T15:30:15.452880+00:00",
+      "updated_at": "2026-09-27T15:30:44.665005+00:00"
     },
     {
       "id": "mesh-lesson-622516823",
@@ -2150,8 +1648,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119334+00:00",
-      "updated_at": "2026-09-27T15:15:45.243900+00:00"
+      "received_at": "2026-09-27T15:30:15.452886+00:00",
+      "updated_at": "2026-09-27T15:30:44.665012+00:00"
     },
     {
       "id": "mesh-lesson-622516811",
@@ -2173,8 +1671,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119345+00:00",
-      "updated_at": "2026-09-27T15:15:45.243919+00:00"
+      "received_at": "2026-09-27T15:30:15.452892+00:00",
+      "updated_at": "2026-09-27T15:30:44.665020+00:00"
     },
     {
       "id": "mesh-lesson-622516841",
@@ -2205,8 +1703,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119357+00:00",
-      "updated_at": "2026-09-27T15:15:45.243937+00:00"
+      "received_at": "2026-09-27T15:30:15.452899+00:00",
+      "updated_at": "2026-09-27T15:30:44.665027+00:00"
     },
     {
       "id": "mesh-lesson-622516813",
@@ -2228,31 +1726,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119368+00:00",
-      "updated_at": "2026-09-27T15:15:45.243955+00:00"
-    },
-    {
-      "id": "mesh-homework-4346471",
-      "title": "Домашнее задание — Практикум по физике 10 В",
-      "description": "учить конспект",
-      "subject": "Практикум по физике 10 В",
-      "due_at": "2026-10-02T00:00:00",
-      "assigned_at": "2026-09-11T00:00:00",
-      "lesson_start": null,
-      "lesson_end": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "homework",
-      "files": [],
-      "source": {
-        "type": "mesh",
-        "external_id": "mesh-homework-4346471",
-        "title": "Практикум по физике 10 В",
-        "sender": "МЭШ",
-        "url": null
-      },
-      "received_at": "2026-09-11T16:46:00",
-      "updated_at": "2026-09-27T15:15:45.243978+00:00"
+      "received_at": "2026-09-27T15:30:15.452904+00:00",
+      "updated_at": "2026-09-27T15:30:44.665034+00:00"
     },
     {
       "id": "mesh-lesson-622516808",
@@ -2274,8 +1749,8 @@
         "sender": "МЭШ",
         "url": null
       },
-      "received_at": "2026-09-27T15:15:15.119380+00:00",
-      "updated_at": "2026-09-27T15:15:45.243996+00:00"
+      "received_at": "2026-09-27T15:30:15.452911+00:00",
+      "updated_at": "2026-09-27T15:30:44.665042+00:00"
     }
   ]
 }
