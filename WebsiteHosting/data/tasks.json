@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T10:39:25.648604+00:00",
+  "updated_at": "2026-09-27T10:39:27.241296+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -450,6 +450,24 @@
       },
       "received_at": "2026-09-02T10:28:46.000Z",
       "updated_at": "2026-09-27T10:39:25.642060+00:00"
+    },
+    {
+      "id": "mail-1a05e1c6df7024f2",
+      "title": "Олимпиады",
+      "description": "От: elena19670610@mail.ru\nТема: Олимпиады От: elena19670610@mail.ru Кому: jeronion2010@gmail.com https://postupi.online/olimp-list/?fsubject=49 -- Елена Петрова Отправлено из Почты Mail ( https://trk.mail.ru/c/zzm979 )",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "source": {
+        "type": "gmail",
+        "external_id": "1a05e1c6df7024f2",
+        "title": "Олимпиады",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a05e1c6df7024f2",
+        "sender": "elena19670610@mail.ru"
+      },
+      "received_at": "2026-09-01T17:55:13.000Z",
+      "updated_at": "2026-09-27T10:39:27.234912+00:00"
     }
   ]
 }
