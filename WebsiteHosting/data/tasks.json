@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:12:50.288676+00:00",
+  "updated_at": "2026-09-27T12:12:51.995326+00:00",
   "tasks": [
     {
       "id": "mail-1a0dd544efbcf044",
@@ -752,6 +752,27 @@
       },
       "received_at": "2026-09-22T14:59:57.000Z",
       "updated_at": "2026-09-27T12:12:50.287796+00:00"
+    },
+    {
+      "id": "mail-1a0bfda235963cb1",
+      "title": "Codeforces Round 1122 (Div. 3)",
+      "description": "От: Codeforces@codeforces.com\nТема: Codeforces Round 1122 (Div. 3) От: Codeforces@codeforces.com Кому: jeronion2010@gmail.com Добрый день, Jeronion. Рад пригласить вас принять участие в Codeforces Round 1122 (Div. 3). Начало запланировано на 21 сентября (понедельник), 2026 17:35 (Московское время). Продолжительность соревнования — 2 часа 30 минут. Допустимые языки C/C++, Python, Java, Kotlin, Rust, Go, C#, F#, Pascal/Delphi, J",
+      "subject": "",
+      "due_at": null,
+      "assigned_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "homework",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a0bfda235963cb1",
+        "title": "Codeforces Round 1122 (Div. 3)",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a0bfda235963cb1",
+        "sender": "Codeforces@codeforces.com"
+      },
+      "received_at": "2026-09-20T16:30:26.000Z",
+      "updated_at": "2026-09-27T12:12:51.994439+00:00"
     }
   ]
 }
