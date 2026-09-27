@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:09:11.265713+00:00",
+  "updated_at": "2026-09-27T12:09:12.916004+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -380,6 +380,26 @@
       },
       "received_at": "2026-09-02T06:00:00.000Z",
       "updated_at": "2026-09-27T12:09:11.265370+00:00"
+    },
+    {
+      "id": "mail-1a05c327a3f66cad",
+      "title": "Code reviews are no longer enough",
+      "description": "От: newsletter@email.roadmap.sh\nТема: Code reviews are no longer enough От: newsletter@email.roadmap.sh Кому: jeronion2010@gmail.com AI is writing more code than you can read line by line. The checks around it are what you actually trust now. View in browser (https://updates.roadmap.sh/e3t/Ctc/L2+113/d5qLSh04/VWjv6965mg2jVPDCSy57FX_nW2bnPc75TpPF0N74Pqtj5m_5PW6N1X8z6lZ3lZW5LQ8vg8Zq153W8rZmPm9jD3wjMn9TtW_D38-W8Q_WGS7WsXz6W2Qr3v06Y",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "todo",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a05c327a3f66cad",
+        "title": "Code reviews are no longer enough",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a05c327a3f66cad",
+        "sender": "newsletter@email.roadmap.sh"
+      },
+      "received_at": "2026-09-01T09:00:04.000Z",
+      "updated_at": "2026-09-27T12:09:12.915625+00:00"
     }
   ]
 }
