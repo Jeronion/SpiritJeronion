@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T10:39:02.560364+00:00",
+  "updated_at": "2026-09-27T10:39:04.067536+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -198,6 +198,24 @@
       },
       "received_at": "2026-09-25T23:02:51.000Z",
       "updated_at": "2026-09-27T10:39:02.554942+00:00"
+    },
+    {
+      "id": "mail-1a0d45caeae2d634",
+      "title": "Новые сообщения в чате с продавцом по заказу 51779054.",
+      "description": "От: no-reply@ggsel.com\nТема: Новые сообщения в чате с продавцом по заказу 51779054. От: no-reply@ggsel.com Кому: jeronion2010@gmail.com Продавец товара написал сообщение У вас появились новые сообщения в чате с продавцом profession digital goods по заказу 51779054. Перейти к заказу [https://payment.ggsel.com/ru/order/54745ce9-a9c2-40f9-87c9-566ca794634d/ggsel-payment?access_token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnZ3NlbCI",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "source": {
+        "type": "gmail",
+        "external_id": "1a0d45caeae2d634",
+        "title": "Новые сообщения в чате с продавцом по заказу 51779054.",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a0d45caeae2d634",
+        "sender": "no-reply@ggsel.com"
+      },
+      "received_at": "2026-09-24T17:00:38.000Z",
+      "updated_at": "2026-09-27T10:39:04.067234+00:00"
     }
   ]
 }
