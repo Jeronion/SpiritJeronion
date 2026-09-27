@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:08:54.619114+00:00",
+  "updated_at": "2026-09-27T12:08:56.530225+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -200,6 +200,26 @@
       },
       "received_at": "2026-09-18T19:32:52.000Z",
       "updated_at": "2026-09-27T12:08:54.618621+00:00"
+    },
+    {
+      "id": "mail-1a0a9c3f1a56dc29",
+      "title": "Попробуй себя в «Высшей пробе»",
+      "description": "От: edu@academy.yandex.ru\nТема: Попробуй себя в «Высшей пробе» От: edu@academy.yandex.ru Кому: jeronion2010@gmail.com Олимпиада по промышленному программированию ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "homework",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a0a9c3f1a56dc29",
+        "title": "Попробуй себя в «Высшей пробе»",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a0a9c3f1a56dc29",
+        "sender": "edu@academy.yandex.ru"
+      },
+      "received_at": "2026-09-16T10:29:44.000Z",
+      "updated_at": "2026-09-27T12:08:56.529729+00:00"
     }
   ]
 }
