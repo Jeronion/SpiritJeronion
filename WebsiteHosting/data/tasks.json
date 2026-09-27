@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:09:47.670951+00:00",
+  "updated_at": "2026-09-27T12:09:49.200629+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -520,6 +520,26 @@
       },
       "received_at": "2026-09-04T09:14:02.000Z",
       "updated_at": "2026-09-27T12:09:47.670380+00:00"
+    },
+    {
+      "id": "mail-1a066f5a314bbd2a",
+      "title": "Как добавить предмет в ЗФТШ",
+      "description": "От: info@zftsh.online\nТема: Как добавить предмет в ЗФТШ От: info@zftsh.online Кому: jeronion2010@gmail.com [https://img.hiteml.com/en/v5/user-files?userId=7489182&resource=himg&disposition=inline&name=6bfzy1xwzz6e1fa1sgr6cbw7pimcgb8pigdd787j9eg645qyqfecks8fit7apx6iczsxitghmnjuofsetr7ieq5yw5whotc68bwwu4sa]https://zftsh.online Уважаемый ученик, с 25 августа по 10 сентября ЗФТШ проводит осенний набор учащихся на 2026 - 20",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "todo",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a066f5a314bbd2a",
+        "title": "Как добавить предмет в ЗФТШ",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a066f5a314bbd2a",
+        "sender": "info@zftsh.online"
+      },
+      "received_at": "2026-09-03T11:09:28.000Z",
+      "updated_at": "2026-09-27T12:09:49.199798+00:00"
     }
   ]
 }
