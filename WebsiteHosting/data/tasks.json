@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:12:57.585785+00:00",
+  "updated_at": "2026-09-27T12:12:59.746447+00:00",
   "tasks": [
     {
       "id": "mail-1a0dd544efbcf044",
@@ -836,6 +836,27 @@
       },
       "received_at": "2026-09-08T18:28:14.000Z",
       "updated_at": "2026-09-27T12:12:57.584949+00:00"
+    },
+    {
+      "id": "mail-1a067866d454d132",
+      "title": "Добавление",
+      "description": "От: pirozhnikova@liceum1535.ru\nТема: Добавление От: pirozhnikova@liceum1535.ru Кому: belikov.i@liceum1535.ru, darenskiy.a@liceum1535.ru, alifirovets.p@liceum1535.ru, derugin.u@liceum1535.ru, gorshkov.n@liceum1535.ru, kanaeva.e@liceum1535.ru, kotlyachkov.n@liceum1535.ru, lykin.a@liceum1535.ru, boldyreva.s@liceum1535.ru, ananchenko.ea@liceum1535.ru, melynikov.a@liceum1535.ru, mizyurin.m@liceum1535.ru, morozov.d@liceum1535.ru, osi",
+      "subject": "",
+      "due_at": null,
+      "assigned_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "homework",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a067866d454d132",
+        "title": "Добавление",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a067866d454d132",
+        "sender": "pirozhnikova@liceum1535.ru"
+      },
+      "received_at": "2026-09-03T13:47:17.000Z",
+      "updated_at": "2026-09-27T12:12:59.745561+00:00"
     }
   ]
 }
