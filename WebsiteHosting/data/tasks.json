@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:09:09.420125+00:00",
+  "updated_at": "2026-09-27T12:09:11.265713+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -360,6 +360,26 @@
       },
       "received_at": "2026-09-04T21:54:53.000Z",
       "updated_at": "2026-09-27T12:09:09.419572+00:00"
+    },
+    {
+      "id": "mail-1a060b3f2a7ba7fe",
+      "title": "🐝 С ДНЕМ ЗНАНИЙ 🔔",
+      "description": "От: noreply@stepik.org\nТема: 🐝 С ДНЕМ ЗНАНИЙ 🔔 От: noreply@stepik.org Кому: jeronion2010@gmail.com | [ ![](https://stepik.org/static/emails/default/logo_black.png) ](https://stepik.org/?utm_source=announcement&utm_medium=email&utm_campaign=announcement&utm_term=user-group4&utm_content=main-page&etk=WzEyNSwzNTQ2NzAxOTZd.1x1e0u.-ZBB8w3XjEBKWNS5T_OD5F_b_Qk) --- | ![](https://ucarecdn.stepik.net/0ec74f53-433d-49b1-945c-bb8f",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "todo",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a060b3f2a7ba7fe",
+        "title": "🐝 С ДНЕМ ЗНАНИЙ 🔔",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a060b3f2a7ba7fe",
+        "sender": "noreply@stepik.org"
+      },
+      "received_at": "2026-09-02T06:00:00.000Z",
+      "updated_at": "2026-09-27T12:09:11.265370+00:00"
     }
   ]
 }
