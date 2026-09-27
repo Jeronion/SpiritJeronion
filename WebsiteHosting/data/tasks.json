@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T10:39:17.226728+00:00",
+  "updated_at": "2026-09-27T10:39:18.810766+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -360,6 +360,24 @@
       },
       "received_at": "2026-09-08T11:30:48.000Z",
       "updated_at": "2026-09-27T10:39:17.221233+00:00"
+    },
+    {
+      "id": "mail-1a07c686531dd818",
+      "title": "📜 Weekly Guild Letter",
+      "description": "От: news@quantguild.com\nТема: 📜 Weekly Guild Letter От: news@quantguild.com Кому: jeronion2010@gmail.com ­ ------------------------------ 📜 A Note from the Guild Leader ------------------------------ ­ Have you ever played a video game? [or insert other activity / hobby here] Why aren't you playing it now, like right now ? Maybe you would prefer to, but your *policy function* dictates that something (work, school, errand",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "source": {
+        "type": "gmail",
+        "external_id": "1a07c686531dd818",
+        "title": "📜 Weekly Guild Letter",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a07c686531dd818",
+        "sender": "news@quantguild.com"
+      },
+      "received_at": "2026-09-07T15:06:43.000Z",
+      "updated_at": "2026-09-27T10:39:18.804680+00:00"
     }
   ]
 }
