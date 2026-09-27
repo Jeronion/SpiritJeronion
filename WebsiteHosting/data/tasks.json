@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T10:42:27.777632+00:00",
+  "updated_at": "2026-09-27T10:42:29.561943+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -936,6 +936,24 @@
       },
       "received_at": "2026-09-01T19:59:33.000Z",
       "updated_at": "2026-09-27T10:42:27.771652+00:00"
+    },
+    {
+      "id": "mail-1a05902b3beccd72",
+      "title": "Two lines point your OpenAI SDK at every model",
+      "description": "От: welcome@openrouter.ai\nТема: Two lines point your OpenAI SDK at every model От: welcome@openrouter.ai Кому: jeronion2010@gmail.com Change the base URL and the key. Streaming, tool calls, and response handling keep working. OpenRouter ( https://openrouter.ai?utm_medium=email&utm_source=customerio ) Hi Jeronion, ****************************************** Your OpenAI SDK already speaks OpenRouter. *************************",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "source": {
+        "type": "gmail",
+        "external_id": "1a05902b3beccd72",
+        "title": "Two lines point your OpenAI SDK at every model",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a05902b3beccd72",
+        "sender": "welcome@openrouter.ai"
+      },
+      "received_at": "2026-08-31T18:09:03.000Z",
+      "updated_at": "2026-09-27T10:42:29.555024+00:00"
     }
   ]
 }
