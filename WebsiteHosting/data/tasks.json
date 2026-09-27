@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:12:59.746447+00:00",
+  "updated_at": "2026-09-27T12:13:01.940072+00:00",
   "tasks": [
     {
       "id": "mail-1a0dd544efbcf044",
@@ -857,6 +857,27 @@
       },
       "received_at": "2026-09-03T13:47:17.000Z",
       "updated_at": "2026-09-27T12:12:59.745561+00:00"
+    },
+    {
+      "id": "mail-1a062a39adcd7a99",
+      "title": "Завершение регистрации аккаунта МТС Линк",
+      "description": "От: invitation@mts-link.ru\nТема: Завершение регистрации аккаунта МТС Линк От: invitation@mts-link.ru Кому: jeronion2010@gmail.com To view this email message, open it in a program that understands HTML!",
+      "subject": "",
+      "due_at": null,
+      "assigned_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "todo",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a062a39adcd7a99",
+        "title": "Завершение регистрации аккаунта МТС Линк",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a062a39adcd7a99",
+        "sender": "invitation@mts-link.ru"
+      },
+      "received_at": "2026-09-02T15:01:23.000Z",
+      "updated_at": "2026-09-27T12:13:01.939045+00:00"
     }
   ]
 }
