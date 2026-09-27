@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T10:39:04.067536+00:00",
+  "updated_at": "2026-09-27T10:39:05.594564+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -216,6 +216,24 @@
       },
       "received_at": "2026-09-24T17:00:38.000Z",
       "updated_at": "2026-09-27T10:39:04.067234+00:00"
+    },
+    {
+      "id": "mail-1a0c4854f5743b82",
+      "title": "📜 Weekly Guild Letter",
+      "description": "От: news@quantguild.com\nТема: 📜 Weekly Guild Letter От: news@quantguild.com Кому: jeronion2010@gmail.com ­ ------------------------------ 📜 A Note from the Guild Leader ------------------------------ ­ I have to express my gratitude, and in expressing my gratitude, tell you how we got here *and* where we are going. For no other reason than I hold you in the highest regard, and if you're reading this, it's only fair that",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "source": {
+        "type": "gmail",
+        "external_id": "1a0c4854f5743b82",
+        "title": "📜 Weekly Guild Letter",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a0c4854f5743b82",
+        "sender": "news@quantguild.com"
+      },
+      "received_at": "2026-09-21T15:11:05.000Z",
+      "updated_at": "2026-09-27T10:39:05.590664+00:00"
     }
   ]
 }
