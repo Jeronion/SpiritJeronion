@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:12:48.370143+00:00",
+  "updated_at": "2026-09-27T12:12:50.288676+00:00",
   "tasks": [
     {
       "id": "mail-1a0dd544efbcf044",
@@ -731,6 +731,27 @@
       },
       "received_at": "2026-09-24T15:50:44.000Z",
       "updated_at": "2026-09-27T12:12:48.369363+00:00"
+    },
+    {
+      "id": "mail-1a0c9a17e2da6c2d",
+      "title": "Набор в Яндекс Лицей скоро закончится! Django, Go, ML или анализ данных?",
+      "description": "От: lyceum@academy.yandex.ru\nТема: Набор в Яндекс Лицей скоро закончится! Django, Go, ML или анализ данных? От: lyceum@academy.yandex.ru Кому: jeronion2010@gmail.com Успей подать заявку до 23 сентября ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌",
+      "subject": "",
+      "due_at": null,
+      "assigned_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "todo",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a0c9a17e2da6c2d",
+        "title": "Набор в Яндекс Лицей скоро закончится! Django, Go, ML или анализ данных?",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a0c9a17e2da6c2d",
+        "sender": "lyceum@academy.yandex.ru"
+      },
+      "received_at": "2026-09-22T14:59:57.000Z",
+      "updated_at": "2026-09-27T12:12:50.287796+00:00"
     }
   ]
 }
