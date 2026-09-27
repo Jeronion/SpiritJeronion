@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:14:51.276424+00:00",
+  "updated_at": "2026-09-27T12:14:53.043221+00:00",
   "tasks": [
     {
       "id": "mail-1a0dd544efbcf044",
@@ -1172,6 +1172,27 @@
       },
       "received_at": "2026-09-19T13:01:18.000Z",
       "updated_at": "2026-09-27T12:14:51.275445+00:00"
+    },
+    {
+      "id": "mail-1a0b5126f376b0c6",
+      "title": "Попробуй «Для учёбы» в Алисе AI!",
+      "description": "От: edu@academy.yandex.ru\nТема: Попробуй «Для учёбы» в Алисе AI! От: edu@academy.yandex.ru Кому: jeronion2010@gmail.com Поможем понять тему любого урока и подготовиться к ЕГЭ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌",
+      "subject": "",
+      "due_at": null,
+      "assigned_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "homework",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a0b5126f376b0c6",
+        "title": "Попробуй «Для учёбы» в Алисе AI!",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a0b5126f376b0c6",
+        "sender": "edu@academy.yandex.ru"
+      },
+      "received_at": "2026-09-18T15:11:18.000Z",
+      "updated_at": "2026-09-27T12:14:53.042032+00:00"
     }
   ]
 }
