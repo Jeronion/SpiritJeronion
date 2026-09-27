@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:09:05.741277+00:00",
+  "updated_at": "2026-09-27T12:09:07.621017+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -320,6 +320,26 @@
       },
       "received_at": "2026-09-07T18:09:08.000Z",
       "updated_at": "2026-09-27T12:09:05.740741+00:00"
+    },
+    {
+      "id": "mail-1a072dc660c62321",
+      "title": "Minecraft ведет трансляцию: Join your hosts Couriway and jojosolos for a very special MC Championship, based on the upcoming Minecraft Fall Game drop!",
+      "description": "От: no-reply@twitch.tv\nТема: Minecraft ведет трансляцию: Join your hosts Couriway and jojosolos for a very special MC Championship, based on the upcoming Minecraft Fall Game drop! От: no-reply@twitch.tv Кому: jeronion2010@gmail.com Minecraft ведет трансляцию! Twitch [https://static-cdn.jtvnw.net/growth-assets/email_twitch_logo_uv]https://www.twitch.tv/r/e/eyJsb2NhdGlvbiI6ImxvZ28iLCJlbWFpbF9pZCI6ImJhNGJkOWMwLTcyMDgtNDY2Z",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "todo",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a072dc660c62321",
+        "title": "Minecraft ведет трансляцию: Join your hosts Couriway and jojosolos for a very special MC Championship, based on the upcoming Minecraft Fall Game drop!",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a072dc660c62321",
+        "sender": "no-reply@twitch.tv"
+      },
+      "received_at": "2026-09-05T18:37:21.000Z",
+      "updated_at": "2026-09-27T12:09:07.620710+00:00"
     }
   ]
 }
