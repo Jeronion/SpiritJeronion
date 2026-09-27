@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:14:54.857129+00:00",
+  "updated_at": "2026-09-27T12:14:56.623984+00:00",
   "tasks": [
     {
       "id": "mail-1a0dd544efbcf044",
@@ -1214,6 +1214,27 @@
       },
       "received_at": "2026-09-15T09:02:56.000Z",
       "updated_at": "2026-09-27T12:14:54.856062+00:00"
+    },
+    {
+      "id": "mail-1a0a3182fd961aad",
+      "title": "Кто хочет бесплатный ChatGPT на год? Поднимите руку",
+      "description": "От: marketing@m.paydigital.shop\nТема: Кто хочет бесплатный ChatGPT на год? Поднимите руку От: marketing@m.paydigital.shop Кому: jeronion2010@gmail.com МТС × Pay Digital [https://s3.api.foreignpay.ru/logo_big.png] Век живи, век учись — вместе с ChatGPT Робот и школьник занимаются за столом [https://s3.api.foreignpay.ru/hero.png] Новые задачи появляются каждый день. Хорошо, когда рядом есть помощник, который доступен 24/7: объясни",
+      "subject": "",
+      "due_at": null,
+      "assigned_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "todo",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a0a3182fd961aad",
+        "title": "Кто хочет бесплатный ChatGPT на год? Поднимите руку",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a0a3182fd961aad",
+        "sender": "marketing@m.paydigital.shop"
+      },
+      "received_at": "2026-09-15T03:24:25.000Z",
+      "updated_at": "2026-09-27T12:14:56.622857+00:00"
     }
   ]
 }
