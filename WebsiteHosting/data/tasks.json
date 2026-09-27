@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T17:01:06.667787+00:00",
+  "updated_at": "2026-09-27T17:01:08.264741+00:00",
   "tasks": [
     {
       "id": "mail-1a0d4525c54bfcdc",
@@ -82,34 +82,6 @@
       },
       "received_at": "2026-09-06T11:59:30.000Z",
       "updated_at": "2026-09-27T12:15:00.446997+00:00"
-    },
-    {
-      "id": "mesh-lesson-622516765",
-      "title": "Физика",
-      "description": "учить конспект, решить 2.9, 2.7Б, 2.10, 2.20, 2.22",
-      "subject": "Физика",
-      "due_at": "2026-09-25T11:25:00+03:00",
-      "assigned_at": null,
-      "lesson_start": "2026-09-25T11:25:00+03:00",
-      "lesson_end": "2026-09-25T12:10:00+03:00",
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "homework",
-      "files": [
-        {
-          "name": "Повторение кинематика 1.docx",
-          "path": "SchoolFiles/Handouts/Физика/Повторение кинематика 1.docx-0.docx"
-        }
-      ],
-      "source": {
-        "type": "mesh",
-        "external_id": "mesh-lesson-622516765",
-        "title": "Физика",
-        "sender": "МЭШ",
-        "url": null
-      },
-      "received_at": "2026-09-27T16:45:15.125236+00:00",
-      "updated_at": "2026-09-27T16:45:42.728638+00:00"
     },
     {
       "id": "mesh-lesson-622516767",
