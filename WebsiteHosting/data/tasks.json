@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:11:52.573490+00:00",
+  "updated_at": "2026-09-27T12:12:46.759425+00:00",
   "tasks": [
     {
       "id": "mail-1a0dd544efbcf044",
@@ -689,6 +689,27 @@
       },
       "received_at": "2026-09-01T18:10:30.000Z",
       "updated_at": "2026-09-27T12:11:52.573004+00:00"
+    },
+    {
+      "id": "mail-1a0d8a94a0fdb0ba",
+      "title": "Оповещение системы безопасности",
+      "description": "От: no-reply@accounts.google.com\nТема: Оповещение системы безопасности От: no-reply@accounts.google.com Кому: jeronion2010@gmail.com [image: Google] Вход в аккаунт на устройстве Linux jeronion2010@gmail.com Мы заметили, что в ваш аккаунт Google выполнен вход на устройстве Linux. Если это вы, ничего делать не нужно. А если нет, то мы поможем вам защитить аккаунт. Посмотреть действия <https://accounts.google.com/AccountChooser?Emai",
+      "subject": "",
+      "due_at": null,
+      "assigned_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "todo",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a0d8a94a0fdb0ba",
+        "title": "Оповещение системы безопасности",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a0d8a94a0fdb0ba",
+        "sender": "no-reply@accounts.google.com"
+      },
+      "received_at": "2026-09-25T13:02:46.000Z",
+      "updated_at": "2026-09-27T12:12:46.758335+00:00"
     }
   ]
 }
