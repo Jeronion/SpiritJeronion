@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T10:42:09.259915+00:00",
+  "updated_at": "2026-09-27T10:42:11.290631+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -756,6 +756,24 @@
       },
       "received_at": "2026-09-12T07:36:12.000Z",
       "updated_at": "2026-09-27T10:42:09.254287+00:00"
+    },
+    {
+      "id": "mail-1a08c81d3b6cdaf9",
+      "title": "Bitte bestätigen Sie Ihre E-Mail-Adresse",
+      "description": "От: no-reply@e-mails.microsoft.com\nТема: Bitte bestätigen Sie Ihre E-Mail-Adresse От: no-reply@e-mails.microsoft.com Кому: jeronion2010@gmail.com Bestätigen Sie Ihr Interesse, Neuigkeiten von Microsoft zu erhalten. ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "source": {
+        "type": "gmail",
+        "external_id": "1a08c81d3b6cdaf9",
+        "title": "Bitte bestätigen Sie Ihre E-Mail-Adresse",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a08c81d3b6cdaf9",
+        "sender": "no-reply@e-mails.microsoft.com"
+      },
+      "received_at": "2026-09-10T18:08:31.000Z",
+      "updated_at": "2026-09-27T10:42:11.284750+00:00"
     }
   ]
 }
