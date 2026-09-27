@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T17:01:46.772632+00:00",
+  "updated_at": "2026-09-27T17:15:15.553394+00:00",
   "tasks": [
     {
       "id": "mail-1a0d4525c54bfcdc",
@@ -84,29 +84,6 @@
       "updated_at": "2026-09-27T12:15:00.446997+00:00"
     },
     {
-      "id": "mesh-homework-4443586",
-      "title": "Домашнее задание —  Разговоры о важном_10 В",
-      "description": "не задано",
-      "subject": " Разговоры о важном_10 В",
-      "due_at": "2026-09-21T00:00:00",
-      "assigned_at": "2026-09-21T00:00:00",
-      "lesson_start": null,
-      "lesson_end": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "homework",
-      "files": [],
-      "source": {
-        "type": "mesh",
-        "external_id": "mesh-homework-4443586",
-        "title": " Разговоры о важном_10 В",
-        "sender": "МЭШ",
-        "url": null
-      },
-      "received_at": "2026-09-20T15:39:00",
-      "updated_at": "2026-09-27T17:00:15.389478+00:00"
-    },
-    {
       "id": "mesh-homework-4460978",
       "title": "Домашнее задание — Практикум по математике 10В Кулагин",
       "description": "Д/З выдано в виде раздаточных материалов и/или выложено в группе",
@@ -128,29 +105,6 @@
       },
       "received_at": "2026-09-21T17:23:00",
       "updated_at": "2026-09-27T17:00:15.389504+00:00"
-    },
-    {
-      "id": "mesh-homework-4478786",
-      "title": "Домашнее задание — Россия - мои горизонты_10 В",
-      "description": "регистрация в системе",
-      "subject": "Россия - мои горизонты_10 В",
-      "due_at": "2026-09-24T00:00:00",
-      "assigned_at": "2026-09-24T00:00:00",
-      "lesson_start": null,
-      "lesson_end": null,
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "homework",
-      "files": [],
-      "source": {
-        "type": "mesh",
-        "external_id": "mesh-homework-4478786",
-        "title": "Россия - мои горизонты_10 В",
-        "sender": "МЭШ",
-        "url": null
-      },
-      "received_at": "2026-09-23T15:53:00",
-      "updated_at": "2026-09-27T17:00:15.389519+00:00"
     },
     {
       "id": "mesh-homework-4346468",
@@ -176,6 +130,52 @@
       "updated_at": "2026-09-27T17:00:15.389536+00:00"
     },
     {
+      "id": "mesh-homework-4443586",
+      "title": "Домашнее задание —  Разговоры о важном_10 В",
+      "description": "не задано",
+      "subject": " Разговоры о важном_10 В",
+      "due_at": "2026-09-21T00:00:00",
+      "assigned_at": "2026-09-21T00:00:00",
+      "lesson_start": null,
+      "lesson_end": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "homework",
+      "files": [],
+      "source": {
+        "type": "mesh",
+        "external_id": "mesh-homework-4443586",
+        "title": " Разговоры о важном_10 В",
+        "sender": "МЭШ",
+        "url": null
+      },
+      "received_at": "2026-09-20T15:39:00",
+      "updated_at": "2026-09-27T17:15:15.553330+00:00"
+    },
+    {
+      "id": "mesh-homework-4478786",
+      "title": "Домашнее задание — Россия - мои горизонты_10 В",
+      "description": "регистрация в системе",
+      "subject": "Россия - мои горизонты_10 В",
+      "due_at": "2026-09-24T00:00:00",
+      "assigned_at": "2026-09-24T00:00:00",
+      "lesson_start": null,
+      "lesson_end": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "homework",
+      "files": [],
+      "source": {
+        "type": "mesh",
+        "external_id": "mesh-homework-4478786",
+        "title": "Россия - мои горизонты_10 В",
+        "sender": "МЭШ",
+        "url": null
+      },
+      "received_at": "2026-09-23T15:53:00",
+      "updated_at": "2026-09-27T17:15:15.553348+00:00"
+    },
+    {
       "id": "mesh-homework-4476959",
       "title": "Домашнее задание — Введение в ИТ специальность 10В",
       "description": "Зарегистрироваться в kaggle. Решить минимум 3 задачи первого урока Ноутбуки и нампи.\nПосмотреть видео в МЭШ по ссылке в почте.",
@@ -196,7 +196,7 @@
         "url": null
       },
       "received_at": "2026-09-23T14:10:00",
-      "updated_at": "2026-09-27T17:00:15.389549+00:00"
+      "updated_at": "2026-09-27T17:15:15.553357+00:00"
     },
     {
       "id": "mesh-homework-4507606",
@@ -219,7 +219,53 @@
         "url": null
       },
       "received_at": "2026-09-27T18:50:00",
-      "updated_at": "2026-09-27T17:00:15.389563+00:00"
+      "updated_at": "2026-09-27T17:15:15.553365+00:00"
+    },
+    {
+      "id": "mesh-homework-4460985",
+      "title": "Домашнее задание — Практикум по математике 10В Кулагин",
+      "description": "Д/З выдано в виде раздаточных материалов и/или выложено в группе",
+      "subject": "Практикум по математике 10В Кулагин",
+      "due_at": "2026-09-29T00:00:00",
+      "assigned_at": "2026-09-29T00:00:00",
+      "lesson_start": null,
+      "lesson_end": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "homework",
+      "files": [],
+      "source": {
+        "type": "mesh",
+        "external_id": "mesh-homework-4460985",
+        "title": "Практикум по математике 10В Кулагин",
+        "sender": "МЭШ",
+        "url": null
+      },
+      "received_at": "2026-09-21T17:23:00",
+      "updated_at": "2026-09-27T17:15:15.553373+00:00"
+    },
+    {
+      "id": "mesh-homework-4346471",
+      "title": "Домашнее задание — Практикум по физике 10 В",
+      "description": "учить конспект",
+      "subject": "Практикум по физике 10 В",
+      "due_at": "2026-10-02T00:00:00",
+      "assigned_at": "2026-09-11T00:00:00",
+      "lesson_start": null,
+      "lesson_end": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "homework",
+      "files": [],
+      "source": {
+        "type": "mesh",
+        "external_id": "mesh-homework-4346471",
+        "title": "Практикум по физике 10 В",
+        "sender": "МЭШ",
+        "url": null
+      },
+      "received_at": "2026-09-11T16:46:00",
+      "updated_at": "2026-09-27T17:15:15.553381+00:00"
     },
     {
       "id": "mesh-homework-4507763",
@@ -242,7 +288,7 @@
         "url": null
       },
       "received_at": "2026-09-27T19:11:00",
-      "updated_at": "2026-09-27T17:00:15.389577+00:00"
+      "updated_at": "2026-09-27T17:15:15.553389+00:00"
     }
   ]
 }
