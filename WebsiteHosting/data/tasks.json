@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T10:42:22.327496+00:00",
+  "updated_at": "2026-09-27T10:42:24.195296+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -882,6 +882,24 @@
       },
       "received_at": "2026-09-08T09:42:47.000Z",
       "updated_at": "2026-09-27T10:42:22.320686+00:00"
+    },
+    {
+      "id": "mail-1a07d93f3b6f4a37",
+      "title": "Educational Codeforces Round 194 (рейтинговый для Див. 2)",
+      "description": "От: Codeforces@codeforces.com\nТема: Educational Codeforces Round 194 (рейтинговый для Див. 2) От: Codeforces@codeforces.com Кому: jeronion2010@gmail.com Добрый день, Jeronion. Благодаря поддержке Neapolis University Pafos, продолжается серия образовательных раундов. Приглашаем вас принять участие в Educational Codeforces Round 194. Начало запланировано на 8 сентября (вторник), 2026 17:35 (Московское время). Продолжительность с",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "source": {
+        "type": "gmail",
+        "external_id": "1a07d93f3b6f4a37",
+        "title": "Educational Codeforces Round 194 (рейтинговый для Див. 2)",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a07d93f3b6f4a37",
+        "sender": "Codeforces@codeforces.com"
+      },
+      "received_at": "2026-09-07T20:13:14.000Z",
+      "updated_at": "2026-09-27T10:42:24.188207+00:00"
     }
   ]
 }
