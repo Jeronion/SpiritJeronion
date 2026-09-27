@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T10:39:10.641481+00:00",
+  "updated_at": "2026-09-27T10:39:12.268859+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -288,6 +288,24 @@
       },
       "received_at": "2026-09-15T09:12:09.000Z",
       "updated_at": "2026-09-27T10:39:10.637742+00:00"
+    },
+    {
+      "id": "mail-1a0a077562fda41e",
+      "title": "📜 Weekly Guild Letter",
+      "description": "От: news@quantguild.com\nТема: 📜 Weekly Guild Letter От: news@quantguild.com Кому: jeronion2010@gmail.com ­ ------------------------------ 📜 A Note from the Guild Leader ------------------------------ ­ Everything is a bet, everything. Bets are only as good as the information you have. You have perfect information about yourself, literally nobody can bet on you in the same way you can bet on yourself. I'll use myself here",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "source": {
+        "type": "gmail",
+        "external_id": "1a0a077562fda41e",
+        "title": "📜 Weekly Guild Letter",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a0a077562fda41e",
+        "sender": "news@quantguild.com"
+      },
+      "received_at": "2026-09-14T15:05:09.000Z",
+      "updated_at": "2026-09-27T10:39:12.264271+00:00"
     }
   ]
 }
