@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T10:39:18.810766+00:00",
+  "updated_at": "2026-09-27T10:39:20.520870+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -378,6 +378,24 @@
       },
       "received_at": "2026-09-07T15:06:43.000Z",
       "updated_at": "2026-09-27T10:39:18.804680+00:00"
+    },
+    {
+      "id": "mail-1a076f1b8a844637",
+      "title": "Сентябрьские скидки платформы Stepik на курсы Сергея Балакирева",
+      "description": "От: noreply@stepik.org\nТема: Сентябрьские скидки платформы Stepik на курсы Сергея Балакирева От: noreply@stepik.org Кому: jeronion2010@gmail.com | [ ![](https://stepik.org/static/emails/default/logo_black.png) ](https://stepik.org/?utm_source=announcement&utm_medium=email&utm_campaign=announcement&utm_term=user-group4&utm_content=main-page&etk=WzEyNSwzNTU2OTM2NzBd.1x3D5O.LtXtOCgezXONPTwa0HplZJrUdwg) --- | [Добрый, добры",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "source": {
+        "type": "gmail",
+        "external_id": "1a076f1b8a844637",
+        "title": "Сентябрьские скидки платформы Stepik на курсы Сергея Балакирева",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a076f1b8a844637",
+        "sender": "noreply@stepik.org"
+      },
+      "received_at": "2026-09-06T13:39:06.000Z",
+      "updated_at": "2026-09-27T10:39:20.516359+00:00"
     }
   ]
 }
