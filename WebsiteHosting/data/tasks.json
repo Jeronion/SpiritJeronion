@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:09:14.836194+00:00",
+  "updated_at": "2026-09-27T12:09:16.486757+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -420,6 +420,26 @@
       },
       "received_at": "2026-08-31T15:13:49.000Z",
       "updated_at": "2026-09-27T12:09:14.835818+00:00"
+    },
+    {
+      "id": "mail-1a05251c0e5e58ef",
+      "title": "[GitHub] Sudo email verification code",
+      "description": "От: noreply@github.com\nТема: [GitHub] Sudo email verification code От: noreply@github.com Кому: jeronion2010@gmail.com Hey, Jeronion! Here is your GitHub sudo authentication code: 40573134 This code is valid for 15 minutes and can only be used once. Please don't share this code with anyone: we'll never ask for it on the phone or via email. Thanks, The GitHub Team",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "todo",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a05251c0e5e58ef",
+        "title": "[GitHub] Sudo email verification code",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a05251c0e5e58ef",
+        "sender": "noreply@github.com"
+      },
+      "received_at": "2026-08-30T10:58:04.000Z",
+      "updated_at": "2026-09-27T12:09:16.486358+00:00"
     }
   ]
 }
