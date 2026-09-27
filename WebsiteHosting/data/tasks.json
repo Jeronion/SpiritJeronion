@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:11:48.022695+00:00",
+  "updated_at": "2026-09-27T12:11:50.337664+00:00",
   "tasks": [
     {
       "id": "mail-1a0dd544efbcf044",
@@ -647,6 +647,27 @@
       },
       "received_at": "2026-09-11T13:02:27.000Z",
       "updated_at": "2026-09-27T12:11:48.021942+00:00"
+    },
+    {
+      "id": "mail-1a08bc7b06e119aa",
+      "title": "Сохраните доступ к важным сайтам и сервисам",
+      "description": "От: no-reply@gosuslugi.ru\nТема: Сохраните доступ к важным сайтам и сервисам От: no-reply@gosuslugi.ru Кому: jeronion2010@gmail.com Установите сертификаты безопасности Минцифры ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ [https://gu-st.ru/content/mail/Access_to_important_sites_3.svg] Сохраните доступ к важным сай",
+      "subject": "",
+      "due_at": null,
+      "assigned_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "todo",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a08bc7b06e119aa",
+        "title": "Сохраните доступ к важным сайтам и сервисам",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a08bc7b06e119aa",
+        "sender": "no-reply@gosuslugi.ru"
+      },
+      "received_at": "2026-09-10T14:45:13.000Z",
+      "updated_at": "2026-09-27T12:11:50.336941+00:00"
     }
   ]
 }
