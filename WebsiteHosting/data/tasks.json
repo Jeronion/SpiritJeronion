@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T10:42:26.027857+00:00",
+  "updated_at": "2026-09-27T10:42:27.777632+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -918,6 +918,24 @@
       },
       "received_at": "2026-09-03T17:03:52.000Z",
       "updated_at": "2026-09-27T10:42:26.022339+00:00"
+    },
+    {
+      "id": "mail-1a05e8e3d2c459c5",
+      "title": "Подтверждение регистрации",
+      "description": "От: noreply@twirpx.link\nТема: Подтверждение регистрации От: noreply@twirpx.link Кому: jeronion2010@gmail.com Поздравляем с регистрацией на l.twirpx.link. Чтобы подтвердить регистрацию, пожалуйста, откройте ссылку: https://j.twirpx.link/private/confirmation/?data=Y17DPYP6LPGL21LKEM4SHFX1KX6EQMTN6BJWTCM14F2MZDNF4E7FB12S1GRLMK8FBGPEN2HYRTEEPMGJBBLGGEEUW85NA12JJRQDJJzC После подтверждения можно использовать следующие данные",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "source": {
+        "type": "gmail",
+        "external_id": "1a05e8e3d2c459c5",
+        "title": "Подтверждение регистрации",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a05e8e3d2c459c5",
+        "sender": "noreply@twirpx.link"
+      },
+      "received_at": "2026-09-01T19:59:33.000Z",
+      "updated_at": "2026-09-27T10:42:27.771652+00:00"
     }
   ]
 }
