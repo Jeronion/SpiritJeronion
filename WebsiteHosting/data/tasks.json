@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T10:38:54.894757+00:00",
+  "updated_at": "2026-09-27T10:38:56.313587+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -108,6 +108,24 @@
       },
       "received_at": "2026-09-27T07:04:37.000Z",
       "updated_at": "2026-09-27T10:38:54.889283+00:00"
+    },
+    {
+      "id": "mail-1a0e198f38ba7cf8",
+      "title": "Письмо",
+      "description": "От: holmanova@liceum1535.ru\nТема: Письмо От: holmanova@liceum1535.ru Кому: kirsanov.m@liceum1535.ru, petrov.da@liceum1535.ru https://telemost.yandex.ru/j/10422128736839",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "source": {
+        "type": "gmail",
+        "external_id": "1a0e198f38ba7cf8",
+        "title": "Письмо",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a0e198f38ba7cf8",
+        "sender": "holmanova@liceum1535.ru"
+      },
+      "received_at": "2026-09-27T06:41:16.000Z",
+      "updated_at": "2026-09-27T10:38:56.309915+00:00"
     }
   ]
 }
