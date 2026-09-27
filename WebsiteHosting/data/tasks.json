@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T10:41:57.599028+00:00",
+  "updated_at": "2026-09-27T10:41:59.427061+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -648,6 +648,24 @@
       },
       "received_at": "2026-09-17T01:39:23.000Z",
       "updated_at": "2026-09-27T10:41:57.594827+00:00"
+    },
+    {
+      "id": "mail-1a0a44b64d3df5f6",
+      "title": "Everyone is building the same thing",
+      "description": "От: newsletter@email.roadmap.sh\nТема: Everyone is building the same thing От: newsletter@email.roadmap.sh Кому: jeronion2010@gmail.com AI has made building so cheap that copying an idea now takes a weekend, not months. View in browser (https://updates.roadmap.sh/e3t/Ctc/L2+113/d5qLSh04/VXfbjB1jbcdMVlZNLD38H5qFW22vCbp5TZP_TN72QT-65m_5PW6N1X8z6lZ3ksMgLNyFlYJrVW6cqv6H5WHnrsN96XFpT-4HVwW1qrJkt8tdD73W4-YfJS5J0vTVVfZ8_J27VWfMW6DQmlJ4n",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "source": {
+        "type": "gmail",
+        "external_id": "1a0a44b64d3df5f6",
+        "title": "Everyone is building the same thing",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a0a44b64d3df5f6",
+        "sender": "newsletter@email.roadmap.sh"
+      },
+      "received_at": "2026-09-15T08:59:58.000Z",
+      "updated_at": "2026-09-27T10:41:59.421084+00:00"
     }
   ]
 }
