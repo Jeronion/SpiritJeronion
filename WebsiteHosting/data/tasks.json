@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:12:51.995326+00:00",
+  "updated_at": "2026-09-27T12:12:53.723729+00:00",
   "tasks": [
     {
       "id": "mail-1a0dd544efbcf044",
@@ -773,6 +773,27 @@
       },
       "received_at": "2026-09-20T16:30:26.000Z",
       "updated_at": "2026-09-27T12:12:51.994439+00:00"
+    },
+    {
+      "id": "mail-1a096d9a03da3469",
+      "title": "Вы привязали учётную запись Google к своей учётной записи Epic Games.",
+      "description": "От: help@acct.epicgames.com\nТема: Вы привязали учётную запись Google к своей учётной записи Epic Games. От: help@acct.epicgames.com Кому: jeronion2010@gmail.com Subject Line: Вы привязали учётную запись Google к своей учётной записи Epic Games. Subject Line: Вы привязали учётную запись Google к своей учётной записи Epic Games. It looks like your email client might not support HTML formatted email. Try opening this email in a",
+      "subject": "",
+      "due_at": null,
+      "assigned_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "todo",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a096d9a03da3469",
+        "title": "Вы привязали учётную запись Google к своей учётной записи Epic Games.",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a096d9a03da3469",
+        "sender": "help@acct.epicgames.com"
+      },
+      "received_at": "2026-09-12T18:20:36.000Z",
+      "updated_at": "2026-09-27T12:12:53.722816+00:00"
     }
   ]
 }
