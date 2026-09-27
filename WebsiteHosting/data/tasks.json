@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:11:44.115469+00:00",
+  "updated_at": "2026-09-27T12:11:45.921532+00:00",
   "tasks": [
     {
       "id": "mail-1a0dd544efbcf044",
@@ -605,6 +605,27 @@
       },
       "received_at": "2026-09-20T10:36:33.000Z",
       "updated_at": "2026-09-27T12:11:44.114479+00:00"
+    },
+    {
+      "id": "mail-1a0ba7bf6bee8806",
+      "title": "Ресурсы конференции Моя конференция готовы!",
+      "description": "От: no-reply@zoom.us\nТема: Ресурсы конференции Моя конференция готовы! От: no-reply@zoom.us Кому: jeronion2010@gmail.com [https://us04st1.zoom.us/static/26.9.67043/image/new/ZoomLogo6.png] https://zoom.com Ресурсы конференции Моя конференция готовы! Ресурсы, которыми поделились на конференции [https://us04st3.zoom.us/static/26.9.67043/image/new/email/whiteboard-icon.png] Моя конференция 2026-09-19 06:44 PM [https://us",
+      "subject": "",
+      "due_at": null,
+      "assigned_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "todo",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a0ba7bf6bee8806",
+        "title": "Ресурсы конференции Моя конференция готовы!",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a0ba7bf6bee8806",
+        "sender": "no-reply@zoom.us"
+      },
+      "received_at": "2026-09-19T16:24:40.000Z",
+      "updated_at": "2026-09-27T12:11:45.921108+00:00"
     }
   ]
 }
