@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:08:56.530225+00:00",
+  "updated_at": "2026-09-27T12:08:58.347847+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -220,6 +220,26 @@
       },
       "received_at": "2026-09-16T10:29:44.000Z",
       "updated_at": "2026-09-27T12:08:56.529729+00:00"
+    },
+    {
+      "id": "mail-1a09698ad80060f8",
+      "title": "Important: Transactions with Certain Crypto Platforms",
+      "description": "От: do_not_reply@smailer1.binance.com\nТема: Important: Transactions with Certain Crypto Platforms От: do_not_reply@smailer1.binance.com Кому: jeronion2010@gmail.com [https://public.bnbstatic.com/image/ufo/20250318/3a5c7b84-527b-4dc3-9cb6-36bd37fa7b82.png] Dear Binancians, Following recent regulatory developments, Binance will no longer be processing transactions involving certain crypto-asset service providers/platforms, as set out be",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "todo",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a09698ad80060f8",
+        "title": "Important: Transactions with Certain Crypto Platforms",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a09698ad80060f8",
+        "sender": "do_not_reply@smailer1.binance.com"
+      },
+      "received_at": "2026-09-12T17:09:42.000Z",
+      "updated_at": "2026-09-27T12:08:58.347332+00:00"
     }
   ]
 }
