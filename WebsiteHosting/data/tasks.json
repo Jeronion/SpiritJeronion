@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:09:12.916004+00:00",
+  "updated_at": "2026-09-27T12:09:14.836194+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -400,6 +400,26 @@
       },
       "received_at": "2026-09-01T09:00:04.000Z",
       "updated_at": "2026-09-27T12:09:12.915625+00:00"
+    },
+    {
+      "id": "mail-1a0586292fcb141c",
+      "title": "📜 Weekly Guild Letter",
+      "description": "От: news@quantguild.com\nТема: 📜 Weekly Guild Letter От: news@quantguild.com Кому: jeronion2010@gmail.com 📜 A Note from the Guild Leader ------------------------------ *How do I make a profitable trade or select a company to invest in?* *How do I know if I'm working out too hard or if I need to push through?* *How do I know if he is a moment away from submitting or I'm to gas out?* Talking to 10 different experienced trad",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "todo",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a0586292fcb141c",
+        "title": "📜 Weekly Guild Letter",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a0586292fcb141c",
+        "sender": "news@quantguild.com"
+      },
+      "received_at": "2026-08-31T15:13:49.000Z",
+      "updated_at": "2026-09-27T12:09:14.835818+00:00"
     }
   ]
 }
