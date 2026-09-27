@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:08:47.888102+00:00",
+  "updated_at": "2026-09-27T12:08:49.300716+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -120,6 +120,26 @@
       },
       "received_at": "2026-09-25T17:26:50.000Z",
       "updated_at": "2026-09-27T12:08:47.887622+00:00"
+    },
+    {
+      "id": "mail-1a0d4525c54bfcdc",
+      "title": "прилагательные - ЧЕРТЫ ХАРАКТЕРА",
+      "description": "От: pirozhnikova@liceum1535.ru\nТема: прилагательные - ЧЕРТЫ ХАРАКТЕРА От: pirozhnikova@liceum1535.ru Кому: gladkov.a@liceum1535.ru, kopelychuk.e@liceum1535.ru, manturova.a@liceum1535.ru, pshenitsin.f@liceum1535.ru, belikov.i@liceum1535.ru, darenskiy.a@liceum1535.ru, derugin.u@liceum1535.ru, melynikov.a@liceum1535.ru, osipov.i@liceum1535.ru, petrov.da@liceum1535.ru, rekunov.e@liceum1535.ru, rybakov.d@liceum1535.ru, sakhno.ya@lic",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "todo",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a0d4525c54bfcdc",
+        "title": "прилагательные - ЧЕРТЫ ХАРАКТЕРА",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a0d4525c54bfcdc",
+        "sender": "pirozhnikova@liceum1535.ru"
+      },
+      "received_at": "2026-09-24T16:49:08.000Z",
+      "updated_at": "2026-09-27T12:08:49.300252+00:00"
     }
   ]
 }
