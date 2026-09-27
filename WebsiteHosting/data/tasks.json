@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T10:39:29.050442+00:00",
+  "updated_at": "2026-09-27T10:41:43.496601+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -486,6 +486,24 @@
       },
       "received_at": "2026-08-30T11:03:16.000Z",
       "updated_at": "2026-09-27T10:39:29.044771+00:00"
+    },
+    {
+      "id": "mail-1a0db760c107991f",
+      "title": "Codeforces Round 1124 (Div. 1, Div. 2)",
+      "description": "От: noreply@codeforces.com\nТема: Codeforces Round 1124 (Div. 1, Div. 2) От: noreply@codeforces.com Кому: jeronion2010@gmail.com Добрый день, Jeronion. Рад пригласить вас принять участие в Codeforces Round 1124 (Div. 1, Div. 2). Формально будет проведено два раунда: \"Codeforces Round #1124 (Div. 1)\" и \"Codeforces Round #1124 (Div. 2)\". Наборы задач в них будут во многом общие, но не полностью. Участники из первого дивизиона",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "source": {
+        "type": "gmail",
+        "external_id": "1a0db760c107991f",
+        "title": "Codeforces Round 1124 (Div. 1, Div. 2)",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a0db760c107991f",
+        "sender": "noreply@codeforces.com"
+      },
+      "received_at": "2026-09-25T14:43:21.000Z",
+      "updated_at": "2026-09-27T10:41:43.496076+00:00"
     }
   ]
 }
