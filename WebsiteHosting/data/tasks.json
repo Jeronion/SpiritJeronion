@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:14:53.043221+00:00",
+  "updated_at": "2026-09-27T12:14:54.857129+00:00",
   "tasks": [
     {
       "id": "mail-1a0dd544efbcf044",
@@ -1193,6 +1193,27 @@
       },
       "received_at": "2026-09-18T15:11:18.000Z",
       "updated_at": "2026-09-27T12:14:53.042032+00:00"
+    },
+    {
+      "id": "mail-1a0a44e1b4fe1ce1",
+      "title": "Yandex Cup 2026 — присоединяйтесь к чемпионату",
+      "description": "От: intern@academy.yandex.ru\nТема: Yandex Cup 2026 — присоединяйтесь к чемпионату От: intern@academy.yandex.ru Кому: jeronion2010@gmail.com 96 Открыта регистрация &zwnj; &#8195;&#8195;&#8195;&#8195;&#8195;&zwnj; &#8195;&#8195;&#8195;&#8195;&#8195;&zwnj; &#8195;&#8195;&#8195;&#8195;&#8195;&zwnj; &#8195;&#8195;&#8195;&#8195;&#8195; &zwnj; &#8195;&#8195;&#8195;&#8195;&#8195;&zwnj; &#8195;&#8195;&#8195;&#8195;&#8195;&zwnj; &#8195",
+      "subject": "",
+      "due_at": null,
+      "assigned_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "todo",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a0a44e1b4fe1ce1",
+        "title": "Yandex Cup 2026 — присоединяйтесь к чемпионату",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a0a44e1b4fe1ce1",
+        "sender": "intern@academy.yandex.ru"
+      },
+      "received_at": "2026-09-15T09:02:56.000Z",
+      "updated_at": "2026-09-27T12:14:54.856062+00:00"
     }
   ]
 }
