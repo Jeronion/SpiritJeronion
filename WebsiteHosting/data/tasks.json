@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T10:41:50.298749+00:00",
+  "updated_at": "2026-09-27T10:41:51.995225+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -576,6 +576,24 @@
       },
       "received_at": "2026-09-21T18:09:12.000Z",
       "updated_at": "2026-09-27T10:41:50.295111+00:00"
+    },
+    {
+      "id": "mail-1a0c27fe391035af",
+      "title": "Оповещение системы безопасности",
+      "description": "От: no-reply@accounts.google.com\nТема: Оповещение системы безопасности От: no-reply@accounts.google.com Кому: petrov.da@liceum1535.ru [image: Google] Вход в аккаунт на устройстве Linux petrov.da@liceum1535.ru Мы заметили, что в ваш аккаунт Google выполнен вход на устройстве Linux. Если это вы, ничего делать не нужно. А если нет, то мы поможем вам защитить аккаунт. Посмотреть действия <https://accounts.google.com/AccountChooser?Em",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "source": {
+        "type": "gmail",
+        "external_id": "1a0c27fe391035af",
+        "title": "Оповещение системы безопасности",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a0c27fe391035af",
+        "sender": "no-reply@accounts.google.com"
+      },
+      "received_at": "2026-09-21T05:45:52.000Z",
+      "updated_at": "2026-09-27T10:41:51.990945+00:00"
     }
   ]
 }
