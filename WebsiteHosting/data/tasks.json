@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T10:39:08.958793+00:00",
+  "updated_at": "2026-09-27T10:39:10.641481+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -270,6 +270,24 @@
       },
       "received_at": "2026-09-19T23:03:53.000Z",
       "updated_at": "2026-09-27T10:39:08.953334+00:00"
+    },
+    {
+      "id": "mail-1a0a4568aeaa1e00",
+      "title": "Скидка на мой 3 ЧАСТЬ КУРСА ООП ПАЙТОН",
+      "description": "От: noreply@stepik.org\nТема: Скидка на мой 3 ЧАСТЬ КУРСА ООП ПАЙТОН От: noreply@stepik.org Кому: jeronion2010@gmail.com | [ ![](https://stepik.org/static/emails/default/logo_black.png) ](https://stepik.org/?utm_source=announcement&utm_medium=email&utm_campaign=announcement&utm_term=user-group4&utm_content=main-page&etk=WzEyNSwzNTg2NjI0OTdd.1x6PCz.LNlvFOsu7YZaWO-ucr2kmep4IjU) --- | [ООП Python: Часть 1](https://stepik.or",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "source": {
+        "type": "gmail",
+        "external_id": "1a0a4568aeaa1e00",
+        "title": "Скидка на мой 3 ЧАСТЬ КУРСА ООП ПАЙТОН",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a0a4568aeaa1e00",
+        "sender": "noreply@stepik.org"
+      },
+      "received_at": "2026-09-15T09:12:09.000Z",
+      "updated_at": "2026-09-27T10:39:10.637742+00:00"
     }
   ]
 }
