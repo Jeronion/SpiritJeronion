@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:15:15.131402+00:00",
+  "updated_at": "2026-09-27T12:15:44.180396+00:00",
   "tasks": [
     {
       "id": "mail-1a0dd544efbcf044",
@@ -1277,6 +1277,27 @@
       },
       "received_at": "2026-09-11T16:47:00",
       "updated_at": "2026-09-27T12:15:15.131394+00:00"
+    },
+    {
+      "id": "mail-1a07fe06756014e2",
+      "title": "Новые возможности сервисов",
+      "description": "От: info@site.hh.ru\nТема: Новые возможности сервисов От: info@site.hh.ru Кому: jeronion2010@gmail.com [https://hhcdn.ru/file/18314013.png] За последний месяц ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌",
+      "subject": "",
+      "due_at": null,
+      "assigned_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "todo",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a07fe06756014e2",
+        "title": "Новые возможности сервисов",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a07fe06756014e2",
+        "sender": "info@site.hh.ru"
+      },
+      "received_at": "2026-09-08T07:16:46.000Z",
+      "updated_at": "2026-09-27T12:15:44.179201+00:00"
     }
   ]
 }
