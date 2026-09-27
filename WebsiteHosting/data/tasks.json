@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:09:16.486757+00:00",
+  "updated_at": "2026-09-27T12:09:18.493729+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -440,6 +440,26 @@
       },
       "received_at": "2026-08-30T10:58:04.000Z",
       "updated_at": "2026-09-27T12:09:16.486358+00:00"
+    },
+    {
+      "id": "mail-1a051eebc2d0f608",
+      "title": "Оповещение системы безопасности",
+      "description": "От: no-reply@accounts.google.com\nТема: Оповещение системы безопасности От: no-reply@accounts.google.com Кому: jeronion2010@gmail.com [image: Google] Вход в аккаунт на устройстве Windows jeronion2010@gmail.com Мы заметили, что в ваш аккаунт Google выполнен вход на устройстве Windows. Если это вы, ничего делать не нужно. А если нет, то мы поможем вам защитить аккаунт. Посмотреть действия <https://accounts.google.com/AccountChooser?",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "todo",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a051eebc2d0f608",
+        "title": "Оповещение системы безопасности",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a051eebc2d0f608",
+        "sender": "no-reply@accounts.google.com"
+      },
+      "received_at": "2026-08-30T09:09:54.000Z",
+      "updated_at": "2026-09-27T12:09:18.493308+00:00"
     }
   ]
 }
