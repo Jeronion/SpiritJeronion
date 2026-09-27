@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:15:00.448088+00:00",
+  "updated_at": "2026-09-27T12:15:15.131402+00:00",
   "tasks": [
     {
       "id": "mail-1a0dd544efbcf044",
@@ -817,279 +817,6 @@
       "updated_at": "2026-09-27T12:13:03.836456+00:00"
     },
     {
-      "id": "mesh-homework-4443586",
-      "title": "Домашнее задание —  Разговоры о важном_10 В",
-      "description": "не задано",
-      "subject": " Разговоры о важном_10 В",
-      "due_at": "2026-09-21T00:00:00",
-      "assigned_at": "2026-09-21T00:00:00",
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "homework",
-      "files": [],
-      "source": {
-        "type": "mesh",
-        "external_id": "mesh-homework-4443586",
-        "title": " Разговоры о важном_10 В",
-        "sender": "МЭШ",
-        "url": null
-      },
-      "received_at": "2026-09-20T15:39:00",
-      "updated_at": "2026-09-27T12:13:06.853419+00:00"
-    },
-    {
-      "id": "mesh-homework-4443670",
-      "title": "Домашнее задание — Программирование автономных систем 10В",
-      "description": "не задано",
-      "subject": "Программирование автономных систем 10В",
-      "due_at": "2026-09-22T00:00:00",
-      "assigned_at": "2026-09-22T00:00:00",
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "homework",
-      "files": [],
-      "source": {
-        "type": "mesh",
-        "external_id": "mesh-homework-4443670",
-        "title": "Программирование автономных систем 10В",
-        "sender": "МЭШ",
-        "url": null
-      },
-      "received_at": "2026-09-20T15:53:00",
-      "updated_at": "2026-09-27T12:13:06.853438+00:00"
-    },
-    {
-      "id": "mesh-homework-4460978",
-      "title": "Домашнее задание — Практикум по математике 10В Кулагин",
-      "description": "Д/З выдано в виде раздаточных материалов и/или выложено в группе",
-      "subject": "Практикум по математике 10В Кулагин",
-      "due_at": "2026-09-22T00:00:00",
-      "assigned_at": "2026-09-22T00:00:00",
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "homework",
-      "files": [],
-      "source": {
-        "type": "mesh",
-        "external_id": "mesh-homework-4460978",
-        "title": "Практикум по математике 10В Кулагин",
-        "sender": "МЭШ",
-        "url": null
-      },
-      "received_at": "2026-09-21T17:23:00",
-      "updated_at": "2026-09-27T12:13:06.853448+00:00"
-    },
-    {
-      "id": "mesh-homework-4478786",
-      "title": "Домашнее задание — Россия - мои горизонты_10 В",
-      "description": "регистрация в системе",
-      "subject": "Россия - мои горизонты_10 В",
-      "due_at": "2026-09-24T00:00:00",
-      "assigned_at": "2026-09-24T00:00:00",
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "homework",
-      "files": [],
-      "source": {
-        "type": "mesh",
-        "external_id": "mesh-homework-4478786",
-        "title": "Россия - мои горизонты_10 В",
-        "sender": "МЭШ",
-        "url": null
-      },
-      "received_at": "2026-09-23T15:53:00",
-      "updated_at": "2026-09-27T12:13:06.853457+00:00"
-    },
-    {
-      "id": "mesh-homework-4346468",
-      "title": "Домашнее задание — Практикум по физике 10 В",
-      "description": "учить конспект",
-      "subject": "Практикум по физике 10 В",
-      "due_at": "2026-09-25T00:00:00",
-      "assigned_at": "2026-09-11T00:00:00",
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "homework",
-      "files": [],
-      "source": {
-        "type": "mesh",
-        "external_id": "mesh-homework-4346468",
-        "title": "Практикум по физике 10 В",
-        "sender": "МЭШ",
-        "url": null
-      },
-      "received_at": "2026-09-11T16:46:00",
-      "updated_at": "2026-09-27T12:13:06.853466+00:00"
-    },
-    {
-      "id": "mesh-homework-4476959",
-      "title": "Домашнее задание — Введение в ИТ специальность 10В",
-      "description": "Зарегистрироваться в kaggle. Решить минимум 3 задачи первого урока Ноутбуки и нампи.\nПосмотреть видео в МЭШ по ссылке в почте.",
-      "subject": "Введение в ИТ специальность 10В",
-      "due_at": "2026-09-25T00:00:00",
-      "assigned_at": "2026-09-25T00:00:00",
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "homework",
-      "files": [],
-      "source": {
-        "type": "mesh",
-        "external_id": "mesh-homework-4476959",
-        "title": "Введение в ИТ специальность 10В",
-        "sender": "МЭШ",
-        "url": null
-      },
-      "received_at": "2026-09-23T14:10:00",
-      "updated_at": "2026-09-27T12:13:06.853475+00:00"
-    },
-    {
-      "id": "mesh-homework-4460985",
-      "title": "Домашнее задание — Практикум по математике 10В Кулагин",
-      "description": "Д/З выдано в виде раздаточных материалов и/или выложено в группе",
-      "subject": "Практикум по математике 10В Кулагин",
-      "due_at": "2026-09-29T00:00:00",
-      "assigned_at": "2026-09-29T00:00:00",
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "homework",
-      "files": [],
-      "source": {
-        "type": "mesh",
-        "external_id": "mesh-homework-4460985",
-        "title": "Практикум по математике 10В Кулагин",
-        "sender": "МЭШ",
-        "url": null
-      },
-      "received_at": "2026-09-21T17:23:00",
-      "updated_at": "2026-09-27T12:13:06.853483+00:00"
-    },
-    {
-      "id": "mesh-homework-4346471",
-      "title": "Домашнее задание — Практикум по физике 10 В",
-      "description": "учить конспект",
-      "subject": "Практикум по физике 10 В",
-      "due_at": "2026-10-02T00:00:00",
-      "assigned_at": "2026-09-11T00:00:00",
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "homework",
-      "files": [],
-      "source": {
-        "type": "mesh",
-        "external_id": "mesh-homework-4346471",
-        "title": "Практикум по физике 10 В",
-        "sender": "МЭШ",
-        "url": null
-      },
-      "received_at": "2026-09-11T16:46:00",
-      "updated_at": "2026-09-27T12:13:06.853492+00:00"
-    },
-    {
-      "id": "mesh-homework-4460993",
-      "title": "Домашнее задание — Практикум по математике 10В Кулагин",
-      "description": "Д/З выдано в виде раздаточных материалов и/или выложено в группе",
-      "subject": "Практикум по математике 10В Кулагин",
-      "due_at": "2026-10-06T00:00:00",
-      "assigned_at": "2026-10-06T00:00:00",
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "homework",
-      "files": [],
-      "source": {
-        "type": "mesh",
-        "external_id": "mesh-homework-4460993",
-        "title": "Практикум по математике 10В Кулагин",
-        "sender": "МЭШ",
-        "url": null
-      },
-      "received_at": "2026-09-21T17:24:00",
-      "updated_at": "2026-09-27T12:13:06.853500+00:00"
-    },
-    {
-      "id": "mesh-homework-4346487",
-      "title": "Домашнее задание — Практикум по физике 10 В",
-      "description": "учить конспект",
-      "subject": "Практикум по физике 10 В",
-      "due_at": "2026-10-09T00:00:00",
-      "assigned_at": "2026-10-09T00:00:00",
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "homework",
-      "files": [],
-      "source": {
-        "type": "mesh",
-        "external_id": "mesh-homework-4346487",
-        "title": "Практикум по физике 10 В",
-        "sender": "МЭШ",
-        "url": null
-      },
-      "received_at": "2026-09-11T16:47:00",
-      "updated_at": "2026-09-27T12:13:06.853508+00:00"
-    },
-    {
-      "id": "mesh-homework-4461042",
-      "title": "Домашнее задание — Практикум по математике 10В Кулагин",
-      "description": "Д/З выдано в виде раздаточных материалов и/или выложено в группе",
-      "subject": "Практикум по математике 10В Кулагин",
-      "due_at": "2026-10-13T00:00:00",
-      "assigned_at": "2026-10-13T00:00:00",
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "homework",
-      "files": [],
-      "source": {
-        "type": "mesh",
-        "external_id": "mesh-homework-4461042",
-        "title": "Практикум по математике 10В Кулагин",
-        "sender": "МЭШ",
-        "url": null
-      },
-      "received_at": "2026-09-21T17:22:00",
-      "updated_at": "2026-09-27T12:13:06.853517+00:00"
-    },
-    {
-      "id": "mesh-homework-4346490",
-      "title": "Домашнее задание — Практикум по физике 10 В",
-      "description": "учить конспект",
-      "subject": "Практикум по физике 10 В",
-      "due_at": "2026-10-16T00:00:00",
-      "assigned_at": "2026-10-09T00:00:00",
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "homework",
-      "files": [],
-      "source": {
-        "type": "mesh",
-        "external_id": "mesh-homework-4346490",
-        "title": "Практикум по физике 10 В",
-        "sender": "МЭШ",
-        "url": null
-      },
-      "received_at": "2026-09-11T16:47:00",
-      "updated_at": "2026-09-27T12:13:06.853526+00:00"
-    },
-    {
-      "id": "mesh-homework-4346494",
-      "title": "Домашнее задание — Практикум по физике 10 В",
-      "description": "учить конспект",
-      "subject": "Практикум по физике 10 В",
-      "due_at": "2026-10-23T00:00:00",
-      "assigned_at": "2026-10-09T00:00:00",
-      "quadrant": "q2",
-      "status": "todo",
-      "kind": "homework",
-      "files": [],
-      "source": {
-        "type": "mesh",
-        "external_id": "mesh-homework-4346494",
-        "title": "Практикум по физике 10 В",
-        "sender": "МЭШ",
-        "url": null
-      },
-      "received_at": "2026-09-11T16:47:00",
-      "updated_at": "2026-09-27T12:13:06.853534+00:00"
-    },
-    {
       "id": "mail-1a0dd52c52515fbf",
       "title": "Важное оповещение системы безопасности",
       "description": "От: no-reply@accounts.google.com\nТема: Важное оповещение системы безопасности От: no-reply@accounts.google.com Кому: jeronion2010@gmail.com [image: Google] Вам нужна была помощь с входом? jeronion2010@gmail.com Здравствуйте, Jeronion! Мы получили уведомление, что вы просите помочь вам войти в аккаунт *jeronion2010@gmail.com*. Если вы не отправляли этот запрос, проверьте и отмените его. Подробнее о подозрительных запросах на восст",
@@ -1277,6 +1004,279 @@
       },
       "received_at": "2026-09-06T11:59:30.000Z",
       "updated_at": "2026-09-27T12:15:00.446997+00:00"
+    },
+    {
+      "id": "mesh-homework-4443586",
+      "title": "Домашнее задание —  Разговоры о важном_10 В",
+      "description": "не задано",
+      "subject": " Разговоры о важном_10 В",
+      "due_at": "2026-09-21T00:00:00",
+      "assigned_at": "2026-09-21T00:00:00",
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "homework",
+      "files": [],
+      "source": {
+        "type": "mesh",
+        "external_id": "mesh-homework-4443586",
+        "title": " Разговоры о важном_10 В",
+        "sender": "МЭШ",
+        "url": null
+      },
+      "received_at": "2026-09-20T15:39:00",
+      "updated_at": "2026-09-27T12:15:15.131270+00:00"
+    },
+    {
+      "id": "mesh-homework-4443670",
+      "title": "Домашнее задание — Программирование автономных систем 10В",
+      "description": "не задано",
+      "subject": "Программирование автономных систем 10В",
+      "due_at": "2026-09-22T00:00:00",
+      "assigned_at": "2026-09-22T00:00:00",
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "homework",
+      "files": [],
+      "source": {
+        "type": "mesh",
+        "external_id": "mesh-homework-4443670",
+        "title": "Программирование автономных систем 10В",
+        "sender": "МЭШ",
+        "url": null
+      },
+      "received_at": "2026-09-20T15:53:00",
+      "updated_at": "2026-09-27T12:15:15.131289+00:00"
+    },
+    {
+      "id": "mesh-homework-4460978",
+      "title": "Домашнее задание — Практикум по математике 10В Кулагин",
+      "description": "Д/З выдано в виде раздаточных материалов и/или выложено в группе",
+      "subject": "Практикум по математике 10В Кулагин",
+      "due_at": "2026-09-22T00:00:00",
+      "assigned_at": "2026-09-22T00:00:00",
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "homework",
+      "files": [],
+      "source": {
+        "type": "mesh",
+        "external_id": "mesh-homework-4460978",
+        "title": "Практикум по математике 10В Кулагин",
+        "sender": "МЭШ",
+        "url": null
+      },
+      "received_at": "2026-09-21T17:23:00",
+      "updated_at": "2026-09-27T12:15:15.131300+00:00"
+    },
+    {
+      "id": "mesh-homework-4478786",
+      "title": "Домашнее задание — Россия - мои горизонты_10 В",
+      "description": "регистрация в системе",
+      "subject": "Россия - мои горизонты_10 В",
+      "due_at": "2026-09-24T00:00:00",
+      "assigned_at": "2026-09-24T00:00:00",
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "homework",
+      "files": [],
+      "source": {
+        "type": "mesh",
+        "external_id": "mesh-homework-4478786",
+        "title": "Россия - мои горизонты_10 В",
+        "sender": "МЭШ",
+        "url": null
+      },
+      "received_at": "2026-09-23T15:53:00",
+      "updated_at": "2026-09-27T12:15:15.131311+00:00"
+    },
+    {
+      "id": "mesh-homework-4346468",
+      "title": "Домашнее задание — Практикум по физике 10 В",
+      "description": "учить конспект",
+      "subject": "Практикум по физике 10 В",
+      "due_at": "2026-09-25T00:00:00",
+      "assigned_at": "2026-09-11T00:00:00",
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "homework",
+      "files": [],
+      "source": {
+        "type": "mesh",
+        "external_id": "mesh-homework-4346468",
+        "title": "Практикум по физике 10 В",
+        "sender": "МЭШ",
+        "url": null
+      },
+      "received_at": "2026-09-11T16:46:00",
+      "updated_at": "2026-09-27T12:15:15.131321+00:00"
+    },
+    {
+      "id": "mesh-homework-4476959",
+      "title": "Домашнее задание — Введение в ИТ специальность 10В",
+      "description": "Зарегистрироваться в kaggle. Решить минимум 3 задачи первого урока Ноутбуки и нампи.\nПосмотреть видео в МЭШ по ссылке в почте.",
+      "subject": "Введение в ИТ специальность 10В",
+      "due_at": "2026-09-25T00:00:00",
+      "assigned_at": "2026-09-25T00:00:00",
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "homework",
+      "files": [],
+      "source": {
+        "type": "mesh",
+        "external_id": "mesh-homework-4476959",
+        "title": "Введение в ИТ специальность 10В",
+        "sender": "МЭШ",
+        "url": null
+      },
+      "received_at": "2026-09-23T14:10:00",
+      "updated_at": "2026-09-27T12:15:15.131331+00:00"
+    },
+    {
+      "id": "mesh-homework-4460985",
+      "title": "Домашнее задание — Практикум по математике 10В Кулагин",
+      "description": "Д/З выдано в виде раздаточных материалов и/или выложено в группе",
+      "subject": "Практикум по математике 10В Кулагин",
+      "due_at": "2026-09-29T00:00:00",
+      "assigned_at": "2026-09-29T00:00:00",
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "homework",
+      "files": [],
+      "source": {
+        "type": "mesh",
+        "external_id": "mesh-homework-4460985",
+        "title": "Практикум по математике 10В Кулагин",
+        "sender": "МЭШ",
+        "url": null
+      },
+      "received_at": "2026-09-21T17:23:00",
+      "updated_at": "2026-09-27T12:15:15.131340+00:00"
+    },
+    {
+      "id": "mesh-homework-4346471",
+      "title": "Домашнее задание — Практикум по физике 10 В",
+      "description": "учить конспект",
+      "subject": "Практикум по физике 10 В",
+      "due_at": "2026-10-02T00:00:00",
+      "assigned_at": "2026-09-11T00:00:00",
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "homework",
+      "files": [],
+      "source": {
+        "type": "mesh",
+        "external_id": "mesh-homework-4346471",
+        "title": "Практикум по физике 10 В",
+        "sender": "МЭШ",
+        "url": null
+      },
+      "received_at": "2026-09-11T16:46:00",
+      "updated_at": "2026-09-27T12:15:15.131349+00:00"
+    },
+    {
+      "id": "mesh-homework-4460993",
+      "title": "Домашнее задание — Практикум по математике 10В Кулагин",
+      "description": "Д/З выдано в виде раздаточных материалов и/или выложено в группе",
+      "subject": "Практикум по математике 10В Кулагин",
+      "due_at": "2026-10-06T00:00:00",
+      "assigned_at": "2026-10-06T00:00:00",
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "homework",
+      "files": [],
+      "source": {
+        "type": "mesh",
+        "external_id": "mesh-homework-4460993",
+        "title": "Практикум по математике 10В Кулагин",
+        "sender": "МЭШ",
+        "url": null
+      },
+      "received_at": "2026-09-21T17:24:00",
+      "updated_at": "2026-09-27T12:15:15.131358+00:00"
+    },
+    {
+      "id": "mesh-homework-4346487",
+      "title": "Домашнее задание — Практикум по физике 10 В",
+      "description": "учить конспект",
+      "subject": "Практикум по физике 10 В",
+      "due_at": "2026-10-09T00:00:00",
+      "assigned_at": "2026-10-09T00:00:00",
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "homework",
+      "files": [],
+      "source": {
+        "type": "mesh",
+        "external_id": "mesh-homework-4346487",
+        "title": "Практикум по физике 10 В",
+        "sender": "МЭШ",
+        "url": null
+      },
+      "received_at": "2026-09-11T16:47:00",
+      "updated_at": "2026-09-27T12:15:15.131367+00:00"
+    },
+    {
+      "id": "mesh-homework-4461042",
+      "title": "Домашнее задание — Практикум по математике 10В Кулагин",
+      "description": "Д/З выдано в виде раздаточных материалов и/или выложено в группе",
+      "subject": "Практикум по математике 10В Кулагин",
+      "due_at": "2026-10-13T00:00:00",
+      "assigned_at": "2026-10-13T00:00:00",
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "homework",
+      "files": [],
+      "source": {
+        "type": "mesh",
+        "external_id": "mesh-homework-4461042",
+        "title": "Практикум по математике 10В Кулагин",
+        "sender": "МЭШ",
+        "url": null
+      },
+      "received_at": "2026-09-21T17:22:00",
+      "updated_at": "2026-09-27T12:15:15.131376+00:00"
+    },
+    {
+      "id": "mesh-homework-4346490",
+      "title": "Домашнее задание — Практикум по физике 10 В",
+      "description": "учить конспект",
+      "subject": "Практикум по физике 10 В",
+      "due_at": "2026-10-16T00:00:00",
+      "assigned_at": "2026-10-09T00:00:00",
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "homework",
+      "files": [],
+      "source": {
+        "type": "mesh",
+        "external_id": "mesh-homework-4346490",
+        "title": "Практикум по физике 10 В",
+        "sender": "МЭШ",
+        "url": null
+      },
+      "received_at": "2026-09-11T16:47:00",
+      "updated_at": "2026-09-27T12:15:15.131385+00:00"
+    },
+    {
+      "id": "mesh-homework-4346494",
+      "title": "Домашнее задание — Практикум по физике 10 В",
+      "description": "учить конспект",
+      "subject": "Практикум по физике 10 В",
+      "due_at": "2026-10-23T00:00:00",
+      "assigned_at": "2026-10-09T00:00:00",
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "homework",
+      "files": [],
+      "source": {
+        "type": "mesh",
+        "external_id": "mesh-homework-4346494",
+        "title": "Практикум по физике 10 В",
+        "sender": "МЭШ",
+        "url": null
+      },
+      "received_at": "2026-09-11T16:47:00",
+      "updated_at": "2026-09-27T12:15:15.131394+00:00"
     }
   ]
 }
