@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:13:01.940072+00:00",
+  "updated_at": "2026-09-27T12:13:03.837378+00:00",
   "tasks": [
     {
       "id": "mail-1a0dd544efbcf044",
@@ -878,6 +878,27 @@
       },
       "received_at": "2026-09-02T15:01:23.000Z",
       "updated_at": "2026-09-27T12:13:01.939045+00:00"
+    },
+    {
+      "id": "mail-1a06230ec47233b8",
+      "title": "Запишитесь на экзамен",
+      "description": "От: best-talents@emails.tinkoff.ru\nТема: Запишитесь на экзамен От: best-talents@emails.tinkoff.ru Кому: jeronion2010@gmail.com Т-Банк Третья волна отбора в кружок Т-Поколения Чтобы попасть в кружок Т-Поколения по алгоритмам и структурам данных, пройдите экзамен. Если у вас есть автопроход — ознакомьтесь с условиями [\"https://link.emails.tbank.ru/tinkoff/pegate,lcUvQU9i46XSXtxZfDn4gQ/NC=6a981ce3053b31484185c2ab,jeronion2010%40gmail.",
+      "subject": "",
+      "due_at": null,
+      "assigned_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "todo",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a06230ec47233b8",
+        "title": "Запишитесь на экзамен",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a06230ec47233b8",
+        "sender": "best-talents@emails.tinkoff.ru"
+      },
+      "received_at": "2026-09-02T12:56:04.000Z",
+      "updated_at": "2026-09-27T12:13:03.836456+00:00"
     }
   ]
 }
