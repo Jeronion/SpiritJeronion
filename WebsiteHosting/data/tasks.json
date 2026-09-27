@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:09:02.139652+00:00",
+  "updated_at": "2026-09-27T12:09:04.045664+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -280,6 +280,26 @@
       },
       "received_at": "2026-09-08T18:28:35.000Z",
       "updated_at": "2026-09-27T12:09:02.139136+00:00"
+    },
+    {
+      "id": "mail-1a080463e0e01e37",
+      "title": "Developer experience is no longer enough",
+      "description": "От: newsletter@email.roadmap.sh\nТема: Developer experience is no longer enough От: newsletter@email.roadmap.sh Кому: jeronion2010@gmail.com Agents are now the ones choosing your libraries. Here's what that means for yours. View in browser (https://updates.roadmap.sh/e3t/Ctc/L2+113/d5qLSh04/VXfswH6VnjJXW5W-GS06BMb49W2nfwL35THQmxN50kgP25m_5PW7lCGcx6lZ3q5W18vwV46brSpfW6kqlB63cMSJYW84DLwC53rbXmW7gnWsj3VLxwtW7fDm_72804vlW6YNbvg6dYC0L",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "todo",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a080463e0e01e37",
+        "title": "Developer experience is no longer enough",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a080463e0e01e37",
+        "sender": "newsletter@email.roadmap.sh"
+      },
+      "received_at": "2026-09-08T09:08:01.000Z",
+      "updated_at": "2026-09-27T12:09:04.045098+00:00"
     }
   ]
 }
