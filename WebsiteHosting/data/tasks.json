@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T10:39:20.520870+00:00",
+  "updated_at": "2026-09-27T10:39:22.251211+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -396,6 +396,24 @@
       },
       "received_at": "2026-09-06T13:39:06.000Z",
       "updated_at": "2026-09-27T10:39:20.516359+00:00"
+    },
+    {
+      "id": "mail-1a067734939cfac1",
+      "title": "Домашнее задание ПОНЕДЕЛЬНИК",
+      "description": "От: pirozhnikova@liceum1535.ru\nТема: Домашнее задание ПОНЕДЕЛЬНИК От: pirozhnikova@liceum1535.ru Кому: alifirovets.p@liceum1535.ru, ananchenko.ea@liceum1535.ru, boldyreva.s@liceum1535.ru, gorshkov.n@liceum1535.ru, kanaeva.e@liceum1535.ru, kotlyachkov.n@liceum1535.ru, lykin.a@liceum1535.ru, mizyurin.m@liceum1535.ru, morozov.d@liceum1535.ru, belikov.i@liceum1535.ru, darenskiy.a@liceum1535.ru, derugin.u@liceum1535.ru, melynikov.a@",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "source": {
+        "type": "gmail",
+        "external_id": "1a067734939cfac1",
+        "title": "Домашнее задание ПОНЕДЕЛЬНИК",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a067734939cfac1",
+        "sender": "pirozhnikova@liceum1535.ru"
+      },
+      "received_at": "2026-09-03T13:26:24.000Z",
+      "updated_at": "2026-09-27T10:39:22.245535+00:00"
     }
   ]
 }
