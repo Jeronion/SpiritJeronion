@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T10:39:27.241296+00:00",
+  "updated_at": "2026-09-27T10:39:29.050442+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -468,6 +468,24 @@
       },
       "received_at": "2026-09-01T17:55:13.000Z",
       "updated_at": "2026-09-27T10:39:27.234912+00:00"
+    },
+    {
+      "id": "mail-1a052568539d92d5",
+      "title": "Codeforces - Вход в аккаунт",
+      "description": "От: noreply@codeforces.com\nТема: Codeforces - Вход в аккаунт От: noreply@codeforces.com Кому: jeronion2010@gmail.com Здравствуйте, Jeronion. Вы получили это письмо из-за входа в ваш аккаунт: ip: 144.31.136.31 браузер: Firefox 15 ОС: Windows 10 Если это были вы, игнорируйте это сообщение. Если вы не пытались войти в Codeforces, измените пароль своего аккаунта..p { overflow-wrap: break-word !important; }",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "source": {
+        "type": "gmail",
+        "external_id": "1a052568539d92d5",
+        "title": "Codeforces - Вход в аккаунт",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a052568539d92d5",
+        "sender": "noreply@codeforces.com"
+      },
+      "received_at": "2026-08-30T11:03:16.000Z",
+      "updated_at": "2026-09-27T10:39:29.044771+00:00"
     }
   ]
 }
