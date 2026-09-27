@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T10:42:01.540415+00:00",
+  "updated_at": "2026-09-27T10:42:03.472042+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -684,6 +684,24 @@
       },
       "received_at": "2026-09-15T05:26:09.000Z",
       "updated_at": "2026-09-27T10:42:01.539640+00:00"
+    },
+    {
+      "id": "mail-1a0a11bd413be898",
+      "title": "How provider data policies work on OpenRouter",
+      "description": "От: welcome@openrouter.ai\nТема: How provider data policies work on OpenRouter От: welcome@openrouter.ai Кому: jeronion2010@gmail.com What OpenRouter keeps (nothing, unless you opt in), what each provider keeps, and the controls that filter routing on it. OpenRouter ( https://openrouter.ai?utm_medium=email&utm_source=customerio ) Hi Jeronion, ************************************************* Filter your API requests by prov",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "source": {
+        "type": "gmail",
+        "external_id": "1a0a11bd413be898",
+        "title": "How provider data policies work on OpenRouter",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a0a11bd413be898",
+        "sender": "welcome@openrouter.ai"
+      },
+      "received_at": "2026-09-14T18:09:10.000Z",
+      "updated_at": "2026-09-27T10:42:03.465753+00:00"
     }
   ]
 }
