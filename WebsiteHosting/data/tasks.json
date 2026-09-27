@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T10:42:05.316764+00:00",
+  "updated_at": "2026-09-27T10:42:07.093717+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -720,6 +720,24 @@
       },
       "received_at": "2026-09-14T11:53:39.000Z",
       "updated_at": "2026-09-27T10:42:05.310584+00:00"
+    },
+    {
+      "id": "mail-1a096d8bf4d801c7",
+      "title": "ваш код безопасности",
+      "description": "От: noreply@acct-auth.epicgames.com\nТема: ваш код безопасности От: noreply@acct-auth.epicgames.com Кому: jeronion2010@gmail.com Epic Games [https://cdn.app.zetaglobal.net/images/2a8b51ad8aa80bebad0be4eed0f419f0/lightmode-opt/epic-games-header-dark-mobile.jpg]https://epicgames.com Epic Games [https://cdn.app.zetaglobal.net/images/2a8b51ad8aa80bebad0be4eed0f419f0/lightmode-opt/epic-games-header-dark-desktop.jpg]https://epicgames.com В",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "source": {
+        "type": "gmail",
+        "external_id": "1a096d8bf4d801c7",
+        "title": "ваш код безопасности",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a096d8bf4d801c7",
+        "sender": "noreply@acct-auth.epicgames.com"
+      },
+      "received_at": "2026-09-12T18:19:41.000Z",
+      "updated_at": "2026-09-27T10:42:07.089321+00:00"
     }
   ]
 }
