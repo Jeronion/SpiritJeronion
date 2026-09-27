@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:12:46.759425+00:00",
+  "updated_at": "2026-09-27T12:12:48.370143+00:00",
   "tasks": [
     {
       "id": "mail-1a0dd544efbcf044",
@@ -710,6 +710,27 @@
       },
       "received_at": "2026-09-25T13:02:46.000Z",
       "updated_at": "2026-09-27T12:12:46.758335+00:00"
+    },
+    {
+      "id": "mail-1a0d41cb2a4c7c91",
+      "title": "Ваш заказ Подписка Cursor Pro 1 месяц",
+      "description": "От: no-reply@ggsel.com\nТема: Ваш заказ Подписка Cursor Pro 1 месяц От: no-reply@ggsel.com Кому: jeronion2010@gmail.com Ваш заказ успешно оформлен Спасибо за покупку на ggsel.net. Мы всё оформили, продавец уже в курсе и готов передать товар. Заказ №51779054 от 2026.09.24 Подписка Cursor Pro 1 месяц Продавец: profession digital goods Перейти к заказу [https://payment.ggsel.com/ru/order/54745ce9-a9c2-40f9-87c9-566ca794634d",
+      "subject": "",
+      "due_at": null,
+      "assigned_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "kind": "todo",
+      "files": [],
+      "source": {
+        "type": "gmail",
+        "external_id": "1a0d41cb2a4c7c91",
+        "title": "Ваш заказ Подписка Cursor Pro 1 месяц",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a0d41cb2a4c7c91",
+        "sender": "no-reply@ggsel.com"
+      },
+      "received_at": "2026-09-24T15:50:44.000Z",
+      "updated_at": "2026-09-27T12:12:48.369363+00:00"
     }
   ]
 }
