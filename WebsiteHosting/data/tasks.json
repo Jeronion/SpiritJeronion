@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T10:41:48.585792+00:00",
+  "updated_at": "2026-09-27T10:41:50.298749+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -558,6 +558,24 @@
       },
       "received_at": "2026-09-24T08:00:20.000Z",
       "updated_at": "2026-09-27T10:41:48.580418+00:00"
+    },
+    {
+      "id": "mail-1a0c52861e1a1602",
+      "title": "Provider failover is on by default",
+      "description": "От: welcome@openrouter.ai\nТема: Provider failover is on by default От: welcome@openrouter.ai Кому: jeronion2010@gmail.com How a request routes across providers, what happens when one fails, and the controls that change the order. OpenRouter ( https://openrouter.ai?utm_medium=email&utm_source=customerio ) Hi Jeronion, ******************************************************* Every request has a fallback path before you write",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "source": {
+        "type": "gmail",
+        "external_id": "1a0c52861e1a1602",
+        "title": "Provider failover is on by default",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a0c52861e1a1602",
+        "sender": "welcome@openrouter.ai"
+      },
+      "received_at": "2026-09-21T18:09:12.000Z",
+      "updated_at": "2026-09-27T10:41:50.295111+00:00"
     }
   ]
 }
