@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T10:42:11.290631+00:00",
+  "updated_at": "2026-09-27T10:42:13.067805+00:00",
   "tasks": [
     {
       "id": "mesh-homework-4460985",
@@ -774,6 +774,24 @@
       },
       "received_at": "2026-09-10T18:08:31.000Z",
       "updated_at": "2026-09-27T10:42:11.284750+00:00"
+    },
+    {
+      "id": "mail-1a08b65a43ce03c3",
+      "title": "Задание по английскому!",
+      "description": "От: pirozhnikova@liceum1535.ru\nТема: Задание по английскому! От: pirozhnikova@liceum1535.ru Кому: gladkov.a@liceum1535.ru, kolisnichenko.ya@liceum1535.ru, pshenitsin.f@liceum1535.ru, gorshkov.n@liceum1535.ru, kotlyachkov.n@liceum1535.ru, lykin.a@liceum1535.ru, mizyurin.m@liceum1535.ru, morozov.d@liceum1535.ru, belikov.i@liceum1535.ru, darenskiy.a@liceum1535.ru, derugin.u@liceum1535.ru, melynikov.a@liceum1535.ru, osipov.i@liceum",
+      "subject": "",
+      "due_at": null,
+      "quadrant": "q2",
+      "status": "todo",
+      "source": {
+        "type": "gmail",
+        "external_id": "1a08b65a43ce03c3",
+        "title": "Задание по английскому!",
+        "url": "https://mail.google.com/mail/u/0/#inbox/1a08b65a43ce03c3",
+        "sender": "pirozhnikova@liceum1535.ru"
+      },
+      "received_at": "2026-09-10T12:57:55.000Z",
+      "updated_at": "2026-09-27T10:42:13.060759+00:00"
     }
   ]
 }
